@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-to-main">Skip to main content</a>
+
     <!-- Theme Toggle -->
-    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme between dark and light mode">
         <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="12" r="5"></circle>
             <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -34,10 +37,10 @@
                 <a href="./" class="logo">
                     <span class="logo-text">The Norm Macdonald Archive</span>
                 </a>
-                <nav class="nav">
+                <nav class="nav" aria-label="Main navigation">
                     <a href="./" class="nav-link">Home</a>
                     <a href="./jokes.html" class="nav-link">Jokes</a>
-                    <a href="./videos.html" class="nav-link active">Videos</a>
+                    <a href="./videos.html" class="nav-link active" aria-current="page">Videos</a>
                     <a href="./about.html" class="nav-link">About</a>
                 </nav>
             </div>
@@ -45,7 +48,7 @@
     </header>
 
     <!-- Main Content -->
-    <main class="main">
+    <main class="main" id="main-content">
         <div class="container">
 
             <!-- Page Title -->
