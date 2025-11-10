@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - 'claude/**'  # Allow deployment from claude branches for testing
 
 # Prevent multiple deployments from running simultaneously
 concurrency:
