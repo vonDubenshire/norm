@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-to-main">Skip to main content</a>
+
     <!-- Theme Toggle -->
-    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme between dark and light mode">
         <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="12" r="5"></circle>
             <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -34,8 +37,8 @@
                 <a href="./" class="logo">
                     <span class="logo-text">The Norm Macdonald Archive</span>
                 </a>
-                <nav class="nav">
-                    <a href="./" class="nav-link active">Home</a>
+                <nav class="nav" aria-label="Main navigation">
+                    <a href="./" class="nav-link active" aria-current="page">Home</a>
                     <a href="./jokes.html" class="nav-link">Jokes</a>
                     <a href="./videos.html" class="nav-link">Videos</a>
                     <a href="./about.html" class="nav-link">About</a>
@@ -45,7 +48,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="main-content">
         <div class="container">
             <div class="hero-content">
                 <h1 class="hero-title">The Norm Macdonald Archive</h1>
