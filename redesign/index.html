@@ -225,7 +225,18 @@
                 }
 
                 displayRandomJoke();
-                document.getElementById('refresh-joke').addEventListener('click', displayRandomJoke);
+
+                // Auto-rotate joke every 15 seconds
+                const rotationInterval = setInterval(displayRandomJoke, 15000);
+
+                // Manual refresh button clears auto-rotation temporarily, then restarts
+                document.getElementById('refresh-joke').addEventListener('click', () => {
+                    displayRandomJoke();
+                    clearInterval(rotationInterval);
+                    setTimeout(() => {
+                        setInterval(displayRandomJoke, 15000);
+                    }, 15000);
+                });
             } catch (error) {
                 console.error('Error loading jokes:', error);
                 document.getElementById('joke-text').textContent = 'Failed to load joke. Please refresh.';
