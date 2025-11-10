@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcripts - The Norm Macdonald Archive</title>
+    <meta name="description" content="Read transcripts of Norm Macdonald's most memorable bits and conversations.">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-to-main">Skip to main content</a>
+
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme between dark and light mode">
+        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </button>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="./" class="logo">
+                    <span class="logo-text">The Norm Macdonald Archive</span>
+                </a>
+                <nav class="nav" aria-label="Main navigation">
+                    <a href="./" class="nav-link">Home</a>
+                    <a href="./jokes.html" class="nav-link">Jokes</a>
+                    <a href="./videos.html" class="nav-link">Videos</a>
+                    <a href="./transcripts.html" class="nav-link active" aria-current="page">Transcripts</a>
+                    <a href="./about.html" class="nav-link">About</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main" id="main-content">
+        <div class="container">
+
+            <!-- Page Title -->
+            <section class="page-header">
+                <h1 class="page-title">Transcripts</h1>
+                <p class="page-subtitle">Classic bits, word for word</p>
+                <div class="stats">
+                    <span class="stat-item">
+                        <strong id="total-transcripts">2</strong> Transcripts
+                    </span>
+                </div>
+            </section>
+
+            <!-- Transcripts List -->
+            <section class="transcripts-section">
+                <div id="transcripts-container" class="transcripts-list">
+                    <!-- Transcripts will be inserted here by JavaScript -->
+                </div>
+
+                <!-- Loading State -->
+                <div id="loading-state" class="empty-state">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                    <h3>Loading transcripts...</h3>
+                    <p>Fetching the archive</p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                &copy; 2025 The Norm Macdonald Archive.
+                A fan-made tribute site. All content belongs to its respective owners.
+            </p>
+            <p class="footer-tagline">"I'm not Norm Macdonald" - Norm Macdonald</p>
+        </div>
+    </footer>
+
+    <script src="./transcripts.js"></script>
+</body>
+</html>
