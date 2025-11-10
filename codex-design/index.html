@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Norm Macdonald Jokes &mdash; Codex Design</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="branding">
+        <span class="badge">Codex</span>
+        <h1>Norm Jokes Library</h1>
+        <p class="tagline">
+          A playful explorer for the Norm Macdonald Live joke archive.
+        </p>
+      </div>
+      <button class="theme-toggle" type="button" aria-pressed="false">
+        <span class="toggle-icon" aria-hidden="true">🌞</span>
+        <span class="toggle-label">Light mode</span>
+      </button>
+    </header>
+
+    <main class="layout">
+      <section class="highlight" aria-live="polite">
+        <header>
+          <h2>Spotlight Joke</h2>
+          <button class="random" type="button">Shuffle Spotlight</button>
+        </header>
+        <article class="card spotlight-card" data-placeholder>
+          <p class="joke-text">Loading a gem from the archives…</p>
+          <footer class="meta">
+            <span class="guest">Guest: &mdash;</span>
+            <span class="source">Source: &mdash;</span>
+          </footer>
+        </article>
+      </section>
+
+      <section class="filters" aria-label="Filters">
+        <label class="field">
+          <span>Search jokes</span>
+          <input type="search" name="search" placeholder="Search for words or phrases" />
+        </label>
+        <label class="field">
+          <span>Guest</span>
+          <select name="guest">
+            <option value="">All guests</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Source</span>
+          <select name="source">
+            <option value="">All sources</option>
+          </select>
+        </label>
+        <p class="filter-hint">Filters combine with the search to narrow the list.</p>
+      </section>
+
+      <section class="results" aria-live="polite">
+        <header class="results-header">
+          <h2>Joke Catalog</h2>
+          <p class="count"><span data-count>0</span> jokes shown</p>
+        </header>
+        <ul class="joke-grid" data-results></ul>
+      </section>
+    </main>
+
+    <template id="joke-card">
+      <li class="card">
+        <blockquote class="joke-text"></blockquote>
+        <dl class="meta">
+          <div>
+            <dt>Guest</dt>
+            <dd class="guest">&mdash;</dd>
+          </div>
+          <div>
+            <dt>Source</dt>
+            <dd class="source">&mdash;</dd>
+          </div>
+          <div class="episode-row">
+            <dt>Episode</dt>
+            <dd class="episode">&mdash;</dd>
+          </div>
+          <div class="time-row">
+            <dt>Timestamp</dt>
+            <dd class="time">&mdash;</dd>
+          </div>
+        </dl>
+        <a class="jump-link" target="_blank" rel="noopener" hidden>Watch clip</a>
+      </li>
+    </template>
+
+    <noscript>
+      <p class="noscript">
+        JavaScript powers the live filtering experience. You can still browse
+        the original <a href="../redesign/">prototype</a> for a static list.
+      </p>
+    </noscript>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
