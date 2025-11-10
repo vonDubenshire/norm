@@ -1,3 +1,56 @@
+# Jokes Section Redesign Prototype
+
+This is a redesigned prototype of the Jokes section for The Norm Macdonald Archive.
+
+## Features
+
+✨ **New Design**
+- Clean, modern aesthetic inspired by Norm Macdonald Live
+- Light/dark theme toggle (respects system preference)
+- Improved typography and spacing
+- Smooth animations and transitions
+
+🎲 **Random Joke Generator**
+- Prominent button for getting random jokes
+- Beautiful modal with quote styling
+- Share functionality
+
+🔍 **Enhanced Search & Filter**
+- Real-time search through jokes
+- Filter by guest
+- Clear results counter
+
+📄 **Better UX**
+- Pagination (10 jokes per page)
+- Share individual jokes
+- Watch video links (when available)
+- Keyboard shortcuts (R for random, ESC to close modal)
+
+## Files
+
+- `index.html` - Main HTML structure
+- `styles.css` - All styling with theme system
+- `script.js` - Interactive functionality
+- `jokes-data.json` - Jokes database (76 jokes)
+
+## How to View
+
+Visit: `https://vondubenshire.github.io/norm/redesign/`
+
+## Tech Stack
+
+- Pure HTML/CSS/JavaScript (no frameworks)
+- CSS Custom Properties for theming
+- Modern ES6+ JavaScript
+- Mobile-first responsive design
+
+## Next Steps
+
+If approved, this design can be:
+1. Expanded to include all sections (Home, Videos, etc.)
+2. Enhanced with more jokes data
+3. Integrated with the main site navigation
+4. Optimized further for performance
 # norm
 
 Static Norm Macdonald site originally built by magus.

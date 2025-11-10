@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos - The Norm Macdonald Archive</title>
+    <meta name="description" content="Watch 939 videos of Norm Macdonald including SNL clips, stand-up performances, podcast episodes, and interviews.">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-to-main">Skip to main content</a>
+
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme between dark and light mode">
+        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </button>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="./" class="logo">
+                    <span class="logo-text">The Norm Macdonald Archive</span>
+                </a>
+                <nav class="nav" aria-label="Main navigation">
+                    <a href="./" class="nav-link">Home</a>
+                    <a href="./jokes.html" class="nav-link">Jokes</a>
+                    <a href="./videos.html" class="nav-link active" aria-current="page">Videos</a>
+                    <a href="./about.html" class="nav-link">About</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main" id="main-content">
+        <div class="container">
+
+            <!-- Page Title -->
+            <section class="page-header">
+                <h1 class="page-title">Video Archive</h1>
+                <p class="page-subtitle">Every clip worth watching, and then some</p>
+                <div class="stats">
+                    <span class="stat-item">
+                        <strong id="total-videos">939</strong> Videos
+                    </span>
+                    <span class="stat-divider">★</span>
+                    <span class="stat-item">
+                        <strong id="filtered-count">939</strong> Showing
+                    </span>
+                </div>
+            </section>
+
+            <!-- Search -->
+            <section class="controls">
+                <div class="search-box">
+                    <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <input
+                        type="text"
+                        id="search-input"
+                        class="search-input"
+                        placeholder="Search videos..."
+                        autocomplete="off"
+                    >
+                    <button id="clear-search" class="clear-btn" style="display: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Videos Grid -->
+            <section class="videos-section">
+                <div id="videos-container" class="videos-grid">
+                    <!-- Videos will be inserted here by JavaScript -->
+                </div>
+
+                <!-- Loading State -->
+                <div id="loading-state" class="empty-state">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                    </svg>
+                    <h3>Loading videos...</h3>
+                    <p>Fetching the archive</p>
+                </div>
+
+                <!-- Empty State -->
+                <div id="empty-state" class="empty-state" style="display: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                        <line x1="12" y1="9" x2="12" y2="13"></line>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                    </svg>
+                    <h3>No videos found</h3>
+                    <p>Try different search terms</p>
+                </div>
+            </section>
+
+            <!-- Pagination -->
+            <section class="pagination" id="pagination">
+                <!-- Pagination will be inserted here by JavaScript -->
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                &copy; 2025 The Norm Macdonald Archive.
+                A fan-made tribute site. All content belongs to its respective owners.
+            </p>
+            <p class="footer-tagline">"I'm not Norm Macdonald" - Norm Macdonald</p>
+        </div>
+    </footer>
+
+    <script src="./videos.js"></script>
+</body>
+</html>
