@@ -1349,3 +1349,127 @@ select:focus:not(:focus-visible) {
         width: 100%;
     }
 }
+
+/* ===================================
+   Transcripts Page
+   =================================== */
+
+.transcripts-section {
+    margin-bottom: var(--spacing-3xl);
+}
+
+.transcripts-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.transcript-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: all var(--transition-base);
+}
+
+.transcript-card.expanded {
+    border-color: var(--accent);
+}
+
+.transcript-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--spacing-lg) var(--spacing-xl);
+    gap: var(--spacing-md);
+}
+
+.transcript-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-1);
+    margin: 0;
+}
+
+.transcript-toggle {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    color: var(--text-2);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    white-space: nowrap;
+}
+
+.transcript-toggle:hover {
+    background: var(--bg-hover);
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.transcript-toggle .toggle-icon {
+    transition: transform var(--transition-fast);
+}
+
+.transcript-card.expanded .transcript-toggle .toggle-icon {
+    transform: rotate(180deg);
+}
+
+.transcript-content {
+    border-top: 1px solid var(--border-color);
+    padding: var(--spacing-xl);
+    background: var(--bg-primary);
+}
+
+.transcript-dialogue {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.dialogue-line {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: var(--spacing-md);
+    align-items: start;
+}
+
+.speaker {
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 0.9375rem;
+    text-align: right;
+    padding-top: 2px;
+}
+
+.dialogue-text {
+    color: var(--text-1);
+    line-height: 1.7;
+    font-size: 1.0625rem;
+}
+
+@media (max-width: 768px) {
+    .transcript-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .transcript-toggle {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .dialogue-line {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xs);
+    }
+
+    .speaker {
+        text-align: left;
+    }
+}
