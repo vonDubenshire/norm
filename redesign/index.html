@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jokes - The Norm Macdonald Archive</title>
-    <meta name="description" content="Browse and search hundreds of Norm Macdonald's best jokes from his podcast, SNL, and stand-up performances.">
+    <title>The Norm Macdonald Archive</title>
+    <meta name="description" content="The ultimate collection of Norm Macdonald's jokes, videos, and memorable moments. A tribute to one of comedy's greatest minds.">
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
     <link rel="stylesheet" href="./styles.css">
 </head>
@@ -31,110 +31,122 @@
     <header class="header">
         <div class="container">
             <div class="header-content">
-                <a href="../" class="logo">
+                <a href="./" class="logo">
                     <span class="logo-text">The Norm Macdonald Archive</span>
                 </a>
                 <nav class="nav">
-                    <a href="../" class="nav-link">Home</a>
-                    <a href="#" class="nav-link active">Jokes</a>
-                    <a href="#" class="nav-link">Videos</a>
-                    <a href="#" class="nav-link">About</a>
+                    <a href="./" class="nav-link active">Home</a>
+                    <a href="./jokes.html" class="nav-link">Jokes</a>
+                    <a href="./videos.html" class="nav-link">Videos</a>
+                    <a href="./about.html" class="nav-link">About</a>
                 </nav>
             </div>
         </div>
     </header>
 
-    <!-- Main Content -->
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">The Norm Macdonald Archive</h1>
+                <p class="hero-subtitle">
+                    A comprehensive collection celebrating the comedy genius of Norm Macdonald.<br>
+                    Jokes, videos, and moments from Weekend Update to his podcast and beyond.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">939</div>
+                        <div class="stat-label">Videos</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">76</div>
+                        <div class="stat-label">Jokes</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">∞</div>
+                        <div class="stat-label">Laughs</div>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <a href="./jokes.html" class="btn btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
+                            <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
+                        </svg>
+                        Browse Jokes
+                    </a>
+                    <a href="./videos.html" class="btn btn-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                        </svg>
+                        Watch Videos
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Content -->
     <main class="main">
         <div class="container">
 
-            <!-- Page Title -->
-            <section class="page-header">
-                <h1 class="page-title">The Joke Collection</h1>
-                <p class="page-subtitle">I didn't even know there were this many jokes</p>
-                <div class="stats">
-                    <span class="stat-item">
-                        <strong id="total-jokes">76</strong> Jokes
-                    </span>
-                    <span class="stat-divider">★</span>
-                    <span class="stat-item">
-                        <strong id="filtered-count">76</strong> Showing
-                    </span>
-                </div>
-            </section>
-
-            <!-- Random Joke Generator -->
-            <section class="random-section">
-                <button id="random-joke-btn" class="random-btn">
-                    <svg class="dice-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                        <circle cx="8.5" cy="8.5" r="1"></circle>
-                        <circle cx="15.5" cy="8.5" r="1"></circle>
-                        <circle cx="8.5" cy="15.5" r="1"></circle>
-                        <circle cx="15.5" cy="15.5" r="1"></circle>
-                        <circle cx="12" cy="12" r="1"></circle>
+            <!-- Featured Joke -->
+            <section class="featured-section">
+                <h2 class="section-title">Featured Joke</h2>
+                <div id="featured-joke" class="feature-card">
+                    <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
+                        <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
                     </svg>
-                    <span>Random Joke</span>
+                    <blockquote id="joke-text" class="feature-text">Loading...</blockquote>
+                    <div id="joke-meta" class="feature-meta"></div>
+                </div>
+                <button id="refresh-joke" class="btn btn-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
+                    </svg>
+                    Another Joke
                 </button>
             </section>
 
-            <!-- Search and Filters -->
-            <section class="controls">
-                <div class="search-box">
-                    <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <path d="m21 21-4.35-4.35"></path>
-                    </svg>
-                    <input
-                        type="text"
-                        id="search-input"
-                        class="search-input"
-                        placeholder="Search jokes..."
-                        autocomplete="off"
-                    >
-                    <button id="clear-search" class="clear-btn" style="display: none;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="18" y1="6" x2="6" y2="18"></line>
-                            <line x1="6" y1="6" x2="18" y2="18"></line>
+            <!-- Quick Links -->
+            <section class="quick-links">
+                <h2 class="section-title">Explore the Archive</h2>
+                <div class="links-grid">
+                    <a href="./jokes.html" class="link-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                            <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                            <line x1="15" y1="9" x2="15.01" y2="9"></line>
                         </svg>
-                    </button>
-                </div>
-
-                <div class="filter-box">
-                    <label for="guest-filter" class="filter-label">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="12" cy="7" r="4"></circle>
+                        <h3>Joke Collection</h3>
+                        <p>Browse 76 carefully curated jokes from Norm's podcast</p>
+                    </a>
+                    <a href="./videos.html" class="link-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect>
+                            <line x1="7" y1="2" x2="7" y2="22"></line>
+                            <line x1="17" y1="2" x2="17" y2="22"></line>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <line x1="2" y1="7" x2="7" y2="7"></line>
+                            <line x1="2" y1="17" x2="7" y2="17"></line>
+                            <line x1="17" y1="17" x2="22" y2="17"></line>
+                            <line x1="17" y1="7" x2="22" y2="7"></line>
                         </svg>
-                        Guest:
-                    </label>
-                    <select id="guest-filter" class="filter-select">
-                        <option value="">All Guests</option>
-                    </select>
+                        <h3>Video Archive</h3>
+                        <p>Watch 939 videos including SNL, stand-up, and podcast clips</p>
+                    </a>
+                    <a href="./about.html" class="link-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="12" y1="16" x2="12" y2="12"></line>
+                            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                        </svg>
+                        <h3>About Norm</h3>
+                        <p>Learn about the legendary comedian and this archive project</p>
+                    </a>
                 </div>
-            </section>
-
-            <!-- Jokes Grid -->
-            <section class="jokes-section">
-                <div id="jokes-container" class="jokes-grid">
-                    <!-- Jokes will be inserted here by JavaScript -->
-                </div>
-
-                <!-- Empty State -->
-                <div id="empty-state" class="empty-state" style="display: none;">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
-                        <line x1="12" y1="9" x2="12" y2="13"></line>
-                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
-                    </svg>
-                    <h3>Nothing. The Void.</h3>
-                    <p>Or maybe try different search terms, I'm not a doctor</p>
-                </div>
-            </section>
-
-            <!-- Pagination -->
-            <section class="pagination" id="pagination">
-                <!-- Pagination will be inserted here by JavaScript -->
             </section>
 
         </div>
@@ -151,45 +163,82 @@
         </div>
     </footer>
 
-    <!-- Random Joke Modal -->
-    <div id="random-modal" class="modal">
-        <div class="modal-overlay"></div>
-        <div class="modal-content">
-            <button class="modal-close" aria-label="Close modal">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                </svg>
-            </button>
-            <div class="modal-body">
-                <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
-                    <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
-                </svg>
-                <blockquote id="random-joke-text" class="random-joke-text"></blockquote>
-                <div id="random-joke-meta" class="random-joke-meta"></div>
-            </div>
-            <div class="modal-actions">
-                <button id="another-joke-btn" class="btn btn-primary">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
-                    </svg>
-                    Another One
-                </button>
-                <button id="share-joke-btn" class="btn btn-secondary">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="18" cy="5" r="3"></circle>
-                        <circle cx="6" cy="12" r="3"></circle>
-                        <circle cx="18" cy="19" r="3"></circle>
-                        <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
-                        <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
-                    </svg>
-                    Share
-                </button>
-            </div>
-        </div>
-    </div>
+    <script>
+        // Theme Management
+        function initTheme() {
+            const themeToggle = document.getElementById('theme-toggle');
+            const savedTheme = localStorage.getItem('theme');
 
-    <script src="./script.js"></script>
+            if (savedTheme) {
+                document.documentElement.setAttribute('data-theme', savedTheme);
+            } else {
+                const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                if (prefersDark) {
+                    document.documentElement.setAttribute('data-theme', 'dark');
+                }
+            }
+
+            themeToggle.addEventListener('click', () => {
+                const currentTheme = document.documentElement.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                document.documentElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+            });
+
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+                if (!localStorage.getItem('theme')) {
+                    document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+                }
+            });
+        }
+
+        // Load and Display Random Joke
+        async function loadFeaturedJoke() {
+            try {
+                const response = await fetch('./jokes-data.json');
+                const jokes = await response.json();
+
+                function displayRandomJoke() {
+                    const randomJoke = jokes[Math.floor(Math.random() * jokes.length)];
+                    document.getElementById('joke-text').textContent = randomJoke.joke;
+
+                    const meta = document.getElementById('joke-meta');
+                    meta.innerHTML = '';
+
+                    if (randomJoke.guest) {
+                        const badge = document.createElement('span');
+                        badge.className = 'joke-badge';
+                        badge.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> <span>${randomJoke.guest}</span>`;
+                        meta.appendChild(badge);
+                    }
+
+                    if (randomJoke.episode) {
+                        const badge = document.createElement('span');
+                        badge.className = 'joke-badge';
+                        badge.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg> <span>${randomJoke.episode}</span>`;
+                        meta.appendChild(badge);
+                    }
+                }
+
+                displayRandomJoke();
+                document.getElementById('refresh-joke').addEventListener('click', displayRandomJoke);
+            } catch (error) {
+                console.error('Error loading jokes:', error);
+                document.getElementById('joke-text').textContent = 'Failed to load joke. Please refresh.';
+            }
+        }
+
+        // Initialize
+        function init() {
+            initTheme();
+            loadFeaturedJoke();
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', init);
+        } else {
+            init();
+        }
+    </script>
 </body>
 </html>
