@@ -54,7 +54,7 @@ function initTheme() {
 
 async function loadJokes() {
     try {
-        const response = await fetch('./jokes-data.json');
+        const response = await fetch('./jokes-data.json?v=2');
         if (!response.ok) throw new Error('Failed to load jokes');
 
         state.jokes = await response.json();

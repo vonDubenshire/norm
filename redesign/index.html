@@ -199,7 +199,7 @@
         // Load and Display Random Joke
         async function loadFeaturedJoke() {
             try {
-                const response = await fetch('./jokes-data.json');
+                const response = await fetch('./jokes-data.json?v=2');
                 const jokes = await response.json();
                 let rotationInterval = null;
                 let isChanging = false; // Debounce flag
