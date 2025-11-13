@@ -156,15 +156,37 @@ function renderJokes() {
     }
 }
 
+// Helper function to safely render joke text with paragraph breaks (XSS-safe)
+function renderJokeText(element, jokeText) {
+    element.textContent = ''; // Clear existing content
+
+    // Split by double newlines for paragraphs
+    const paragraphs = jokeText.split('\n\n');
+    paragraphs.forEach((para, index) => {
+        // Split by single newlines within paragraphs
+        const lines = para.split('\n');
+        lines.forEach((line, lineIndex) => {
+            const textNode = document.createTextNode(line);
+            element.appendChild(textNode);
+            if (lineIndex < lines.length - 1) {
+                element.appendChild(document.createElement('br'));
+            }
+        });
+        if (index < paragraphs.length - 1) {
+            element.appendChild(document.createElement('br'));
+            element.appendChild(document.createElement('br'));
+        }
+    });
+}
+
 function createJokeCard(joke) {
     const card = document.createElement('div');
     card.className = 'joke-card';
 
     const jokeText = document.createElement('p');
     jokeText.className = 'joke-text';
-    // Convert line breaks to HTML - preserve paragraph breaks
-    const jokeWithBreaks = joke.joke.replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>');
-    jokeText.innerHTML = jokeWithBreaks;
+    // Safely render joke text with paragraph breaks
+    renderJokeText(jokeText, joke.joke);
 
     const meta = document.createElement('div');
     meta.className = 'joke-meta';
@@ -312,9 +334,8 @@ function showRandomJoke() {
     const jokeText = document.getElementById('random-joke-text');
     const jokeMeta = document.getElementById('random-joke-meta');
 
-    // Convert line breaks to HTML - preserve paragraph breaks
-    const jokeWithBreaks = joke.joke.replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>');
-    jokeText.innerHTML = jokeWithBreaks;
+    // Safely render joke text with paragraph breaks
+    renderJokeText(jokeText, joke.joke);
 
     jokeMeta.innerHTML = '';
     if (joke.episode) {
