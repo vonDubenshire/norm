@@ -1018,12 +1018,12 @@ select:focus:not(:focus-visible) {
 }
 
 .feature-text {
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: var(--text-1);
-    line-height: 1.7;
+    line-height: 1.6;
     margin-bottom: var(--spacing-lg);
     font-style: italic;
-    min-height: 200px;
+    min-height: 280px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1129,8 +1129,8 @@ select:focus:not(:focus-visible) {
     }
 
     .feature-text {
-        font-size: 1.125rem;
-        min-height: 180px;
+        font-size: 0.9375rem;
+        min-height: 220px;
     }
 
     .links-grid {
