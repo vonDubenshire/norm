@@ -162,7 +162,9 @@ function createJokeCard(joke) {
 
     const jokeText = document.createElement('p');
     jokeText.className = 'joke-text';
-    jokeText.textContent = joke.joke;
+    // Convert line breaks to HTML - preserve paragraph breaks
+    const jokeWithBreaks = joke.joke.replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>');
+    jokeText.innerHTML = jokeWithBreaks;
 
     const meta = document.createElement('div');
     meta.className = 'joke-meta';
@@ -310,7 +312,9 @@ function showRandomJoke() {
     const jokeText = document.getElementById('random-joke-text');
     const jokeMeta = document.getElementById('random-joke-meta');
 
-    jokeText.textContent = joke.joke;
+    // Convert line breaks to HTML - preserve paragraph breaks
+    const jokeWithBreaks = joke.joke.replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>');
+    jokeText.innerHTML = jokeWithBreaks;
 
     jokeMeta.innerHTML = '';
     if (joke.episode) {
