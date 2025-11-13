@@ -199,7 +199,7 @@
         // Load and Display Random Joke
         async function loadFeaturedJoke() {
             try {
-                const response = await fetch('./jokes-data.json');
+                const response = await fetch('./jokes-data.json?v=2');
                 const jokes = await response.json();
                 let rotationInterval = null;
                 let isChanging = false; // Debounce flag
@@ -210,10 +210,27 @@
 
                     const randomJoke = jokes[Math.floor(Math.random() * jokes.length)];
 
-                    // Convert line breaks to HTML - preserve paragraph breaks
+                    // Safely render joke text with paragraph breaks (XSS-safe)
                     const jokeElement = document.getElementById('joke-text');
-                    const jokeWithBreaks = randomJoke.joke.replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>');
-                    jokeElement.innerHTML = jokeWithBreaks;
+                    jokeElement.textContent = ''; // Clear existing content
+
+                    // Split by double newlines for paragraphs
+                    const paragraphs = randomJoke.joke.split('\n\n');
+                    paragraphs.forEach((para, index) => {
+                        // Split by single newlines within paragraphs
+                        const lines = para.split('\n');
+                        lines.forEach((line, lineIndex) => {
+                            const textNode = document.createTextNode(line);
+                            jokeElement.appendChild(textNode);
+                            if (lineIndex < lines.length - 1) {
+                                jokeElement.appendChild(document.createElement('br'));
+                            }
+                        });
+                        if (index < paragraphs.length - 1) {
+                            jokeElement.appendChild(document.createElement('br'));
+                            jokeElement.appendChild(document.createElement('br'));
+                        }
+                    });
 
                     const meta = document.getElementById('joke-meta');
                     meta.innerHTML = '';
@@ -236,14 +253,8 @@
                     setTimeout(() => { isChanging = false; }, 500);
                 }
 
-                displayRandomJoke();
-
-                // Auto-rotate joke every 15 seconds
-                rotationInterval = setInterval(displayRandomJoke, 15000);
-
-                // Manual refresh button with debouncing
-                const refreshBtn = document.getElementById('refresh-joke');
-                refreshBtn.addEventListener('click', () => {
+                // Shared handler for manual joke updates - resets auto-rotation timer
+                function handleManualUpdate() {
                     if (isChanging) return; // Prevent rapid clicking
 
                     displayRandomJoke();
@@ -253,13 +264,18 @@
                         clearInterval(rotationInterval);
                     }
                     rotationInterval = setInterval(displayRandomJoke, 15000);
-                });
+                }
 
-                // Allow clicking on joke card itself to get new joke
-                document.getElementById('featured-joke').addEventListener('click', () => {
-                    if (isChanging) return; // Prevent rapid clicking
-                    displayRandomJoke();
-                });
+                displayRandomJoke();
+
+                // Auto-rotate joke every 15 seconds
+                rotationInterval = setInterval(displayRandomJoke, 15000);
+
+                // Manual refresh button
+                document.getElementById('refresh-joke').addEventListener('click', handleManualUpdate);
+
+                // Click joke card itself to get new joke
+                document.getElementById('featured-joke').addEventListener('click', handleManualUpdate);
             } catch (error) {
                 console.error('Error loading jokes:', error);
                 document.getElementById('joke-text').textContent = 'Failed to load joke. Please refresh.';
