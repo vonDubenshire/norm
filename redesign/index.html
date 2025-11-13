@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Norm Macdonald Archive</title>
     <meta name="description" content="The ultimate collection of Norm Macdonald's jokes, videos, and memorable moments. A tribute to one of comedy's greatest minds.">
-    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -201,10 +201,19 @@
             try {
                 const response = await fetch('./jokes-data.json');
                 const jokes = await response.json();
+                let rotationInterval = null;
+                let isChanging = false; // Debounce flag
 
                 function displayRandomJoke() {
+                    if (isChanging) return; // Prevent rapid clicking
+                    isChanging = true;
+
                     const randomJoke = jokes[Math.floor(Math.random() * jokes.length)];
-                    document.getElementById('joke-text').textContent = randomJoke.joke;
+
+                    // Convert line breaks to HTML - preserve paragraph breaks
+                    const jokeElement = document.getElementById('joke-text');
+                    const jokeWithBreaks = randomJoke.joke.replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>');
+                    jokeElement.innerHTML = jokeWithBreaks;
 
                     const meta = document.getElementById('joke-meta');
                     meta.innerHTML = '';
@@ -222,20 +231,34 @@
                         badge.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg> <span>${randomJoke.episode}</span>`;
                         meta.appendChild(badge);
                     }
+
+                    // Reset debounce flag after 500ms
+                    setTimeout(() => { isChanging = false; }, 500);
                 }
 
                 displayRandomJoke();
 
                 // Auto-rotate joke every 15 seconds
-                const rotationInterval = setInterval(displayRandomJoke, 15000);
+                rotationInterval = setInterval(displayRandomJoke, 15000);
 
-                // Manual refresh button clears auto-rotation temporarily, then restarts
-                document.getElementById('refresh-joke').addEventListener('click', () => {
+                // Manual refresh button with debouncing
+                const refreshBtn = document.getElementById('refresh-joke');
+                refreshBtn.addEventListener('click', () => {
+                    if (isChanging) return; // Prevent rapid clicking
+
                     displayRandomJoke();
-                    clearInterval(rotationInterval);
-                    setTimeout(() => {
-                        setInterval(displayRandomJoke, 15000);
-                    }, 15000);
+
+                    // Clear existing interval and create new one
+                    if (rotationInterval) {
+                        clearInterval(rotationInterval);
+                    }
+                    rotationInterval = setInterval(displayRandomJoke, 15000);
+                });
+
+                // Allow clicking on joke card itself to get new joke
+                document.getElementById('featured-joke').addEventListener('click', () => {
+                    if (isChanging) return; // Prevent rapid clicking
+                    displayRandomJoke();
                 });
             } catch (error) {
                 console.error('Error loading jokes:', error);
