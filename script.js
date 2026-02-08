@@ -82,15 +82,27 @@ function updateFilteredCount() {
 // ===================================
 
 function populateGuestFilter() {
-    const guestFilter = document.getElementById('guest-filter');
-    const guests = [...new Set(state.jokes.map(joke => joke.guest).filter(g => g))].sort();
+    const guestFilter = document.getElementById("guest-filter");
+    const guestsSet = new Set();
+
+    // Single pass to collect unique non-empty guests
+    state.jokes.forEach(joke => {
+        if (joke.guest) {
+            guestsSet.add(joke.guest);
+        }
+    });
+
+    const guests = Array.from(guestsSet).sort();
+    const fragment = document.createDocumentFragment();
 
     guests.forEach(guest => {
-        const option = document.createElement('option');
+        const option = document.createElement("option");
         option.value = guest;
         option.textContent = guest;
-        guestFilter.appendChild(option);
+        fragment.appendChild(option);
     });
+
+    guestFilter.appendChild(fragment);
 }
 
 // ===================================
