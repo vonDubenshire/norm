@@ -143,10 +143,12 @@ function renderJokes() {
     const jokesToShow = state.filteredJokes.slice(startIndex, endIndex);
 
     // Render jokes
+    const fragment = document.createDocumentFragment();
     jokesToShow.forEach(joke => {
         const jokeCard = createJokeCard(joke);
-        container.appendChild(jokeCard);
+        fragment.appendChild(jokeCard);
     });
+    container.appendChild(fragment);
 
     renderPagination();
 
