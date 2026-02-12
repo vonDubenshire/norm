@@ -281,6 +281,7 @@ function initEventListeners() {
 
 async function init() {
     initTheme();
+    initNav();
     initEventListeners();
     await loadVideos();
 }

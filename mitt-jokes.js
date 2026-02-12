@@ -150,5 +150,6 @@ class JokeApp {
 // Initialize the app when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     initTheme();
+    initNav();
     new JokeApp();
 });

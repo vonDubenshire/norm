@@ -1,7 +1,35 @@
 // ===================================
-// Shared Theme Management
+// Shared Theme & Navigation
 // Used across all pages
 // ===================================
+
+function initNav() {
+    const navToggle = document.getElementById('nav-toggle');
+    const nav = document.querySelector('.nav');
+
+    if (navToggle && nav) {
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('active');
+            nav.classList.toggle('open');
+        });
+
+        // Close nav when a link is clicked
+        nav.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navToggle.classList.remove('active');
+                nav.classList.remove('open');
+            });
+        });
+
+        // Close nav when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!navToggle.contains(e.target) && !nav.contains(e.target)) {
+                navToggle.classList.remove('active');
+                nav.classList.remove('open');
+            }
+        });
+    }
+}
 
 function initTheme() {
     const themeToggle = document.getElementById('theme-toggle');

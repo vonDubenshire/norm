@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Norm Macdonald Archive</title>
     <meta name="description" content="The ultimate collection of Norm Macdonald's jokes, videos, and memorable moments. A tribute to one of comedy's greatest minds.">
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The Norm Macdonald Archive">
+    <meta property="og:description" content="The ultimate collection of Norm Macdonald's jokes, videos, and memorable moments. 939 videos, 76 jokes, and counting.">
+    <meta property="og:url" content="https://normmacdonald.lol/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Norm Macdonald Archive">
+    <meta name="twitter:description" content="The ultimate collection of Norm Macdonald's jokes, videos, and memorable moments.">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link rel="stylesheet" href="./styles.css">
 </head>
@@ -37,6 +45,17 @@
                 <a href="./" class="logo">
                     <span class="logo-text">The Norm Macdonald Archive</span>
                 </a>
+                <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+                    <svg class="hamburger-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
                 <nav class="nav" aria-label="Main navigation">
                     <a href="./" class="nav-link active" aria-current="page">Home</a>
                     <a href="./jokes.html" class="nav-link">Jokes</a>
@@ -258,6 +277,7 @@
         // Initialize
         function init() {
             initTheme();
+            initNav();
             loadFeaturedJoke();
         }
 

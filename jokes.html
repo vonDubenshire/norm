@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jokes - The Norm Macdonald Archive</title>
     <meta name="description" content="Browse and search hundreds of Norm Macdonald's best jokes from his podcast, SNL, and stand-up performances.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Joke Collection - The Norm Macdonald Archive">
+    <meta property="og:description" content="Browse and search Norm Macdonald's best jokes. Filter by guest, search by keyword, or hit random.">
+    <meta property="og:url" content="https://normmacdonald.lol/jokes.html">
+    <meta name="twitter:card" content="summary">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link rel="stylesheet" href="./styles.css">
 </head>
@@ -37,6 +42,17 @@
                 <a href="./" class="logo">
                     <span class="logo-text">The Norm Macdonald Archive</span>
                 </a>
+                <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+                    <svg class="hamburger-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
                 <nav class="nav" aria-label="Main navigation">
                     <a href="./" class="nav-link">Home</a>
                     <a href="./jokes.html" class="nav-link active" aria-current="page">Jokes</a>
