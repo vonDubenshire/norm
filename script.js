@@ -13,42 +13,6 @@ const state = {
 };
 
 // ===================================
-// Theme Management
-// ===================================
-
-function initTheme() {
-    const themeToggle = document.getElementById('theme-toggle');
-    const savedTheme = localStorage.getItem('theme');
-
-    // Set initial theme
-    if (savedTheme) {
-        document.documentElement.setAttribute('data-theme', savedTheme);
-    } else {
-        // Respect system preference by default
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (prefersDark) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-        }
-    }
-
-    // Theme toggle handler
-    themeToggle.addEventListener('click', () => {
-        const currentTheme = document.documentElement.getAttribute('data-theme');
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-
-        document.documentElement.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-    });
-
-    // Listen for system theme changes
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-        if (!localStorage.getItem('theme')) {
-            document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
-        }
-    });
-}
-
-// ===================================
 // Load Jokes Data
 // ===================================
 
@@ -424,7 +388,7 @@ function showToast(message) {
         bottom: 2rem;
         left: 50%;
         transform: translateX(-50%);
-        background: var(--accent-primary);
+        background: var(--accent);
         color: white;
         padding: 0.75rem 1.5rem;
         border-radius: var(--radius-full);

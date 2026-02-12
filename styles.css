@@ -50,6 +50,7 @@
     --accent-dim: var(--accent-blue-dim);
 
     /* Spacing */
+    --spacing-2xs: 0.125rem;
     --spacing-xs: 0.25rem;
     --spacing-sm: 0.5rem;
     --spacing-md: 1rem;
@@ -947,7 +948,7 @@ select:focus:not(:focus-visible) {
     border-radius: var(--radius-lg);
     padding: var(--spacing-lg) var(--spacing-2xl);
     text-align: center;
-    transition: all var(--transition-normal);
+    transition: all var(--transition-base);
 }
 
 .stat-card:hover {
@@ -1057,7 +1058,7 @@ select:focus:not(:focus-visible) {
     padding: var(--spacing-2xl);
     text-align: center;
     text-decoration: none;
-    transition: all var(--transition-normal);
+    transition: all var(--transition-base);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1066,13 +1067,13 @@ select:focus:not(:focus-visible) {
 
 .link-card:hover {
     transform: translateY(-4px);
-    box-shadow: var(--shadow-xl);
+    box-shadow: var(--shadow-lg);
     border-color: var(--accent-blue);
 }
 
 .link-card svg {
     color: var(--accent-blue);
-    transition: transform var(--transition-normal);
+    transition: transform var(--transition-base);
 }
 
 .link-card:hover svg {
@@ -1159,12 +1160,12 @@ select:focus:not(:focus-visible) {
     border-radius: var(--radius-lg);
     overflow: hidden;
     cursor: pointer;
-    transition: all var(--transition-normal);
+    transition: all var(--transition-base);
 }
 
 .video-card:hover {
     transform: translateY(-4px);
-    box-shadow: var(--shadow-xl);
+    box-shadow: var(--shadow-lg);
     border-color: var(--accent-blue);
 }
 
@@ -1183,7 +1184,7 @@ select:focus:not(:focus-visible) {
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0.8;
-    transition: all var(--transition-normal);
+    transition: all var(--transition-base);
     pointer-events: none;
 }
 

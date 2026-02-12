@@ -11,37 +11,6 @@ const state = {
 };
 
 // ===================================
-// Theme Management
-// ===================================
-
-function initTheme() {
-    const themeToggle = document.getElementById('theme-toggle');
-    const savedTheme = localStorage.getItem('theme');
-
-    if (savedTheme) {
-        document.documentElement.setAttribute('data-theme', savedTheme);
-    } else {
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (prefersDark) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-        }
-    }
-
-    themeToggle.addEventListener('click', () => {
-        const currentTheme = document.documentElement.getAttribute('data-theme');
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        document.documentElement.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-    });
-
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-        if (!localStorage.getItem('theme')) {
-            document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
-        }
-    });
-}
-
-// ===================================
 // Load Videos Data
 // ===================================
 
