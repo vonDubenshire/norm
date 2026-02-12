@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - The Norm Macdonald Archive</title>
     <meta name="description" content="Learn about Norm Macdonald, one of comedy's greatest minds, and the story behind this tribute archive.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About Norm Macdonald (1959-2021)">
+    <meta property="og:description" content="The comic's comic. Learn about Norm Macdonald's legendary career and the story behind this archive.">
+    <meta property="og:url" content="https://normmacdonald.lol/about.html">
+    <meta name="twitter:card" content="summary">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link rel="stylesheet" href="./styles.css">
 </head>
@@ -37,6 +42,17 @@
                 <a href="./" class="logo">
                     <span class="logo-text">The Norm Macdonald Archive</span>
                 </a>
+                <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+                    <svg class="hamburger-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
                 <nav class="nav" aria-label="Main navigation">
                     <a href="./" class="nav-link">Home</a>
                     <a href="./jokes.html" class="nav-link">Jokes</a>
@@ -60,14 +76,23 @@
 
             <!-- About Content -->
             <section class="about-content">
-                <article class="about-section">
-                    <h2>The Comic's Comic</h2>
-                    <p>
-                        Norman Gene Macdonald was a Canadian stand-up comedian, writer, and actor known for his deadpan delivery and subversive comedy style. Born in Quebec City on October 17, 1959, Norm became one of the most influential and beloved comedians of his generation.
-                    </p>
-                    <p>
-                        His unique approach to comedy—characterized by long, winding stories that often subverted expectations—made him a favorite among fellow comedians and discerning audiences. Norm didn't chase easy laughs; he crafted comedy that was intelligent, surprising, and deeply personal.
-                    </p>
+                <article class="about-section about-intro">
+                    <div class="about-photo">
+                        <img src="./images/norm-about.jpg" alt="Norm Macdonald" class="about-img" onerror="this.parentElement.classList.add('no-image')">
+                        <div class="about-photo-fallback">
+                            <span class="fallback-name">Norm Macdonald</span>
+                            <span class="fallback-years">1959 – 2021</span>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h2>The Comic's Comic</h2>
+                        <p>
+                            Norman Gene Macdonald was a Canadian stand-up comedian, writer, and actor known for his deadpan delivery and subversive comedy style. Born in Quebec City on October 17, 1959, Norm became one of the most influential and beloved comedians of his generation.
+                        </p>
+                        <p>
+                            His unique approach to comedy—characterized by long, winding stories that often subverted expectations—made him a favorite among fellow comedians and discerning audiences. Norm didn't chase easy laughs; he crafted comedy that was intelligent, surprising, and deeply personal.
+                        </p>
+                    </div>
                 </article>
 
                 <article class="about-section">
@@ -111,6 +136,53 @@
                     <p>
                         "I'm not Norm Macdonald" - Norm Macdonald
                     </p>
+                </article>
+
+                <!-- Career Timeline -->
+                <article class="about-section">
+                    <h2>Career Highlights</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">1959</div>
+                            <div class="timeline-content">Born October 17 in Quebec City, Canada</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">1987</div>
+                            <div class="timeline-content">Begins stand-up comedy career in Canadian clubs</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">1993</div>
+                            <div class="timeline-content">Joins Saturday Night Live as a writer and performer</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">1994</div>
+                            <div class="timeline-content">Takes over Weekend Update anchor desk — begins legendary run</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">1998</div>
+                            <div class="timeline-content">Stars in the film Dirty Work</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">1999</div>
+                            <div class="timeline-content">Stars in The Norm Show (ABC, 1999-2001)</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2009</div>
+                            <div class="timeline-content">Tells the Moth Joke on Conan — becomes instant comedy legend</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2013</div>
+                            <div class="timeline-content">Launches Norm Macdonald Live podcast — 39 episodes of pure gold</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2018</div>
+                            <div class="timeline-content">Norm Macdonald Has a Show premieres on Netflix</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2021</div>
+                            <div class="timeline-content">Passes away September 14 after a private nine-year battle with cancer. Nothing Special released posthumously on Netflix.</div>
+                        </div>
+                    </div>
                 </article>
 
                 <!-- Quote Section -->
@@ -165,11 +237,15 @@
 
     <script src="./theme.js"></script>
     <script>
-        // Initialize
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', initTheme);
-        } else {
+        function init() {
             initTheme();
+            initNav();
+            initFooterQuote();
+        }
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', init);
+        } else {
+            init();
         }
     </script>
 </body>

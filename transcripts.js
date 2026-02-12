@@ -123,6 +123,8 @@ function showError() {
 
 function init() {
     initTheme();
+    initNav();
+    initFooterQuote();
     loadTranscripts();
 }
 

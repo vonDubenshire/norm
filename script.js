@@ -493,6 +493,8 @@ function initEventListeners() {
 
 async function init() {
     initTheme();
+    initNav();
+    initFooterQuote();
     initEventListeners();
     await loadJokes();
 }

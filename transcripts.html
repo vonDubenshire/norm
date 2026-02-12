@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transcripts - The Norm Macdonald Archive</title>
     <meta name="description" content="Read transcripts of Norm Macdonald's most memorable bits and conversations.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Transcripts - The Norm Macdonald Archive">
+    <meta property="og:description" content="Read transcripts of Norm Macdonald's most memorable bits and conversations, word for word.">
+    <meta property="og:url" content="https://normmacdonald.lol/transcripts.html">
+    <meta name="twitter:card" content="summary">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link rel="stylesheet" href="./styles.css">
 </head>
@@ -37,6 +42,17 @@
                 <a href="./" class="logo">
                     <span class="logo-text">The Norm Macdonald Archive</span>
                 </a>
+                <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+                    <svg class="hamburger-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
                 <nav class="nav" aria-label="Main navigation">
                     <a href="./" class="nav-link">Home</a>
                     <a href="./jokes.html" class="nav-link">Jokes</a>
@@ -90,7 +106,7 @@
                 &copy; 2026 The Norm Macdonald Archive.
                 A fan-made tribute site. All content belongs to its respective owners.
             </p>
-            <p class="footer-tagline">"I'm not Norm Macdonald" - Norm Macdonald</p>
+            <p class="footer-tagline" id="footer-norm-quote">"I'm not Norm Macdonald" - Norm Macdonald</p>
         </div>
     </footer>
 
