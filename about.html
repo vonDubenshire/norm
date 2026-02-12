@@ -156,42 +156,15 @@
     <footer class="footer">
         <div class="container">
             <p class="footer-text">
-                &copy; 2025 The Norm Macdonald Archive.
+                &copy; 2026 The Norm Macdonald Archive.
                 A fan-made tribute site. All content belongs to its respective owners.
             </p>
             <p class="footer-tagline">"I'm not Norm Macdonald" - Norm Macdonald</p>
         </div>
     </footer>
 
+    <script src="./theme.js"></script>
     <script>
-        // Theme Management
-        function initTheme() {
-            const themeToggle = document.getElementById('theme-toggle');
-            const savedTheme = localStorage.getItem('theme');
-
-            if (savedTheme) {
-                document.documentElement.setAttribute('data-theme', savedTheme);
-            } else {
-                const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                if (prefersDark) {
-                    document.documentElement.setAttribute('data-theme', 'dark');
-                }
-            }
-
-            themeToggle.addEventListener('click', () => {
-                const currentTheme = document.documentElement.getAttribute('data-theme');
-                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-                document.documentElement.setAttribute('data-theme', newTheme);
-                localStorage.setItem('theme', newTheme);
-            });
-
-            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-                if (!localStorage.getItem('theme')) {
-                    document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
-                }
-            });
-        }
-
         // Initialize
         if (document.readyState === 'loading') {
             document.addEventListener('DOMContentLoaded', initTheme);

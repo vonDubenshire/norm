@@ -1,36 +1,3 @@
-// Theme Management
-function initTheme() {
-    const themeToggle = document.getElementById('theme-toggle');
-    const savedTheme = localStorage.getItem('theme');
-
-    // Set initial theme
-    if (savedTheme) {
-        document.documentElement.setAttribute('data-theme', savedTheme);
-    } else {
-        // Respect system preference by default
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (prefersDark) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-        }
-    }
-
-    // Theme toggle handler
-    themeToggle.addEventListener('click', () => {
-        const currentTheme = document.documentElement.getAttribute('data-theme');
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-
-        document.documentElement.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-    });
-
-    // Listen for system theme changes
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-        if (!localStorage.getItem('theme')) {
-            document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
-        }
-    });
-}
-
 // Norm MacDonald-style jokes about Mitt Romney
 const jokes = [
     "You know, Mitt Romney says he's just like regular folks. Yeah, just like regular folks who strap their dog to the roof of their car for a 12-hour drive. That's what I do every Sunday after church. Take old Buster up to the roof rack, tell him to enjoy the scenery.",
