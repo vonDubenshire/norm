@@ -62,3 +62,22 @@ function initTheme() {
         }
     });
 }
+
+const normQuotes = [
+    '"I\'m not norm." — Norm Macdonald',
+    '"The more you delve into science, the more it appears to rely on faith." — Norm Macdonald',
+    '"I don\'t really feel like a guy who has been fired. I feel like a guy who has been liberated." — Norm Macdonald',
+    '"In showbiz, the weights and measures are all off. Everyone has a different scale." — Norm Macdonald',
+    '"A joke should catch someone by surprise, an ambush from the most unexpected direction." — Norm Macdonald',
+    '"I think clever is the opposite of funny." — Norm Macdonald',
+    '"I always told everybody the perfect joke would be where the setup and the punch line are identical." — Norm Macdonald',
+    '"There\'s nothing more fun than sitting in a room trying to be funny." — Norm Macdonald',
+    '"You know, with Hitler, the more I learn about that guy, the more I don\'t care for him." — Norm Macdonald',
+];
+
+function initFooterQuote() {
+    const el = document.getElementById('footer-norm-quote');
+    if (el) {
+        el.textContent = normQuotes[Math.floor(Math.random() * normQuotes.length)];
+    }
+}

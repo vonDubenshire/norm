@@ -151,5 +151,6 @@ class JokeApp {
 document.addEventListener('DOMContentLoaded', () => {
     initTheme();
     initNav();
+    initFooterQuote();
     new JokeApp();
 });

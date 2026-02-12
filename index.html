@@ -70,41 +70,47 @@
     <!-- Hero Section -->
     <section class="hero" id="main-content">
         <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">The Norm Macdonald Archive</h1>
-                <p class="hero-quote">"I'm pretty sure, I'm not a doctor, but I'm pretty sure if you die, the cancer dies at the same time. That's not a loss. That's a draw."</p>
-                <p class="hero-subtitle">
-                    A comprehensive collection celebrating the comedy genius of Norm Macdonald.<br>
-                    Jokes, videos, and moments from Weekend Update to his podcast and beyond.
-                </p>
-                <div class="hero-stats">
-                    <div class="stat-card">
-                        <div class="stat-number">939</div>
-                        <div class="stat-label">Videos</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">76</div>
-                        <div class="stat-label">Jokes</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">∞</div>
-                        <div class="stat-label">Laughs</div>
-                    </div>
+            <div class="hero-layout">
+                <div class="hero-photo">
+                    <img src="./images/norm-hero.jpg" alt="Norm Macdonald" class="hero-img" onerror="this.parentElement.classList.add('no-image')">
+                    <div class="hero-photo-fallback">NORM</div>
                 </div>
-                <div class="hero-actions">
-                    <a href="./jokes.html" class="btn btn-primary">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
-                            <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
-                        </svg>
-                        Browse Jokes
-                    </a>
-                    <a href="./videos.html" class="btn btn-secondary">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polygon points="5 3 19 12 5 21 5 3"></polygon>
-                        </svg>
-                        Watch Videos
-                    </a>
+                <div class="hero-content">
+                    <h1 class="hero-title">The Norm Macdonald Archive</h1>
+                    <p class="hero-quote">"I'm pretty sure, I'm not a doctor, but I'm pretty sure if you die, the cancer dies at the same time. That's not a loss. That's a draw."</p>
+                    <p class="hero-subtitle">
+                        A comprehensive collection celebrating the comedy genius of Norm Macdonald.<br>
+                        Jokes, videos, and moments from Weekend Update to his podcast and beyond.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">939</div>
+                            <div class="stat-label">Videos</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">76</div>
+                            <div class="stat-label">Jokes</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">∞</div>
+                            <div class="stat-label">Laughs</div>
+                        </div>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="./jokes.html" class="btn btn-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
+                                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
+                            </svg>
+                            Browse Jokes
+                        </a>
+                        <a href="./videos.html" class="btn btn-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                            </svg>
+                            Watch Videos
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -218,7 +224,7 @@
                 &copy; 2026 The Norm Macdonald Archive.
                 A fan-made tribute site. All content belongs to its respective owners.
             </p>
-            <p class="footer-tagline">"I'm not Norm Macdonald" - Norm Macdonald</p>
+            <p class="footer-tagline" id="footer-norm-quote">"I'm not Norm Macdonald" - Norm Macdonald</p>
         </div>
     </footer>
 
@@ -314,6 +320,7 @@
         function init() {
             initTheme();
             initNav();
+            initFooterQuote();
             loadFeaturedJoke();
         }
 

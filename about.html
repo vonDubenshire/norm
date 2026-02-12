@@ -76,14 +76,23 @@
 
             <!-- About Content -->
             <section class="about-content">
-                <article class="about-section">
-                    <h2>The Comic's Comic</h2>
-                    <p>
-                        Norman Gene Macdonald was a Canadian stand-up comedian, writer, and actor known for his deadpan delivery and subversive comedy style. Born in Quebec City on October 17, 1959, Norm became one of the most influential and beloved comedians of his generation.
-                    </p>
-                    <p>
-                        His unique approach to comedy—characterized by long, winding stories that often subverted expectations—made him a favorite among fellow comedians and discerning audiences. Norm didn't chase easy laughs; he crafted comedy that was intelligent, surprising, and deeply personal.
-                    </p>
+                <article class="about-section about-intro">
+                    <div class="about-photo">
+                        <img src="./images/norm-about.jpg" alt="Norm Macdonald" class="about-img" onerror="this.parentElement.classList.add('no-image')">
+                        <div class="about-photo-fallback">
+                            <span class="fallback-name">Norm Macdonald</span>
+                            <span class="fallback-years">1959 – 2021</span>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h2>The Comic's Comic</h2>
+                        <p>
+                            Norman Gene Macdonald was a Canadian stand-up comedian, writer, and actor known for his deadpan delivery and subversive comedy style. Born in Quebec City on October 17, 1959, Norm became one of the most influential and beloved comedians of his generation.
+                        </p>
+                        <p>
+                            His unique approach to comedy—characterized by long, winding stories that often subverted expectations—made him a favorite among fellow comedians and discerning audiences. Norm didn't chase easy laughs; he crafted comedy that was intelligent, surprising, and deeply personal.
+                        </p>
+                    </div>
                 </article>
 
                 <article class="about-section">
@@ -231,6 +240,7 @@
         function init() {
             initTheme();
             initNav();
+            initFooterQuote();
         }
         if (document.readyState === 'loading') {
             document.addEventListener('DOMContentLoaded', init);
