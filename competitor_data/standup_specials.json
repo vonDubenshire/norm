@@ -1,0 +1,360 @@
+{
+  "source_page_url": "https://normmacdonaldarchive.com/standup",
+  "page_title": "Norm Macdonald Standup Archive | Norm Macdonald Archive",
+  "description": "A comprehensive, sortable list of Norm Macdonald's standup specials and recorded appearances, with progress tracking.",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Norm Macdonald Standup"
+    },
+    {
+      "tag": "h3",
+      "text": "Archive"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Community"
+    },
+    {
+      "tag": "h3",
+      "text": "Legal"
+    }
+  ],
+  "navigation": [
+    {
+      "href": "/",
+      "text": "NormMacdonaldArchive"
+    },
+    {
+      "href": "/",
+      "text": "Home"
+    },
+    {
+      "href": "/bucket-list",
+      "text": "Bucket List"
+    },
+    {
+      "href": "/nml",
+      "text": "Norm Macdonald Live"
+    },
+    {
+      "href": "/blue-card-jokes",
+      "text": "Blue Card Jokes"
+    },
+    {
+      "href": "/the-list",
+      "text": "The List"
+    },
+    {
+      "href": "/standup",
+      "text": "Standup"
+    },
+    {
+      "href": "/bio",
+      "text": "Bio"
+    },
+    {
+      "href": "/my-watch-list",
+      "text": "My Watch List"
+    },
+    {
+      "href": "/support",
+      "text": "Support"
+    }
+  ],
+  "appearance_links": [],
+  "all_links": [
+    {
+      "href": "https://normmacdonaldarchive.com/",
+      "text": "NormMacdonaldArchive"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/",
+      "text": "Home"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/bucket-list",
+      "text": "Bucket List"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/nml",
+      "text": "Norm Macdonald Live"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/blue-card-jokes",
+      "text": "Blue Card Jokes"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/the-list",
+      "text": "The List"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup",
+      "text": "Standup"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/bio",
+      "text": "Bio"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/my-watch-list",
+      "text": "My Watch List"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/support",
+      "text": "Support"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/yuk-yuks-toronto-1989",
+      "text": "Live at Yuk Yuk's Toronto"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/yuk-yuks-toronto-1989",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=4GqLsaVovHM",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/star-search-1990",
+      "text": "Star Search with results"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/star-search-1990",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=_ZrQBeeuPpk",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/zanies-2008",
+      "text": "Live at Zanies"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/zanies-2008",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=FW_4tYobviY",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/yuk-yuks-toronto-2009",
+      "text": "Yuk Yuks Toronto"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/yuk-yuks-toronto-2009",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=Unkypfk1JjQ",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/chicopee-ma-2012",
+      "text": "Live in Chicopee, MA"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/chicopee-ma-2012",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=oZH4LxIsgMU",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/halifax-2012",
+      "text": "Live in Halifax, Nova Scotia, Canada"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/halifax-2012",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=NHrFxp1L5m8",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/queen-elizabeth-theatre-toronto-2015",
+      "text": "Queen Elizabeth Theatre - Toronto"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/queen-elizabeth-theatre-toronto-2015",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=3tueMQ5YcRc",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/brea-improv-2018",
+      "text": "Brea Improv"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/brea-improv-2018",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=tm8T4LEmDMo",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/carolines-broadway-2018",
+      "text": "Carolines on Broadway"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/carolines-broadway-2018",
+      "text": "Open page"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/lincoln-theatre-dc-2019",
+      "text": "Lincoln Theatre - DC"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/lincoln-theatre-dc-2019",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=4UgVzZvUfZ4",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/washington-dc-2019-alt",
+      "text": "Live in Washington DC (Alternate)"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/washington-dc-2019-alt",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=zn7vBu8GUyA",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/wilbur-boston-2019",
+      "text": "Wilbur - Boston"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/wilbur-boston-2019",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=Dk-uyX529B8",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/denver-comedy-works-2019",
+      "text": "Live in Denver Comedy Works"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/denver-comedy-works-2019",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=cFK4l80GC4E",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/helium-portland-2019",
+      "text": "Helium - Portland"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/helium-portland-2019",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=DQNSiO5VUAw",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/vic-theater-chicago-2019-alt",
+      "text": "Vic Theatre Chicago (Alternate)"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/vic-theater-chicago-2019-alt",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=_ZFCVgKV4GM",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/michigan-late-show-2019",
+      "text": "Live in Michigan (Late Show)"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/michigan-late-show-2019",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=YhZy6FshCJc",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/st-louis-2019",
+      "text": "St. Louis"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/st-louis-2019",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=chFTovBlOiQ",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/las-vegas-2019-oct5",
+      "text": "Las Vegas Stand Up"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/las-vegas-2019-oct5",
+      "text": "Open page"
+    },
+    {
+      "href": "https://www.youtube.com/watch?v=gz1hgkWMpUY",
+      "text": "Open source"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/las-vegas-final-2019-oct6",
+      "text": "Live in Las Vegas (Final Vegas Appearance)"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup/las-vegas-final-2019-oct6",
+      "text": "Open page"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/standup",
+      "text": "Stand-Up"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/about",
+      "text": "About"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/tributes",
+      "text": "Tributes"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/new-appearances",
+      "text": "Submit Appearance"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/errors",
+      "text": "Report Error"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://normmacdonaldarchive.com/terms",
+      "text": "Terms of Use"
+    }
+  ]
+}
