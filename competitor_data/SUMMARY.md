@@ -1,0 +1,1135 @@
+# Competitor Data Summary
+
+- Total appearances found: **695**
+
+## Breakdown by category/show
+
+- A Minute with Stan Hooper High Quality 1 -13 - 2003: 13
+- Ridiculous - 13 Parts - 9/12/2006: 13
+- Last Comic Standing - Parts 2 - 8 - Summer 2015: 13
+- Live at Comedy  Connection RI - 9/20/2012: 12
+- Adam Carolla Show - Parts 2-10 - 3/05/2008: 9
+- My Name is Earl - 8 Parts - 2007/2009: 8
+- Clips from Gossip & Trickery - 5/2017: 8
+- Adam Carolla Show - Parts 2-8 - 2/07/2008: 7
+- Conan TBS - 6 Parts - 10/05/2016: 6
+- Norm Show w/Commentary - 5 Episodes - 1999/2000: 5
+- Screwed clips - 5 parts - 2000: 5
+- High Stakes Poker Commentary (Filmed 12/2010) - 12/2010: 5
+- Conan TBS - 5 Parts - 5/24/2014: 5
+- Conan - TBS - 4 Parts - 11/18/2016: 5
+- Late Night Conan O'Brien - 4 Clips - 10/28/2003: 4
+- Norm's YouTube - 4 Parts - Spring 2010: 4
+- Safe Auto - 2012-2013: 4
+- Late Night Conan - 3 Clips - 9/23/1999: 3
+- Adam Carolla Show - Parts 2 - 4 - 9/11/2008: 3
+- Laugh Factory Hollywood - 3 Parts - 2/07/2011: 3
+- Sports Show Ads - 4/2011: 3
+- Lights Out with David Spade - WU Reunion - 3 Parts - 12/02/2019: 3
+- MTV Beach House - 4 Parts - Sum 1998: 3
+- Adam Carolla Parts 2 & 3 - 9/20/2006: 2
+- The Woody Show w/ Stevie Ray Fromstein- 2 Parts - 3/13/2008: 2
+- The Woody Show - 2 Parts - 1/19/2009: 2
+- Snoqualmie Casino - 2 Parts - 2/26/2009: 2
+- Sam's Game - 2 Parts - 6/2009: 2
+- Standup Wiseguys - Utah - 2 Parts - 2011?: 2
+- Hollywood and Vine - 2 Parts - 2011: 2
+- Hamilton Place Standup - 2 Parts - 3/09/2011: 2
+- Late Night Conan O'Brien - 2 Parts - 5/07/1996: 2
+- Norm Macdonald Is Trending - 2013: 2
+- Late Night Conan O'Brien - 2 Parts - Late 1996?: 2
+- Standup with Nealon, WI - 2 Parts - 8/22/2015: 2
+- Canadian Screen Awards - 2 Parts - 3/13/2016: 2
+- White House Correspondents Dinner - 4/10/1997: 2
+- COVID Standup  - 2 Parts - 3/2020: 2
+- Instagram Q&A - 2 Parts - Spring 2020: 2
+- Instagram Q&A w/ Mom - 2 Parts - Spring 2020: 2
+- Dirty Work - 2 Trailers - 1998: 2
+- The Lazer (WLZR 103 FM) - 2 Parts - 6/12/1998: 2
+- Live Aid Broadcast Day - 7/13/1985: 1
+- Late Night with David Letterman - 5/09/1990: 1
+- Deuce Bigalow - 1999: 1
+- Hardee's Star 1 - Voice only - 1999: 1
+- Hardee's Star 2 - 1999: 1
+- Man on the Moon - 1999: 1
+- Man on the Moon Prank - 1999: 1
+- Norm Series Premiere Promo - Bill v. Norm - 1999: 1
+- Norm Series Premiere Promo - Showgirl - 1999: 1
+- Norm Series Premiere Promo - Spelling - 1999: 1
+- Norm Promo - Shoes - 1999: 1
+- Win a Dream Date - 1999: 1
+- Just for Laughs - Devil Prank - 1991: 1
+- Norm Promo after Premiere - 3/1999: 1
+- The Norm Show/Norm - 3/1999-4/2001: 1
+- Howard Stern - 3/24/1999: 1
+- MTV Total Request Live - 3/24/1999: 1
+- Late Night Conan - Full Appearance - 3/26/1999: 1
+- Evening at the Improv Short - 1991: 1
+- Live with Regis and Kathie Lee - 3/29/1999: 1
+- Late Show with David Letterman - 3/22/1999: 1
+- Daily Show Jon Stewart - 3/23/1999: 1
+- Dennis Miller Live - 4/02/1999: 1
+- The Roseanne Show - 4/21/1999: 1
+- The View - 5/19/1999: 1
+- Tonight Show Jay Leno - 7/23/1999: 1
+- Tonight Show Jay Leno w/ Jason Biggs - 7/23/1999: 1
+- Late Show with David Letterman - 9/21/1999: 1
+- Howard Stern - 9/22/1999: 1
+- Evening at the Improv - 1991: 1
+- Live with Regis and Kathie Lee - 9/22/1999: 1
+- SNL 25th - 9/26/1999: 1
+- The Daily Show - 9/27/1999: 1
+- Hosting SNL - 10/23/1999: 1
+- Dennis Miller Millennium Special - 12/04/1999: 1
+- Jay Leno - 12/20/1999: 1
+- Caroline's Comedy Hour - 1991: 1
+- MacArthur Court at the University of Oregon - 2000: 1
+- American Music Awards - Full Show - 1/17/2000: 1
+- American Music Awards - Audio - 1/17/2000: 1
+- American Music Awards - Norm Only - 1/17/2000: 1
+- Late Show with David Letterman - Tom Snyder - 2/16/2000: 1
+- Late Show with David Letterman - 2/25/2000: 1
+- One Night Stand 1991 HBO Special - 1991: 1
+- Drew Carey Cameo - 3/1/2000: 1
+- Martin Short Show (Jiminy Glick) - 3/17/2000: 1
+- Family Guy - Death - 3/21/2000: 1
+- Jay Leno - 10/04/2000: 1
+- The View - 11/16/2000: 1
+- Who Wants to be a Millionaire - Asides - 11/2000: 1
+- Who Wants to be a Millionaire - Helping Joy Behar - 11/2000: 1
+- Who Wants to be a Millionaire - Playing - 11/19/2000: 1
+- Miller Lite Commercial - Dot Comedy - 2001: 1
+- Miller Lite Commercial - Uecker & Higgins - 2001: 1
+- Comic Strip Live - 1/27/1991: 1
+- Dick Clark Bloopers - 2001: 1
+- Turn Ben Stein On (low quality version) - 2/22/2001: 1
+- Turn Ben Stein On (high quality version) - 2/22/2001: 1
+- The Animal - 6/1/2001: 1
+- Late Night with David Letterman - 9/05/1991: 1
+- Stan Hooper Improv - 2003: 1
+- Stan Hooper Commercial - 2003: 1
+- Good Day Live - 10/23/2003: 1
+- Laughing Out Loud - Unknown: 1
+- Tonight Show Jay Leno - 10/27/2003: 1
+- Tonight Show Jay Leno - Chair w/ Jillian Barberie - 10/27/2003: 1
+- Bill O'Reilly - 10/28/2003: 1
+- The Daily Show - 10/29/2003: 1
+- Howard Stern - 11/10/2003: 1
+- Late Show with David Letterman - 11/10/2003: 1
+- MTV Half-Hour Comedy Hour Stand Up - 1992: 1
+- World Poker Tour - 4/11/2004: 1
+- Celebrity Poker Showdown - 6/2004: 1
+- Comedy Central Last Laugh '04 - 12/12/2004: 1
+- Interview European Gigalo - 2005: 1
+- JAMZ Radio - 2005: 1
+- Bell Canada Beaver Commercials - 2005-2008: 1
+- Back To Norm Pilot - 2005: 1
+- Fairly Oddparents - Jan/Feb 2005: 1
+- European Gigalo - 8/2005: 1
+- Jay Leno - 8/16/2005: 1
+- Just for Laughs - 1986: 1
+- Fan Mail from Marvin (Show?) - 1992: 1
+- 106.9 Darian O'Toole - 2006: 1
+- Jonathon Brandmeier - 2006: 1
+- Norm and Dog - 2006: 1
+- Conway and Whitman Show - 2006: 1
+- Live 105 CBS San Francisco - 2/17/2006: 1
+- Loveline - 9/05/2006: 1
+- Jackie Thomas Show 01.13 - 2/23/1993: 1
+- Late Show with David Letterman - 9/13/2006: 1
+- Saturday Night Live - 1993-1998: 1
+- Daily Show Jon Stewart - 9/14/2006: 1
+- Last Call with Carson Daly - 9/15/2006: 1
+- Adam Carolla - Part 1 - 9/20/2006: 1
+- Betting Tip - Night of Too Many Stars - 10/2006: 1
+- Fake News Cartoon - 11/2007-4/2008: 1
+- Farce of the Penguins - 2007: 1
+- PokerNews.com Interview - 2007: 1
+- Tom Green Live! - 2007: 1
+- Late Night Conan O'Brien - 10/19/1993: 1
+- Laugh Factory Interview - 2007: 1
+- Tom Green Live! - 1/30/2007: 1
+- Howard Stern - Gary Garver Interview - 3/28/2007: 1
+- Adam Carolla - 7/19/2007: 1
+- TMZ - Does Promo for TMZ - 9/24/2007: 1
+- Christmas Is Here Again - 10/1/2007: 1
+- Dennis Miller Show - 11/02/2007: 1
+- Dennis Miller Show - 11/09/2007: 1
+- Dennis Miller Show - 11/15/2007: 1
+- Dennis Miller Show - 11/21/2007: 1
+- Late Show with David Letterman - 12/28/1993: 1
+- Dennis Miller Show - 11/30/2007: 1
+- Dennis Miller Show - 12/07/2007: 1
+- Dennis Miller Show - 12/14/2007: 1
+- Dennis Miller Show - 12/21/2007: 1
+- Tom Green Live! w/Sam Simon - 2007: 1
+- Tom Green Live! - 2007?: 1
+- AT&T Commercial - 2007: 1
+- Billy Madison - 1995: 1
+- Lamont and Tonelli Radio - 2008&2010: 1
+- Poem/Shaving/Cops - 2008?: 1
+- Standup Clip - 2008: 1
+- Bondsy Radio - 2008: 1
+- Houston Improv - 2008: 1
+- Random Interview? - 1995: 1
+- Senior Skip Day - 2008: 1
+- Saget Roast - short - 2008: 1
+- Saget Roast - All but Rin Tin Tin - 2008: 1
+- Dennis Miller Show - Jack Duvall - 2008: 1
+- O'Reilly Factor - 1/02/2008: 1
+- Dennis Miller Show - Ann Coulter - 1/03/2008: 1
+- Adam Carolla Show - Part 1 - 2/07/2008: 1
+- Late Show with David Letterman - 2/17/1995: 1
+- Adam Carolla Show - Part 1 - 3/05/2008: 1
+- Conan - 2/23/1995: 1
+- 98.7 The Peak (Phoenix) - 4/25/2008: 1
+- Comedy & Everything Else Jimmy Dore & Todd Glass - 5/30/2008: 1
+- Match Game (two episodes) - 6/26/2008: 1
+- Dennis Miller Show - Jim Downey - 7/16/2008: 1
+- Late Show with David Letterman - 5/26/1995: 1
+- Sarah and Vinnie - 9/23/2008: 1
+- Adam Carolla Show - Part 1 - 9/11/2008: 1
+- Howard Stern - 9/25/2008: 1
+- Howard Stern Wrap-Up - 9/25/2008: 1
+- Good Day Utah - 10/03/2008: 1
+- Jonathan Brandmeier - 10/16/2008: 1
+- Live at Zanies - 11/12/2008: 1
+- George Schlatter's Comedy Club - 1988: 1
+- Late Night Conan O'Brien - 6/13/1995: 1
+- Dennis Miller Show - 11/20/2008: 1
+- Dennis Miller Show - 12/16/2008: 1
+- Pokulator - 2009?: 1
+- Live in Austin Texas - 2009: 1
+- Million Dollar Password - 2009: 1
+- Am I Right Podcast - 2009: 1
+- Funny People - 2009: 1
+- Fisher & Boy 97X Tampa - Early 2009: 1
+- The Larry Sanders Show - 8/30/1995: 1
+- Dr Chance - ?: 1
+- Helium Club - 2009 or 2010?: 1
+- Howard Stern - 2/09/2009: 1
+- Late Night Conan O'Brien - 2/10/2009: 1
+- Late Night Conan O'Brien (Gordon Ramsey) - 2/10/2009: 1
+- Opening for Norm - 4/2009: 1
+- Yuk Yuk's Toronto - 4/18/2009: 1
+- Howard Stern - 5/07/2009: 1
+- Late Show with David Letterman - 10/24/1995: 1
+- Late Show with David Letterman - 5/07/2009: 1
+- Tonight Show Conan - Guest - 6/11/2009: 1
+- Tonight Show Conan - Promos - 6/11/2009: 1
+- Live in Philly 2009 - 6/18/2009: 1
+- Sarah and Vinnie - 8/31/2009: 1
+- Tonight Show Conan - 8/31/2009: 1
+- Dennis Miller Show - 10/19/2009: 1
+- Meeting and Standup - Seven Springs - 10/30/2009: 1
+- Late Night Conan O'Brien - 11/9/1995: 1
+- Standup in MN - 10/23/2009: 1
+- Local Interview - Kansas - 10/26/2009: 1
+- Good Things Utah - 11/2009: 1
+- Tonight Show Conan - 11/25/2009: 1
+- The Middle Compilation - 2010-2018: 1
+- Back from Hell - A Tribute to Sam Kininson - 2010: 1
+- Tom Green-SmodCastle - 2010: 1
+- Johnjay and Rich - 2010: 1
+- WGN Morning News - 2010: 1
+- Grown Ups (Lost Tapes) - 2010: 1
+- Late Show with David Letterman - 11/23/1995: 1
+- Hill-Man Show (Boston Radio) - 2010: 1
+- The Dudley & Bob Show - 2010: 1
+- Live in Austin Texas - 2010: 1
+- Conan Tonight Show Sendoff - 1/19/2010: 1
+- Charlie the Tortoise - 2/2010: 1
+- Dennis Miller Show - 2/24/2010: 1
+- Standup McPherson Playhouse - 3/18/2010: 1
+- Koolidge Show - 3/30/2010: 1
+- Just for Laughs - Circa 1995: 1
+- Standup Helium Club - 4/29/2010: 1
+- Stand-Up Show Child Saving Institute - 5/2010: 1
+- KDKB Arizona Radio - 9/16/2010: 1
+- Standup Dakota Dunes Casino - 9/29/2010: 1
+- Standup Royal Oak, MI - 11/20/2010: 1
+- The Middle Clip - Rusty House Burns Down - 11/24/2010: 1
+- The Middle Clip - Gotta be Somethin - 11/24/2010: 1
+- Greg Fitzsimmons Podcast - 12/2010: 1
+- Late Night Conan O'Brien - 1/1996: 1
+- Various Radio - 2011/2012?: 1
+- Celeb Says What - 2011?: 1
+- Tempe Improv Interview - 2011?: 1
+- Late Show with David Letterman - Jan 8-12,1996: 1
+- KWGN2 - 2011?: 1
+- CJAY Radio - 2011?: 1
+- Mutiny Radio - 2011?: 1
+- Gay Marriage Counselor - 2011?: 1
+- Dennis Miller Show - Robert Duvall - 2011: 1
+- Sports 750 Radio - 2011: 1
+- CB Radio Podcast - 2011: 1
+- John & Amy Radio - 2011: 1
+- Grill Room Podcast - 2011: 1
+- Me Doing Standup - 2011: 1
+- Late Show with David Letterman - 2/09/1996: 1
+- NHL All Access - 2011: 1
+- Jack & Jill - 2011: 1
+- Hill-Man Show (Boston Radio) - 2011: 1
+- Bob & Tom Show - 2011: 1
+- Talking about Hockey - 2011: 1
+- WTF with Marc Maron Podcast - 2011: 1
+- Opie and Anthony - 2011: 1
+- TMZ - Talks OJ - 1/11/2011: 1
+- Late Night Conan O'Brien - 3/1996: 1
+- Laugh Factory Hollywood - 2/07/2011: 1
+- Interview With Norm Macdonald - Virgin Radio - 2/25/2011: 1
+- The Ticket - 3/23/2011: 1
+- Dan Patrick Show - 3/23/2011: 1
+- Dennis Miller Show - 3/23/2011: 1
+- Live at Yuk Yuk's Toronto - 1989: 1
+- Howard Stern - 3/30/2011: 1
+- Late Show with David Letterman - 3/30/2011: 1
+- Daily Show - 3/31/2011: 1
+- Drew & Mike WRIF - 2011 & 2009: 1
+- Sports Show with Norm Macdonald - 4/2011 - 6/2011: 1
+- Jimmy Kimmel - 4/06/2011: 1
+- Masters - 4/10/2011: 1
+- BS Report - 4/13/2011: 1
+- Lakers/Hornets Game - 4/17/2011: 1
+- Blake Griffin Rookie Conference - 5/1/2011: 1
+- House of Moves Motion Capture BTS - 5/11/2011: 1
+- Conan - Guest - 5/17/2011: 1
+- Conan - w/Todd Phillips - 5/17/2011: 1
+- Conan - Full Episode - 5/17/2011: 1
+- Craig Ferguson - 5/25/2011: 1
+- George Lopez Tonight - 5/27/2011: 1
+- Dennis Miller Show - 6/19/2011: 1
+- Late Night Conan O'Brien - Full - 5/07/1996: 1
+- Los Angeles Stand-Up Comedy Carhole - 6/25/2011: 1
+- Stand Up Las Vegas - The Orleans Hotel - 7/8/2011: 1
+- Good Morning Arizona - 7/22/2011: 1
+- Fitzdog Radio - 8/30/2011: 1
+- CBC Day 6 - 9/2011: 1
+- Dennis Miller Show - 9/22/2011: 1
+- Natl Lampoon Twitter Awards - 10/06/2011: 1
+- WTF with Marc Maron - 10/17/2011: 1
+- WGN - 11/2011: 1
+- WGN - Naming Mascot - 11/2011: 1
+- Late Show with David Letterman - 5/21/1996: 1
+- Brandmeier w/ Kevin Farley - 11/2011: 1
+- The Middle Clip - Rusty Teaches Brick to Drive - 11/16/2011: 1
+- Carolla - 12/2011: 1
+- The Todd Glass Show - 12/9/2011: 1
+- The Todd Glass Show - 12/12/2011: 1
+- Dennis Miller Show - 12/15/2011: 1
+- Fox 10 Phoenix Morning Show - 2012?: 1
+- Bigger Vidcast - 2012: 1
+- Mickey, Amelia & Spiegel - 2012: 1
+- Fockey Commercial and Outtakes - 2012: 1
+- Howard Stern (as  Bob Dole) - 5/22/1996: 1
+- Fockey Commercial - 2012: 1
+- Fockey Outtakes - 2012: 1
+- Comedy Awards - 5/06/2012: 1
+- The Middle Clip - Rusty's Bachelor Party - 5/23/2012: 1
+- Outside Largo - 7/2012: 1
+- What's So Funny - 7/23/2012: 1
+- Late Night Conan O'Brien - 6/1996: 1
+- Blockbuster Entertainment Awards - 6/19/1999: 1
+- Interview on Fox 25 Boston w Josh Gardner - 9/21/2012: 1
+- Live in Chicopee, MA - 9/22/2012: 1
+- Live in Halifax, Nova Scotia, Canada - 10/12/2012: 1
+- Brew Portland - 11/09/2012: 1
+- The Middle Clip - Rusty's Stolen Loot - 12/5/2012: 1
+- SF radio - 2013?: 1
+- Brett Andrews Radio Show - 2013?: 1
+- Quality Balls: The David Steinberg Story - 2013: 1
+- Tonight Show Jay Leno - 8/15/1996: 1
+- Back on the Road - 2013: 1
+- Norm Macdonald Live - 3/2013-10/2017: 1
+- Masters Day 1 - 4/2013: 1
+- Masters Day 2 - 4/2013: 1
+- Masters Ultracuts - 4/2013: 1
+- Masters Ultracut Saturday - 4/2013: 1
+- Masters Condensed - Sunday - 4/2013: 1
+- YouTube Big Live Comedy Show - 5/19/2013: 1
+- Late Night Conan O'Brien - 8/27/1996: 1
+- Larry King - 5/22/2013: 1
+- Match Game Canada - 11/11/2013: 1
+- Match Game Canada - 11/12/2013: 1
+- Marital Advice - 2011?: 1
+- Global News w/Sean O'Connor - 2014: 1
+- The FOX KRFX 103.5 FM w/ Sean O'Connor - 2014: 1
+- MIX Phoenix (Bras for a Cause) - 2014: 1
+- Bras for a Cause - 2014: 1
+- Funny or Die (Commencement Speech) - 2014: 1
+- w/ Bob Zany - 3/2014: 1
+- MTV Video Music Awards as Dole - 9/04/1996: 1
+- Tom Green Live! - 1/09/2014: 1
+- Breakfast Television Calgary - 2/06/2014: 1
+- Comics Unleashed - 3/25/2014: 1
+- Broadcast Minds - 4/09/2014: 1
+- The The Seánpod - 4/23/2014: 1
+- Dan Patrick Show - 5/14/2014: 1
+- The Middle Clip - Cop - 5/14/2014: 1
+- TMZ - Talks about Aaron Hernandez and OJ - 5/15/2014: 1
+- MTV Half-Hour Comedy Hour Stand Up - 1990: 1
+- Howard Stern - 9/30/1996: 1
+- TeamCOCO podcast - 6/04/2014: 1
+- The Seventh Dwarf Interview - 9/2014: 1
+- The Seventh Dwarf Clip - 9/1/2014: 1
+- Holmberg's Morning Sickness Show - 10/1/2014: 1
+- Norm Macdonald on Toucher & Rich - 12/11/2014: 1
+- NM & Sean O'Connor Down w/ Joe DeRosa - 12/22/2014: 1
+- Audi Commercial Clip - 2015?: 1
+- Where's Elvis this Week? - Fall 1996: 1
+- Cobb's Comedy Club SF - prank - 2015?: 1
+- NM on SNL - 2015?: 1
+- KFC - 2015: 1
+- Ridiculous 6 - 2015: 1
+- Sunnyside - 2015: 1
+- Emoji Academy - 2015: 1
+- TMZ - Criminal Likes Own Photo - 2015: 1
+- Queen Elizabeth Toronto - 1/30/2015: 1
+- Studio Q - 2/02/2015: 1
+- Late Show with David Letterman - 3/18/2015: 1
+- NBC Promo - Fall 1996: 1
+- The Middle Clip - Mike and Rusty Play Risk - 4/01/2015: 1
+- The Middle Clip - Mike Bullies Rusty - 4/01/2015: 1
+- Masters - 4/11/2015: 1
+- Masters Ultracut Saturday - 4/11/2015: 1
+- Masters - 4/12/2015: 1
+- Late Show with David Letterman - 5/15/2015: 1
+- Last Comic Standing Promo - Summer 2015: 1
+- Last Comic Standing - Premiere - Summer 2015: 1
+- St. Louis Local - 6/2015?: 1
+- Live in St. Louis - 6/06/15 7 PM: 1
+- Live in St. Louis - 6/06/15 9 PM: 1
+- Live in Kansas City - 6/07/2015: 1
+- Norm Playing Poker w/ Hank Azaria - 07/2015: 1
+- Today Show - 7/21/2015: 1
+- Huffpost - 7/21/2015: 1
+- Jimmy Fallon - Full - 7/22/2015: 1
+- Jimmy Fallon - Charades - Clip - 7/22/2015: 1
+- Drew Carey Bully - 10/16/1996: 1
+- Jimmy Fallon - Johnny Carson - Clip - 7/22/2015: 1
+- Fallon - My Worst Summer Job - 7/22/2015: 1
+- CTV News - 7/24/2015: 1
+- JFL Gala - 7/26/2015: 1
+- Larry King - 8/03/2015: 1
+- The Middle Clip - Rusty's Inventions - 10/14/2015: 1
+- The Mild Adventures of Fred Stoller - Part 1 - 10/23/2015: 1
+- The Mild Adventures of Fred Stoller - Part 2 - 10/23/2015: 1
+- Late Night Conan O'Brien - 11/1996: 1
+- Real Rob - 12/1/2015: 1
+- Hu Ke Lau Set Clip - 12/13/2015: 1
+- Dan LeBatard - 2016?: 1
+- The Herd with Colin Cowherd - 2016: 1
+- Live in Portland, Helium Comedy Club - 2016: 1
+- Toucher & Rich with Fred Stoller - 2016: 1
+- Reading Intro to Based on a True Story - 2016: 1
+- Reza Rifts - 1/19/2016: 1
+- Washington Post Feature - 2/07/2016: 1
+- Seattle Tour Singing - 2/09/2016: 1
+- The People vs. Larry Flynt - 12/1996: 1
+- Tips for hosting Canadian Screen Awards - 3/2016: 1
+- Canadian Screen Awards - Full - 3/13/2016: 1
+- CBC Cultural Speedround - 3/24/2016: 1
+- Gotham Comedy Live - Norm Only - 5/12/2016: 1
+- Toucher & Rick Radio - 5/13/2016: 1
+- TMZ - Ray Lewis/Ryan Lochte - 9/2016: 1
+- USA Today Facebook Live Chat - 9/2016: 1
+- Sixth & I - Book Tour - 9/2016: 1
+- Dennis Miller - 1997: 1
+- Dinner Party Download Ep 358 - 9/16/2016: 1
+- Howard Stern - 9/19/2016: 1
+- Face to Face w Hannah Storm - 9/20/2016: 1
+- Fox & Friends - 9/21/2016: 1
+- Leonard Lopate Show - 9/21/2016: 1
+- New York Book Signing - 9/21/2016: 1
+- James Cordon Intro - 9/26/2016: 1
+- James Corden - Clip - 9/26/2016: 1
+- James Corden - Full - 9/26/2016: 1
+- Jason Ellis - 9/27/2016: 1
+- Late Show with David Letterman - 1/7/1997: 1
+- The Jay & Dan Podcast - 9/27/2016: 1
+- The Adam Carolla Show - 9/28/2016: 1
+- Access Hollywood - 9/28/2016: 1
+- Nerdist Podcast - 10/12/2016: 1
+- Star Search with results - 1990: 1
+- Politically Incorrect - 1/28/1997: 1
+- Larry King - 10/17/2016: 1
+- Q Radio - Tom Power - 10/27/2016: 1
+- Girlboss - 2017: 1
+- The Todd Glass Show - 2017: 1
+- Outgoing phone messages - 2017: 1
+- Late Night Conan O'Brien - 2/21/1997: 1
+- Book Promo - 2017: 1
+- Everything Turns Out Alright Podcast - 2017: 1
+- The Middle Clip - Rusty Drives Uber - 1/10/2017: 1
+- Comedians in Cars Getting Coffee S9E2 - 1/12/2017: 1
+- Screaming Eagles Booth - 2/16/2017: 1
+- My Guys in the Desert - 4/2017: 1
+- Promoting Show on Twitter - 4/2017: 1
+- Late Night Conan O'Brien - w/ Christopher Guest - 2/21/1997: 1
+- Last Things First Podcast - 5/10/2017: 1
+- Wisconsin Public Radio - 5/15/2017: 1
+- Jimmy Fallon - 6/07/2017: 1
+- Live in Portland, Helium Comedy Club - 7/15/2017: 1
+- Mark Twain Award for Letterman - 11/2017: 1
+- Late Show with David Letterman - 4/08/1997: 1
+- Family Guy Night before Christmas - 12/10/2017: 1
+- Edge of Fame - 1/24/2018: 1
+- The Middle Clip - Boy Named Sue - 2/06/2018: 1
+- CTV Question Period (with SIL) - 3/17/2018: 1
+- 2018 Masters NormCast - 4/21/2018: 1
+- Standup Promo from Bathtub - 4/28/2017: 1
+- Brea Improv - 6/02/2018: 1
+- PokerGO Podcast - 7/07/2018: 1
+- Poker News - Summ 2018: 1
+- Has a Show Trailer - 9/2018: 1
+- Has a Show Outros - 9/2018: 1
+- Finish this Sentence - 9/11/2018: 1
+- Bennington Unmasked - 9/12/2018: 1
+- Howard Stern - 9/12/2018: 1
+- The View - 9/13/2018: 1
+- Carolines on Broadway - 9/15/2018: 1
+- Klaus Highlights - 2019: 1
+- Klaus Voicework - 2019: 1
+- Poker News 2 - 2019: 1
+- Card Player Lifestyle - 1/08/2019: 1
+- Eli Elezra Book Promo - 1/18/2019: 1
+- 1000 Days Sober Podcast - 1/24/2019: 1
+- The Tournament Poker Edge Podcast - 1/25/2019: 1
+- The Orville - 1/31/2019: 1
+- Wilbur - Boston - 3/23/2019: 1
+- Live in Washington DC - 3/21/2019: 1
+- Live in Denver Comedy Works - 4/12/2019: 1
+- NormCast 2019 Masters - Sunday - 4/14/2019: 1
+- Helium - Portland - 4/28/2019: 1
+- America's Cardroom - 6/2019: 1
+- Tonight Show Jay Leno - 4/28/1997: 1
+- PokerGO Podcast - 7/28/2019: 1
+- Fan Message - 7/28/2019?: 1
+- Poker Vlog - 8/2019: 1
+- Lights Out with David Spade - Jay Leno - 9/11/2019: 1
+- Vic Theatre Chicago - 9/19/2019: 1
+- Vic Theatre Chicago - Short Video Clip - 9/19/2019: 1
+- Royal Oak Detroit - 9/20/2019: 1
+- Live in St. Louis September 2019 - 9/23/2019: 1
+- Instagram - Free Felicity - 9/25/2019: 1
+- Las Vegas Stand Up - 10/05/2019: 1
+- Late Night Conan O'Brien - Guest - 5/15/1997: 1
+- Backstage NY Comedy Festival - 11/13/2019: 1
+- Standup cut short - 11/15/1019: 1
+- Big Blind Poker Game Show - 11/25/2019: 1
+- Talking Tech - 9/7/2018: 1
+- Breakfast Television - Loko - 11/17/2020: 1
+- Columbus Stand Up Early Show - 1/31/2020: 1
+- Columbus Stand Up Late Show - 1/31/2020: 1
+- Late Night Conan O'Brien-w/ Thorne-Smith - 5/15/1997: 1
+- Irvine Improv - 3/07/2020: 1
+- Quarantined Adam Eget - 3/21/2020: 1
+- Quarantined Chevy Chase - 3/25/2020: 1
+- Quarantined Josh Gardner - 3/27/2020: 1
+- Politically Incorrect - 5/30/1997: 1
+- Impossible Bat - 3/29/2020: 1
+- Quarantined Bob Saget - 3/31/2020: 1
+- Quarantined Roseanne - 4/05/2020: 1
+- Call Your Mother - 5/2020: 1
+- Jay Leno's Garage - 5/20/2020: 1
+- Nothing Special (taped Summer 2020) - 5/31/2022: 1
+- Showtime's Comedy Club Network - Unknown: 1
+- News Radio - 6/05/1997: 1
+- Howard Stern - 6/27/1997: 1
+- Late Show with David Letterman - 7/29/1997: 1
+- SNL Dress Rehearsal - Bill Brasky - 10/25/1997: 1
+- VH1 Fashion Awards - 10/28/1997: 1
+- Good Morning America - 1998: 1
+- Dennis Miller - 5/05/1998: 1
+- Late Show with David Letterman - 1/07/1998: 1
+- Best of the Improv Volume 4 - Unknown: 1
+- Howard Stern - 1/08/1998: 1
+- ESPYs Promo - 1998: 1
+- ESPYs - Promo, Pre-Show, Intro, Monologue - 2/09/1998: 1
+- ESPYs - with Will Ferrell as Harry Caray - 2/09/1998: 1
+- Late Show with David Letterman - 3/06/1998: 1
+- Larry King Live - 4/11/1998: 1
+- Jay Leno - 4/22/1998: 1
+- Late Show with David Letterman - 5/01/1998: 1
+- Late Show with David Letterman - 6/02/1998: 1
+- Live with Regis and Kathie Lee - 6/04/1998: 1
+- Best of An Evening at the Improv - Unknown: 1
+- Howard Stern - Low quality - 6/09/1998: 1
+- Howard Stern - High quality - 6/09/1998: 1
+- Daily Show Craig Kilborn - 6/10/1998: 1
+- The Ticket Sports Radio - 6/11/1998: 1
+- Comedy Central Canned Ham Presents Dirty Work - 1998: 1
+
+## Unique shows/venues
+
+- 1000 Days Sober Podcast - 1/24/2019
+- 106.9 Darian O'Toole - 2006
+- 2018 Masters NormCast - 4/21/2018
+- 98.7 The Peak (Phoenix) - 4/25/2008
+- A Minute with Stan Hooper High Quality 1 -13 - 2003
+- AT&T Commercial - 2007
+- Access Hollywood - 9/28/2016
+- Adam Carolla - 7/19/2007
+- Adam Carolla - Part 1 - 9/20/2006
+- Adam Carolla Parts 2 & 3 - 9/20/2006
+- Adam Carolla Show - Part 1 - 2/07/2008
+- Adam Carolla Show - Part 1 - 3/05/2008
+- Adam Carolla Show - Part 1 - 9/11/2008
+- Adam Carolla Show - Parts 2 - 4 - 9/11/2008
+- Adam Carolla Show - Parts 2-10 - 3/05/2008
+- Adam Carolla Show - Parts 2-8 - 2/07/2008
+- Am I Right Podcast - 2009
+- America's Cardroom - 6/2019
+- American Music Awards - Audio - 1/17/2000
+- American Music Awards - Full Show - 1/17/2000
+- American Music Awards - Norm Only - 1/17/2000
+- Audi Commercial Clip - 2015?
+- BS Report - 4/13/2011
+- Back To Norm Pilot - 2005
+- Back from Hell - A Tribute to Sam Kininson - 2010
+- Back on the Road - 2013
+- Backstage NY Comedy Festival - 11/13/2019
+- Bell Canada Beaver Commercials - 2005-2008
+- Bennington Unmasked - 9/12/2018
+- Best of An Evening at the Improv - Unknown
+- Best of the Improv Volume 4 - Unknown
+- Betting Tip - Night of Too Many Stars - 10/2006
+- Big Blind Poker Game Show - 11/25/2019
+- Bigger Vidcast - 2012
+- Bill O'Reilly - 10/28/2003
+- Billy Madison - 1995
+- Blake Griffin Rookie Conference - 5/1/2011
+- Blockbuster Entertainment Awards - 6/19/1999
+- Bob & Tom Show - 2011
+- Bondsy Radio - 2008
+- Book Promo - 2017
+- Brandmeier w/ Kevin Farley - 11/2011
+- Bras for a Cause - 2014
+- Brea Improv - 6/02/2018
+- Breakfast Television - Loko - 11/17/2020
+- Breakfast Television Calgary - 2/06/2014
+- Brett Andrews Radio Show - 2013?
+- Brew Portland - 11/09/2012
+- Broadcast Minds - 4/09/2014
+- CB Radio Podcast - 2011
+- CBC Cultural Speedround - 3/24/2016
+- CBC Day 6 - 9/2011
+- CJAY Radio - 2011?
+- COVID Standup  - 2 Parts - 3/2020
+- CTV News - 7/24/2015
+- CTV Question Period (with SIL) - 3/17/2018
+- Call Your Mother - 5/2020
+- Canadian Screen Awards - 2 Parts - 3/13/2016
+- Canadian Screen Awards - Full - 3/13/2016
+- Card Player Lifestyle - 1/08/2019
+- Caroline's Comedy Hour - 1991
+- Carolines on Broadway - 9/15/2018
+- Carolla - 12/2011
+- Celeb Says What - 2011?
+- Celebrity Poker Showdown - 6/2004
+- Charlie the Tortoise - 2/2010
+- Christmas Is Here Again - 10/1/2007
+- Clips from Gossip & Trickery - 5/2017
+- Cobb's Comedy Club SF - prank - 2015?
+- Columbus Stand Up Early Show - 1/31/2020
+- Columbus Stand Up Late Show - 1/31/2020
+- Comedians in Cars Getting Coffee S9E2 - 1/12/2017
+- Comedy & Everything Else Jimmy Dore & Todd Glass - 5/30/2008
+- Comedy Awards - 5/06/2012
+- Comedy Central Canned Ham Presents Dirty Work - 1998
+- Comedy Central Last Laugh '04 - 12/12/2004
+- Comic Strip Live - 1/27/1991
+- Comics Unleashed - 3/25/2014
+- Conan - 2/23/1995
+- Conan - Full Episode - 5/17/2011
+- Conan - Guest - 5/17/2011
+- Conan - TBS - 4 Parts - 11/18/2016
+- Conan - w/Todd Phillips - 5/17/2011
+- Conan TBS - 5 Parts - 5/24/2014
+- Conan TBS - 6 Parts - 10/05/2016
+- Conan Tonight Show Sendoff - 1/19/2010
+- Conway and Whitman Show - 2006
+- Craig Ferguson - 5/25/2011
+- Daily Show - 3/31/2011
+- Daily Show Craig Kilborn - 6/10/1998
+- Daily Show Jon Stewart - 3/23/1999
+- Daily Show Jon Stewart - 9/14/2006
+- Dan LeBatard - 2016?
+- Dan Patrick Show - 3/23/2011
+- Dan Patrick Show - 5/14/2014
+- Dennis Miller - 1997
+- Dennis Miller - 5/05/1998
+- Dennis Miller Live - 4/02/1999
+- Dennis Miller Millennium Special - 12/04/1999
+- Dennis Miller Show - 10/19/2009
+- Dennis Miller Show - 11/02/2007
+- Dennis Miller Show - 11/09/2007
+- Dennis Miller Show - 11/15/2007
+- Dennis Miller Show - 11/20/2008
+- Dennis Miller Show - 11/21/2007
+- Dennis Miller Show - 11/30/2007
+- Dennis Miller Show - 12/07/2007
+- Dennis Miller Show - 12/14/2007
+- Dennis Miller Show - 12/15/2011
+- Dennis Miller Show - 12/16/2008
+- Dennis Miller Show - 12/21/2007
+- Dennis Miller Show - 2/24/2010
+- Dennis Miller Show - 3/23/2011
+- Dennis Miller Show - 6/19/2011
+- Dennis Miller Show - 9/22/2011
+- Dennis Miller Show - Ann Coulter - 1/03/2008
+- Dennis Miller Show - Jack Duvall - 2008
+- Dennis Miller Show - Jim Downey - 7/16/2008
+- Dennis Miller Show - Robert Duvall - 2011
+- Deuce Bigalow - 1999
+- Dick Clark Bloopers - 2001
+- Dinner Party Download Ep 358 - 9/16/2016
+- Dirty Work - 2 Trailers - 1998
+- Dr Chance - ?
+- Drew & Mike WRIF - 2011 & 2009
+- Drew Carey Bully - 10/16/1996
+- Drew Carey Cameo - 3/1/2000
+- ESPYs - Promo, Pre-Show, Intro, Monologue - 2/09/1998
+- ESPYs - with Will Ferrell as Harry Caray - 2/09/1998
+- ESPYs Promo - 1998
+- Edge of Fame - 1/24/2018
+- Eli Elezra Book Promo - 1/18/2019
+- Emoji Academy - 2015
+- European Gigalo - 8/2005
+- Evening at the Improv - 1991
+- Evening at the Improv Short - 1991
+- Everything Turns Out Alright Podcast - 2017
+- Face to Face w Hannah Storm - 9/20/2016
+- Fairly Oddparents - Jan/Feb 2005
+- Fake News Cartoon - 11/2007-4/2008
+- Fallon - My Worst Summer Job - 7/22/2015
+- Family Guy - Death - 3/21/2000
+- Family Guy Night before Christmas - 12/10/2017
+- Fan Mail from Marvin (Show?) - 1992
+- Fan Message - 7/28/2019?
+- Farce of the Penguins - 2007
+- Finish this Sentence - 9/11/2018
+- Fisher & Boy 97X Tampa - Early 2009
+- Fitzdog Radio - 8/30/2011
+- Fockey Commercial - 2012
+- Fockey Commercial and Outtakes - 2012
+- Fockey Outtakes - 2012
+- Fox & Friends - 9/21/2016
+- Fox 10 Phoenix Morning Show - 2012?
+- Funny People - 2009
+- Funny or Die (Commencement Speech) - 2014
+- Gay Marriage Counselor - 2011?
+- George Lopez Tonight - 5/27/2011
+- George Schlatter's Comedy Club - 1988
+- Girlboss - 2017
+- Global News w/Sean O'Connor - 2014
+- Good Day Live - 10/23/2003
+- Good Day Utah - 10/03/2008
+- Good Morning America - 1998
+- Good Morning Arizona - 7/22/2011
+- Good Things Utah - 11/2009
+- Gotham Comedy Live - Norm Only - 5/12/2016
+- Greg Fitzsimmons Podcast - 12/2010
+- Grill Room Podcast - 2011
+- Grown Ups (Lost Tapes) - 2010
+- Hamilton Place Standup - 2 Parts - 3/09/2011
+- Hardee's Star 1 - Voice only - 1999
+- Hardee's Star 2 - 1999
+- Has a Show Outros - 9/2018
+- Has a Show Trailer - 9/2018
+- Helium - Portland - 4/28/2019
+- Helium Club - 2009 or 2010?
+- High Stakes Poker Commentary (Filmed 12/2010) - 12/2010
+- Hill-Man Show (Boston Radio) - 2010
+- Hill-Man Show (Boston Radio) - 2011
+- Hollywood and Vine - 2 Parts - 2011
+- Holmberg's Morning Sickness Show - 10/1/2014
+- Hosting SNL - 10/23/1999
+- House of Moves Motion Capture BTS - 5/11/2011
+- Houston Improv - 2008
+- Howard Stern (as  Bob Dole) - 5/22/1996
+- Howard Stern - 1/08/1998
+- Howard Stern - 11/10/2003
+- Howard Stern - 2/09/2009
+- Howard Stern - 3/24/1999
+- Howard Stern - 3/30/2011
+- Howard Stern - 5/07/2009
+- Howard Stern - 6/27/1997
+- Howard Stern - 9/12/2018
+- Howard Stern - 9/19/2016
+- Howard Stern - 9/22/1999
+- Howard Stern - 9/25/2008
+- Howard Stern - 9/30/1996
+- Howard Stern - Gary Garver Interview - 3/28/2007
+- Howard Stern - High quality - 6/09/1998
+- Howard Stern - Low quality - 6/09/1998
+- Howard Stern Wrap-Up - 9/25/2008
+- Hu Ke Lau Set Clip - 12/13/2015
+- Huffpost - 7/21/2015
+- Impossible Bat - 3/29/2020
+- Instagram - Free Felicity - 9/25/2019
+- Instagram Q&A - 2 Parts - Spring 2020
+- Instagram Q&A w/ Mom - 2 Parts - Spring 2020
+- Interview European Gigalo - 2005
+- Interview With Norm Macdonald - Virgin Radio - 2/25/2011
+- Interview on Fox 25 Boston w Josh Gardner - 9/21/2012
+- Irvine Improv - 3/07/2020
+- JAMZ Radio - 2005
+- JFL Gala - 7/26/2015
+- Jack & Jill - 2011
+- Jackie Thomas Show 01.13 - 2/23/1993
+- James Corden - Clip - 9/26/2016
+- James Corden - Full - 9/26/2016
+- James Cordon Intro - 9/26/2016
+- Jason Ellis - 9/27/2016
+- Jay Leno - 10/04/2000
+- Jay Leno - 12/20/1999
+- Jay Leno - 4/22/1998
+- Jay Leno - 8/16/2005
+- Jay Leno's Garage - 5/20/2020
+- Jimmy Fallon - 6/07/2017
+- Jimmy Fallon - Charades - Clip - 7/22/2015
+- Jimmy Fallon - Full - 7/22/2015
+- Jimmy Fallon - Johnny Carson - Clip - 7/22/2015
+- Jimmy Kimmel - 4/06/2011
+- John & Amy Radio - 2011
+- Johnjay and Rich - 2010
+- Jonathan Brandmeier - 10/16/2008
+- Jonathon Brandmeier - 2006
+- Just for Laughs - 1986
+- Just for Laughs - Circa 1995
+- Just for Laughs - Devil Prank - 1991
+- KDKB Arizona Radio - 9/16/2010
+- KFC - 2015
+- KWGN2 - 2011?
+- Klaus Highlights - 2019
+- Klaus Voicework - 2019
+- Koolidge Show - 3/30/2010
+- Lakers/Hornets Game - 4/17/2011
+- Lamont and Tonelli Radio - 2008&2010
+- Larry King - 10/17/2016
+- Larry King - 5/22/2013
+- Larry King - 8/03/2015
+- Larry King Live - 4/11/1998
+- Las Vegas Stand Up - 10/05/2019
+- Last Call with Carson Daly - 9/15/2006
+- Last Comic Standing - Parts 2 - 8 - Summer 2015
+- Last Comic Standing - Premiere - Summer 2015
+- Last Comic Standing Promo - Summer 2015
+- Last Things First Podcast - 5/10/2017
+- Late Night Conan - 3 Clips - 9/23/1999
+- Late Night Conan - Full Appearance - 3/26/1999
+- Late Night Conan O'Brien (Gordon Ramsey) - 2/10/2009
+- Late Night Conan O'Brien - 1/1996
+- Late Night Conan O'Brien - 10/19/1993
+- Late Night Conan O'Brien - 11/1996
+- Late Night Conan O'Brien - 11/9/1995
+- Late Night Conan O'Brien - 2 Parts - 5/07/1996
+- Late Night Conan O'Brien - 2 Parts - Late 1996?
+- Late Night Conan O'Brien - 2/10/2009
+- Late Night Conan O'Brien - 2/21/1997
+- Late Night Conan O'Brien - 3/1996
+- Late Night Conan O'Brien - 4 Clips - 10/28/2003
+- Late Night Conan O'Brien - 6/13/1995
+- Late Night Conan O'Brien - 6/1996
+- Late Night Conan O'Brien - 8/27/1996
+- Late Night Conan O'Brien - Full - 5/07/1996
+- Late Night Conan O'Brien - Guest - 5/15/1997
+- Late Night Conan O'Brien - w/ Christopher Guest - 2/21/1997
+- Late Night Conan O'Brien-w/ Thorne-Smith - 5/15/1997
+- Late Night with David Letterman - 5/09/1990
+- Late Night with David Letterman - 9/05/1991
+- Late Show with David Letterman - 1/07/1998
+- Late Show with David Letterman - 1/7/1997
+- Late Show with David Letterman - 10/24/1995
+- Late Show with David Letterman - 11/10/2003
+- Late Show with David Letterman - 11/23/1995
+- Late Show with David Letterman - 12/28/1993
+- Late Show with David Letterman - 2/09/1996
+- Late Show with David Letterman - 2/17/1995
+- Late Show with David Letterman - 2/25/2000
+- Late Show with David Letterman - 3/06/1998
+- Late Show with David Letterman - 3/18/2015
+- Late Show with David Letterman - 3/22/1999
+- Late Show with David Letterman - 3/30/2011
+- Late Show with David Letterman - 4/08/1997
+- Late Show with David Letterman - 5/01/1998
+- Late Show with David Letterman - 5/07/2009
+- Late Show with David Letterman - 5/15/2015
+- Late Show with David Letterman - 5/21/1996
+- Late Show with David Letterman - 5/26/1995
+- Late Show with David Letterman - 6/02/1998
+- Late Show with David Letterman - 7/29/1997
+- Late Show with David Letterman - 9/13/2006
+- Late Show with David Letterman - 9/21/1999
+- Late Show with David Letterman - Jan 8-12,1996
+- Late Show with David Letterman - Tom Snyder - 2/16/2000
+- Laugh Factory Hollywood - 2/07/2011
+- Laugh Factory Hollywood - 3 Parts - 2/07/2011
+- Laugh Factory Interview - 2007
+- Laughing Out Loud - Unknown
+- Leonard Lopate Show - 9/21/2016
+- Lights Out with David Spade - Jay Leno - 9/11/2019
+- Lights Out with David Spade - WU Reunion - 3 Parts - 12/02/2019
+- Live 105 CBS San Francisco - 2/17/2006
+- Live Aid Broadcast Day - 7/13/1985
+- Live at Comedy  Connection RI - 9/20/2012
+- Live at Yuk Yuk's Toronto - 1989
+- Live at Zanies - 11/12/2008
+- Live in Austin Texas - 2009
+- Live in Austin Texas - 2010
+- Live in Chicopee, MA - 9/22/2012
+- Live in Denver Comedy Works - 4/12/2019
+- Live in Halifax, Nova Scotia, Canada - 10/12/2012
+- Live in Kansas City - 6/07/2015
+- Live in Philly 2009 - 6/18/2009
+- Live in Portland, Helium Comedy Club - 2016
+- Live in Portland, Helium Comedy Club - 7/15/2017
+- Live in St. Louis - 6/06/15 7 PM
+- Live in St. Louis - 6/06/15 9 PM
+- Live in St. Louis September 2019 - 9/23/2019
+- Live in Washington DC - 3/21/2019
+- Live with Regis and Kathie Lee - 3/29/1999
+- Live with Regis and Kathie Lee - 6/04/1998
+- Live with Regis and Kathie Lee - 9/22/1999
+- Local Interview - Kansas - 10/26/2009
+- Los Angeles Stand-Up Comedy Carhole - 6/25/2011
+- Loveline - 9/05/2006
+- MIX Phoenix (Bras for a Cause) - 2014
+- MTV Beach House - 4 Parts - Sum 1998
+- MTV Half-Hour Comedy Hour Stand Up - 1990
+- MTV Half-Hour Comedy Hour Stand Up - 1992
+- MTV Total Request Live - 3/24/1999
+- MTV Video Music Awards as Dole - 9/04/1996
+- MacArthur Court at the University of Oregon - 2000
+- Man on the Moon - 1999
+- Man on the Moon Prank - 1999
+- Marital Advice - 2011?
+- Mark Twain Award for Letterman - 11/2017
+- Martin Short Show (Jiminy Glick) - 3/17/2000
+- Masters - 4/10/2011
+- Masters - 4/11/2015
+- Masters - 4/12/2015
+- Masters Condensed - Sunday - 4/2013
+- Masters Day 1 - 4/2013
+- Masters Day 2 - 4/2013
+- Masters Ultracut Saturday - 4/11/2015
+- Masters Ultracut Saturday - 4/2013
+- Masters Ultracuts - 4/2013
+- Match Game (two episodes) - 6/26/2008
+- Match Game Canada - 11/11/2013
+- Match Game Canada - 11/12/2013
+- Me Doing Standup - 2011
+- Meeting and Standup - Seven Springs - 10/30/2009
+- Mickey, Amelia & Spiegel - 2012
+- Miller Lite Commercial - Dot Comedy - 2001
+- Miller Lite Commercial - Uecker & Higgins - 2001
+- Million Dollar Password - 2009
+- Mutiny Radio - 2011?
+- My Guys in the Desert - 4/2017
+- My Name is Earl - 8 Parts - 2007/2009
+- NBC Promo - Fall 1996
+- NHL All Access - 2011
+- NM & Sean O'Connor Down w/ Joe DeRosa - 12/22/2014
+- NM on SNL - 2015?
+- Natl Lampoon Twitter Awards - 10/06/2011
+- Nerdist Podcast - 10/12/2016
+- New York Book Signing - 9/21/2016
+- News Radio - 6/05/1997
+- Norm Macdonald Is Trending - 2013
+- Norm Macdonald Live - 3/2013-10/2017
+- Norm Macdonald on Toucher & Rich - 12/11/2014
+- Norm Playing Poker w/ Hank Azaria - 07/2015
+- Norm Promo - Shoes - 1999
+- Norm Promo after Premiere - 3/1999
+- Norm Series Premiere Promo - Bill v. Norm - 1999
+- Norm Series Premiere Promo - Showgirl - 1999
+- Norm Series Premiere Promo - Spelling - 1999
+- Norm Show w/Commentary - 5 Episodes - 1999/2000
+- Norm and Dog - 2006
+- Norm's YouTube - 4 Parts - Spring 2010
+- NormCast 2019 Masters - Sunday - 4/14/2019
+- Nothing Special (taped Summer 2020) - 5/31/2022
+- O'Reilly Factor - 1/02/2008
+- One Night Stand 1991 HBO Special - 1991
+- Opening for Norm - 4/2009
+- Opie and Anthony - 2011
+- Outgoing phone messages - 2017
+- Outside Largo - 7/2012
+- Poem/Shaving/Cops - 2008?
+- Poker News - Summ 2018
+- Poker News 2 - 2019
+- Poker Vlog - 8/2019
+- PokerGO Podcast - 7/07/2018
+- PokerGO Podcast - 7/28/2019
+- PokerNews.com Interview - 2007
+- Pokulator - 2009?
+- Politically Incorrect - 1/28/1997
+- Politically Incorrect - 5/30/1997
+- Promoting Show on Twitter - 4/2017
+- Q Radio - Tom Power - 10/27/2016
+- Quality Balls: The David Steinberg Story - 2013
+- Quarantined Adam Eget - 3/21/2020
+- Quarantined Bob Saget - 3/31/2020
+- Quarantined Chevy Chase - 3/25/2020
+- Quarantined Josh Gardner - 3/27/2020
+- Quarantined Roseanne - 4/05/2020
+- Queen Elizabeth Toronto - 1/30/2015
+- Random Interview? - 1995
+- Reading Intro to Based on a True Story - 2016
+- Real Rob - 12/1/2015
+- Reza Rifts - 1/19/2016
+- Ridiculous - 13 Parts - 9/12/2006
+- Ridiculous 6 - 2015
+- Royal Oak Detroit - 9/20/2019
+- SF radio - 2013?
+- SNL 25th - 9/26/1999
+- SNL Dress Rehearsal - Bill Brasky - 10/25/1997
+- Safe Auto - 2012-2013
+- Saget Roast - All but Rin Tin Tin - 2008
+- Saget Roast - short - 2008
+- Sam's Game - 2 Parts - 6/2009
+- Sarah and Vinnie - 8/31/2009
+- Sarah and Vinnie - 9/23/2008
+- Saturday Night Live - 1993-1998
+- Screaming Eagles Booth - 2/16/2017
+- Screwed clips - 5 parts - 2000
+- Seattle Tour Singing - 2/09/2016
+- Senior Skip Day - 2008
+- Showtime's Comedy Club Network - Unknown
+- Sixth & I - Book Tour - 9/2016
+- Snoqualmie Casino - 2 Parts - 2/26/2009
+- Sports 750 Radio - 2011
+- Sports Show Ads - 4/2011
+- Sports Show with Norm Macdonald - 4/2011 - 6/2011
+- St. Louis Local - 6/2015?
+- Stan Hooper Commercial - 2003
+- Stan Hooper Improv - 2003
+- Stand Up Las Vegas - The Orleans Hotel - 7/8/2011
+- Stand-Up Show Child Saving Institute - 5/2010
+- Standup Clip - 2008
+- Standup Dakota Dunes Casino - 9/29/2010
+- Standup Helium Club - 4/29/2010
+- Standup McPherson Playhouse - 3/18/2010
+- Standup Promo from Bathtub - 4/28/2017
+- Standup Royal Oak, MI - 11/20/2010
+- Standup Wiseguys - Utah - 2 Parts - 2011?
+- Standup cut short - 11/15/1019
+- Standup in MN - 10/23/2009
+- Standup with Nealon, WI - 2 Parts - 8/22/2015
+- Star Search with results - 1990
+- Studio Q - 2/02/2015
+- Sunnyside - 2015
+- TMZ - Criminal Likes Own Photo - 2015
+- TMZ - Does Promo for TMZ - 9/24/2007
+- TMZ - Ray Lewis/Ryan Lochte - 9/2016
+- TMZ - Talks OJ - 1/11/2011
+- TMZ - Talks about Aaron Hernandez and OJ - 5/15/2014
+- Talking Tech - 9/7/2018
+- Talking about Hockey - 2011
+- TeamCOCO podcast - 6/04/2014
+- Tempe Improv Interview - 2011?
+- The Adam Carolla Show - 9/28/2016
+- The Animal - 6/1/2001
+- The Daily Show - 10/29/2003
+- The Daily Show - 9/27/1999
+- The Dudley & Bob Show - 2010
+- The FOX KRFX 103.5 FM w/ Sean O'Connor - 2014
+- The Herd with Colin Cowherd - 2016
+- The Jay & Dan Podcast - 9/27/2016
+- The Larry Sanders Show - 8/30/1995
+- The Lazer (WLZR 103 FM) - 2 Parts - 6/12/1998
+- The Middle Clip - Boy Named Sue - 2/06/2018
+- The Middle Clip - Cop - 5/14/2014
+- The Middle Clip - Gotta be Somethin - 11/24/2010
+- The Middle Clip - Mike Bullies Rusty - 4/01/2015
+- The Middle Clip - Mike and Rusty Play Risk - 4/01/2015
+- The Middle Clip - Rusty Drives Uber - 1/10/2017
+- The Middle Clip - Rusty House Burns Down - 11/24/2010
+- The Middle Clip - Rusty Teaches Brick to Drive - 11/16/2011
+- The Middle Clip - Rusty's Bachelor Party - 5/23/2012
+- The Middle Clip - Rusty's Inventions - 10/14/2015
+- The Middle Clip - Rusty's Stolen Loot - 12/5/2012
+- The Middle Compilation - 2010-2018
+- The Mild Adventures of Fred Stoller - Part 1 - 10/23/2015
+- The Mild Adventures of Fred Stoller - Part 2 - 10/23/2015
+- The Norm Show/Norm - 3/1999-4/2001
+- The Orville - 1/31/2019
+- The People vs. Larry Flynt - 12/1996
+- The Roseanne Show - 4/21/1999
+- The Seventh Dwarf Clip - 9/1/2014
+- The Seventh Dwarf Interview - 9/2014
+- The The Seánpod - 4/23/2014
+- The Ticket - 3/23/2011
+- The Ticket Sports Radio - 6/11/1998
+- The Todd Glass Show - 12/12/2011
+- The Todd Glass Show - 12/9/2011
+- The Todd Glass Show - 2017
+- The Tournament Poker Edge Podcast - 1/25/2019
+- The View - 11/16/2000
+- The View - 5/19/1999
+- The View - 9/13/2018
+- The Woody Show - 2 Parts - 1/19/2009
+- The Woody Show w/ Stevie Ray Fromstein- 2 Parts - 3/13/2008
+- Tips for hosting Canadian Screen Awards - 3/2016
+- Today Show - 7/21/2015
+- Tom Green Live! - 1/09/2014
+- Tom Green Live! - 1/30/2007
+- Tom Green Live! - 2007
+- Tom Green Live! - 2007?
+- Tom Green Live! w/Sam Simon - 2007
+- Tom Green-SmodCastle - 2010
+- Tonight Show Conan - 11/25/2009
+- Tonight Show Conan - 8/31/2009
+- Tonight Show Conan - Guest - 6/11/2009
+- Tonight Show Conan - Promos - 6/11/2009
+- Tonight Show Jay Leno - 10/27/2003
+- Tonight Show Jay Leno - 4/28/1997
+- Tonight Show Jay Leno - 7/23/1999
+- Tonight Show Jay Leno - 8/15/1996
+- Tonight Show Jay Leno - Chair w/ Jillian Barberie - 10/27/2003
+- Tonight Show Jay Leno w/ Jason Biggs - 7/23/1999
+- Toucher & Rich with Fred Stoller - 2016
+- Toucher & Rick Radio - 5/13/2016
+- Turn Ben Stein On (high quality version) - 2/22/2001
+- Turn Ben Stein On (low quality version) - 2/22/2001
+- USA Today Facebook Live Chat - 9/2016
+- VH1 Fashion Awards - 10/28/1997
+- Various Radio - 2011/2012?
+- Vic Theatre Chicago - 9/19/2019
+- Vic Theatre Chicago - Short Video Clip - 9/19/2019
+- WGN - 11/2011
+- WGN - Naming Mascot - 11/2011
+- WGN Morning News - 2010
+- WTF with Marc Maron - 10/17/2011
+- WTF with Marc Maron Podcast - 2011
+- Washington Post Feature - 2/07/2016
+- What's So Funny - 7/23/2012
+- Where's Elvis this Week? - Fall 1996
+- White House Correspondents Dinner - 4/10/1997
+- Who Wants to be a Millionaire - Asides - 11/2000
+- Who Wants to be a Millionaire - Helping Joy Behar - 11/2000
+- Who Wants to be a Millionaire - Playing - 11/19/2000
+- Wilbur - Boston - 3/23/2019
+- Win a Dream Date - 1999
+- Wisconsin Public Radio - 5/15/2017
+- World Poker Tour - 4/11/2004
+- YouTube Big Live Comedy Show - 5/19/2013
+- Yuk Yuk's Toronto - 4/18/2009
+- w/ Bob Zany - 3/2014
+
+## Media link type counts
+
+- archive.org: 483
+- YouTube: 152
+- Other: 59
+- No media link: 1
+
+## Entries with no media link
+
+- https://normmacdonaldarchive.com/the-list/appearance-548
+
+## Date range
+
+- Earliest appearance date: 1019-11-15
+- Latest appearance date: 2022-05-31
