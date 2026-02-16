@@ -1000,6 +1000,29 @@ select:focus:not(:focus-visible) {
     height: 100%;
 }
 
+/* Lite YouTube - click-to-load embeds */
+.lite-youtube {
+    background-color: #000;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lite-youtube-play {
+    position: absolute;
+    z-index: 1;
+    opacity: 0.8;
+    transition: opacity var(--transition-fast);
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.5));
+}
+
+.lite-youtube:hover .lite-youtube-play {
+    opacity: 1;
+}
+
 .clip-info {
     padding: var(--spacing-lg);
 }

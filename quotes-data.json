@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "quote": "I'm pretty sure, I'm not a doctor, but I'm pretty sure if you die, the cancer dies at the same time. That's not a loss. That's a draw.",
+    "source": "Nothing Special",
+    "category": "on-life",
+    "year": 2022
+  },
+  {
+    "id": 2,
+    "quote": "I'm not norm.",
+    "source": "Twitter",
+    "category": "on-comedy",
+    "year": null
+  },
+  {
+    "id": 3,
+    "quote": "The more you delve into science, the more it appears to rely on faith.",
+    "source": "Interview",
+    "category": "on-life",
+    "year": null
+  },
+  {
+    "id": 4,
+    "quote": "I don't really feel like a guy who has been fired. I feel like a guy who has been liberated.",
+    "source": "After SNL firing",
+    "category": "on-comedy",
+    "year": 1998
+  },
+  {
+    "id": 5,
+    "quote": "In showbiz, the weights and measures are all off. Everyone has a different scale.",
+    "source": "Interview",
+    "category": "on-comedy",
+    "year": null
+  },
+  {
+    "id": 6,
+    "quote": "A joke should catch someone by surprise, an ambush from the most unexpected direction.",
+    "source": "Interview",
+    "category": "on-comedy",
+    "year": null
+  },
+  {
+    "id": 7,
+    "quote": "I think clever is the opposite of funny.",
+    "source": "Norm Macdonald Live",
+    "category": "on-comedy",
+    "year": null
+  },
+  {
+    "id": 8,
+    "quote": "I always told everybody the perfect joke would be where the setup and the punch line are identical.",
+    "source": "Interview",
+    "category": "on-comedy",
+    "year": null
+  },
+  {
+    "id": 9,
+    "quote": "There's nothing more fun than sitting in a room trying to be funny.",
+    "source": "Interview",
+    "category": "on-comedy",
+    "year": null
+  },
+  {
+    "id": 10,
+    "quote": "You know, with Hitler, the more I learn about that guy, the more I don't care for him.",
+    "source": "Norm Macdonald Live",
+    "category": "on-current-events",
+    "year": null
+  },
+  {
+    "id": 11,
+    "quote": "The reason I got into comedy was because I heard Rodney Dangerfield and Richard Pryor, and I heard them speak directly to me.",
+    "source": "Interview",
+    "category": "on-comedians",
+    "year": null
+  },
+  {
+    "id": 12,
+    "quote": "I think the audience when they see stand-up, they want to see someone who is better than them. Not a weak, quivering bowl of mush.",
+    "source": "Interview",
+    "category": "on-comedy",
+    "year": null
+  },
+  {
+    "id": 13,
+    "quote": "I don't think anyone has ever described me as cuddly.",
+    "source": "Conan",
+    "category": "on-life",
+    "year": null
+  },
+  {
+    "id": 14,
+    "quote": "I could never understand how every single person at the OJ trial could be lying except OJ.",
+    "source": "Weekend Update",
+    "category": "on-current-events",
+    "year": 1995
+  },
+  {
+    "id": 15,
+    "quote": "I was always a big fan of Letterman. He was the guy. When he retired, I was like, well, who's the guy now? And the answer was nobody.",
+    "source": "Norm Macdonald Live",
+    "category": "on-comedians",
+    "year": null
+  },
+  {
+    "id": 16,
+    "quote": "I'm a deeply closeted comedian, who pretends to be a good old boy.",
+    "source": "Based on a True Story",
+    "category": "on-comedy",
+    "year": 2016
+  },
+  {
+    "id": 17,
+    "quote": "The worst part about Bill Cosby was the hypocrisy.",
+    "source": "Norm Macdonald Live",
+    "category": "on-current-events",
+    "year": null
+  },
+  {
+    "id": 18,
+    "quote": "The comedian's comedian is the worst kind of comedian.",
+    "source": "Norm Macdonald Live",
+    "category": "on-comedy",
+    "year": null
+  },
+  {
+    "id": 19,
+    "quote": "I am battle-scarred. Every joke is a gamble.",
+    "source": "Interview",
+    "category": "on-comedy",
+    "year": null
+  },
+  {
+    "id": 20,
+    "quote": "You know what would be the greatest thing ever? If OJ's book, 'If I Did It', was ever entered into evidence.",
+    "source": "Conan",
+    "category": "on-current-events",
+    "year": null
+  }
+]
