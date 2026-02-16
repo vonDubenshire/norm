@@ -79,3 +79,11 @@ Features:
 
 All functionality is implemented with vanilla HTML, CSS, and JavaScript so the
 page can be served statically without additional build tooling.
+
+## Articles link corpus
+
+A dedicated links corpus for future article ingestion now lives in:
+
+- `articles/ARTICLE COMPILATION COLLECTION - MASSIVE NORM STORIES.txt`
+
+See `articles/CLAUDE_NOTE.md` for guidance intended specifically for Claude Code and other coding agents.
