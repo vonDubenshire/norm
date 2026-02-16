@@ -1,686 +1,1766 @@
 [
   {
-    "id": 0,
-    "joke": "9/11.",
-    "episode": "",
-    "guest": "",
-    "url": "",
-    "time": "",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 1,
-    "joke": "We all know that the Swiss are officially neutral. Unofficially, however, they're filthy sons of bitches.",
-    "episode": "NML S01E01",
-    "guest": "Super Dave Osborne",
-    "url": "E5eIJ5Ev_u4",
-    "time": "49m44s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 2,
-    "joke": "Remember the old days when 'tweeting' meant stabbing a hooker?",
-    "episode": "NML S01E01",
-    "guest": "Super Dave Osborne",
-    "url": "E5eIJ5Ev_u4",
-    "time": "50m12s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 3,
-    "joke": "Why is there an app for everything, except how to rape a baby?",
-    "episode": "NML S01E01",
-    "guest": "Super Dave Osborne",
-    "url": "E5eIJ5Ev_u4",
-    "time": "50m23s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 4,
-    "joke": "Some gold-plated chains would make a nice retirement gift for a very, very good slave.",
-    "episode": "NML S01E01",
-    "guest": "Super Dave Osborne",
-    "url": "E5eIJ5Ev_u4",
-    "time": "50m34s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 5,
-    "joke": "I can prove God exists! If I could just find that damn receipt from our brunch in heaven...",
-    "episode": "NML S01E01",
-    "guest": "Super Dave Osborne",
-    "url": "E5eIJ5Ev_u4",
-    "time": "51m12s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 6,
-    "joke": "We could nip 'March Madness' in the bud if we watch for the warning signs of 'Brooding Anti-social February Fever'",
-    "episode": "NML S01E01",
-    "guest": "Super Dave Osborne",
-    "url": "E5eIJ5Ev_u4",
-    "time": "51m27s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 7,
-    "joke": "This Lindsay Lohan can't swim a stroke but she sure knows every dive in town.",
-    "episode": "NML S01E01",
-    "guest": "Super Dave Osborne",
-    "url": "E5eIJ5Ev_u4",
-    "time": "51m55s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 8,
-    "joke": "Call me an old softie, but I'd prefer if you call me a distinguished gentleman with a flagging erection.",
-    "episode": "NML S01E01",
-    "guest": "Super Dave Osborne",
-    "url": "E5eIJ5Ev_u4",
-    "time": "52m13s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 9,
-    "joke": "I remember back when the 'Harlem Shake' was just a black fella holding me upside down off of a fire escape trying to collect his money!",
-    "episode": "NML S01E01",
-    "guest": "Super Dave Osborne",
-    "url": "E5eIJ5Ev_u4",
-    "time": "52m33s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 10,
-    "joke": "Sure junkyard dogs are mean, but the meanest dogs are generally found guarding concentration camps.\n\nNote: Early versions of Jim Croce's 1973 smash hit 'Big Bad Leeroy Brown' included the line \"meaner than a concentration camp dog\" but Croce decided it was unpleasant to the ear.\n\nAnd it was also offensive to Jews, gypsies and homosexuals. Little did it matter, Croce would be dead within the year.",
-    "episode": "NML S01E01",
-    "guest": "Super Dave Osborne",
-    "url": "E5eIJ5Ev_u4",
-    "time": "53m0s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 11,
-    "joke": "'Deep Throat' porn legend Harry Reems died.\n\nHow are they going to close that casket?!",
-    "episode": "NML S01E01",
-    "guest": "Super Dave Osborne",
-    "url": "E5eIJ5Ev_u4",
-    "time": "56m11s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 12,
-    "joke": "Alfred the Great may well be the greatest monarch in the history of England.\n\nThe worst?\n\nRichard the Goat Fucker!",
-    "episode": "NML S01E01",
-    "guest": "Super Dave Osborne",
-    "url": "E5eIJ5Ev_u4",
-    "time": "57m42s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 13,
-    "joke": "Hank Williams Jr. called President Obama a Muslim who \"hates the US\"\n\nIn response, President Obama said, \"Why would I hate the US? You guys made me President and I wasn't even born here!\"",
-    "episode": "NML S01E01",
-    "guest": "Super Dave Osborne",
-    "url": "E5eIJ5Ev_u4",
-    "time": "49m49s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 14,
-    "joke": "This Easter Sunday, Snoop Dogg gets to say \"Christ is Rizzisen\"",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "41m15s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 15,
-    "joke": "We wear new clothes on Easter to represent Christ's triumphant appearance to the stunned Apostles in a sharp 2-button blazer by Hugo Boss.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "41m30s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 16,
-    "joke": "The guy who did the voice of Charlie Brown was arrested for stalking his girlfriend this week.\n\nHe also said the next time Lucy grabs away the football, he's going to \"cut that bitch\".",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "41m46s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 17,
-    "joke": "President Obama continues to shamelessly wage class warfare.\n\nToday he announced a steep new tax on shiny top hats.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "42m05s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 18,
-    "joke": "Some folks say what this country needs is a good five cent cigar. I'm guessing they're opposing Obamacare.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "42m23s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 19,
-    "joke": "I don't know if this counts as an NCAA Cinderella story, but one of the marquette players said he had help making his uniform from a bunch of singing mice and birds.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "42m39s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 20,
-    "joke": "I read a story about a 17 year old kid who stole a plane, crashed it, and survived.\n\nWhy don't we make the whole plane out of that kid?",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "43m06s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 21,
-    "joke": "Warning to the Easter bunny: Don't put all your eggs in one basket, fella!",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "43m26s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 22,
-    "joke": "They say the world's a smaller place than it used to be, but I think that's an optical illusion, based on me becoming a big fat guy.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "43m39s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 23,
-    "joke": "Growing up, I never would have believed that one day I'd need a computer just to masturbate.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "43m52s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 24,
-    "joke": "Jon Hamm has a big dick. I could have told you that, but I don't suck and tell!",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "44m36s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 25,
-    "joke": "Swedish Bond girl Britt Ekland told Piers Morgan this week that she was seduced by Warren Beatty after the legendary lothario took her to an X-rated movie for their first date.\n\nThis is what I have to say about that: \"Hey Warren, stop stealing my moves!\"",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "44m53s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 26,
-    "joke": "Thomas Edison invented the lightbulb, but I invented the lightbulb up my ass.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "45m21s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 27,
-    "joke": "Octomom is facing jail time for committing welfare fraud. Who didn't see that one coming. I mean seriously, a single mother of eight!",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "45m40s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 28,
-    "joke": "I am not a big fan of videogames where you cannot kill a prostitute.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "45m56s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 29,
-    "joke": "The thing I miss most about the 70's is rolling a number and giving my old lady some head.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "46m54s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 30,
-    "joke": "Celebrating April 1st birthdays, Russian pianist Sergei Rachmaninoff, who was born on this day in 1872, rapper Method Man is 41, Debbie Reynolds turns 80 today, Rachel Maddow is 39, and former German Chancellor Helmut Schmidt would have been 95 today.\n\nApril Fools! Former German Chancellor Helmut Schmidt is alive and well!",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "47m11s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 31,
-    "joke": "I love Lou Gehrig, but I'm not going to stand up in front of a million people and brag that I'm the luckiest man in the world because some doctors named a disease after me.\n\nConfidence is one thing, but arrogance is the worst disease of them all.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "47m54s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 32,
-    "joke": "One day in the hopefully not-too-distant future, North Korean dictator Kim Jong Un is going to hear a loud popping sound. The sound of his head coming out of his own ass!",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "48m15s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 33,
-    "joke": "A Miami Florida pimp is in custody after forcing a 13 year old prostitute to have his name tattooed on her eyelids when she threatened to run away from him. Roman Thomas III faces charges of human trafficking, false imprisonment, lewd and lascivious exhibition, and delivery of a controlled substance to a child. Y'know, I know the scriptures say \"judge not lest ye be judged\" but I'm just going to come right out and say it. This 'Roman Thomas III guy'... this guy's a real jerk!",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "48m33s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 34,
-    "joke": "I used to think revenge was a dish best served cold, but then I realized it meant 'getting back at somebody'.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "49m20s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 35,
-    "joke": "Hey, news media, leave Kim Kardashian alone, will you? She's pregnant! Of course she's going to gain weight, and if anyone knows about rapid weight gain it's me. I went to see the doctor about it and he told me to open my mouth and say OINK!",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "50m24s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 36,
-    "joke": "I think enough time has passed since 1947 where I can safely admit it.\n\nI wish I was the guy that finally wiped the annoying smirk off the Black Dahlia's face.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "50m53s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 37,
-    "joke": "Music is the universal language, but one day soon it will be replaced by Chinese.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "51m41s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 38,
-    "joke": "I feel the same way about slaves as I do about shirts with flame patterns on them. I don't want to be friends with anyone who owns either of them.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "51m48s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 39,
-    "joke": "Mickey Mantle knew two things, drinking, and playing drunk baseball.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "52m08s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 40,
-    "joke": "Why doesn't Applebee's call their appetizers appletizers? And why doesn't that waitress I met at TGI Fridays ever call me back?",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "52m24s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 41,
-    "joke": "This administration is cutting back drastically on military spending but doesn't think defense capabilities will be compromised? How so? I'll tell you how so! Groupons!\n\nRemember Groupons?",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "52m38s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 42,
-    "joke": "A worldwide scientific study confirms a long held suspicion; no one anywhere likes drum circles.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "52m58s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 43,
-    "joke": "Justin Bieber's monkey has been quarantined, which reminds us how far we've come since headlines about Pearl Harbor and D-Day.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "53m24s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 44,
-    "joke": "In the coffee shop line today I hear the guy behind me say \"I like to start by biting the ears off\" and I had to pray \"Please God, let him be talking about a chocolate Easter bunny!\"",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "53m42s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 45,
-    "joke": "Earlier this week Aaron Jackson of Topeka, Kansas painted his house the colors of the gay pride rainbow flag in direct protest of the Westboro Baptist Church. When that didn't seem to work, Jackson fucked three of his best buds on his front lawn.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "54m15s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 46,
-    "joke": "Chipotle has cancelled its planned sponsorship of the Utah Boy Scout event due to the BSA's ban on gay leaders and scouts. Ironic how an all male anti-gay organization would want to put hot thick loads of beef and sour cream in their mouth.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "55m0s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 47,
-    "joke": "Former Tennessee Titans cheerleader Elizabeth Leigh Garner, 42 is accused of pulling a 12 year old boy pants off and offering him oral sex. The boy refused her advances, not because he was 12 but because he was a diehard Colts fan.",
-    "episode": "NML S01E02",
-    "guest": "Tom Green",
-    "url": "N6g5fncB-LI",
-    "time": "55m24s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 48,
-    "joke": "Albert Fish was born May 19th in New York City in 1870. He was known as 'The Gray Man' and 'The Werewolf of Wisteria'. He was a serial killer who slayed children and ate them. When police asked a woman to describe him she said he was \"gray in both appearance and demeanour\". The child rapist and cannibal Fish boasted that he had children in every state. He only chose victims who were either mentally handicapped or African American. Fish tortured, mutilated and murdered the youngsters with a meat cleaver, a butcher's knife and a small handsaw, solidifying his reputation as the most vicious child slayer in criminal history. Though barely literate, Fish wrote taunting letters to the parents of his victims gruesomely detailing how he slayed, butchered, cooked and then with great enjoyment dined on their offspring. He would inevitably declare that a child's roasted rump was the most toothsome dish in all gastronomy. Additionally, Fish was a masochist and would insert wool doused with lighter fluid into his own anus and set it alight for his own enjoyment. Fish was finally arrested and he immediately began confessing to killing 700 children. He was dizzyingly happy, smiling as he described the grisly details of the tortures and the murders appearing to the detectives 'as the devil himself'... I mean this guy was a real jerk!",
-    "episode": "NML S01E03",
-    "guest": "Fred Stoller",
-    "url": "",
-    "time": "1h6m46s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 49,
-    "joke": "The obituaries are concerning me because people are dying in alphabetical order.",
-    "episode": "NML S01E03",
-    "guest": "Fred Stoller",
-    "url": "",
-    "time": "1h6m32s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 50,
-    "joke": "Former pornstar Jenna Jameson was arrested this weekend after allegedly assaulting someone. This may be the most damaging thing to happen to her image since her 16 year career in pornography.",
-    "episode": "NML S01E03",
-    "guest": "Fred Stoller",
-    "url": "",
-    "time": "1h12m17s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 51,
-    "joke": "Why did the moron throw the clock out the window?\n\nBecause it reminded him of Richard Clock - the man convicted of knife-raping his wife.",
-    "episode": "NML S01E03",
-    "guest": "Fred Stoller",
-    "url": "",
-    "time": "1h12m32s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 52,
-    "joke": "Veterinarians in Colorado have reported that marijuana use is on the rise among dogs. They say you will know if your dog is too high if it starts making a really tall sandwich.",
-    "episode": "NML S01E03",
-    "guest": "Fred Stoller",
-    "url": "",
-    "time": "1h12m53s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 53,
-    "joke": "My doctor told me I should start juicing. The problem is I don't think he meant <u>ham</u> juice.",
-    "episode": "NML S01E03",
-    "guest": "Fred Stoller",
-    "url": "",
-    "time": "1h13m08s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 54,
-    "joke": "I'm so fat that when I get my shoes shined I have to take the bootblack's word for it!",
-    "episode": "NML S01E03",
-    "guest": "Fred Stoller",
-    "url": "",
-    "time": "1h13m30s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 55,
-    "joke": "Porn actor Ron Jeremy is back at work after having open-heart surgery. The name of his next feature is called 'I'm Going to Have to Sit Down for Most of This'",
-    "episode": "NML S01E03",
-    "guest": "Fred Stoller",
-    "url": "",
-    "time": "1h13m46s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 56,
-    "joke": "Dance like no one is watching.\n\nSing like no one is listening.\n\nLove like you've never been hurt.\n\nAnd fuck like a goddamn retard.",
-    "episode": "NML S01E03",
-    "guest": "Fred Stoller",
-    "url": "",
-    "time": "1h14m09s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 57,
-    "joke": "How many Polish guys does it take to screw in a lightbulb.\n\nThe question can not be answered because Polish people are so fucking stupid that no matter how many of them are available none of them would ever be able to complete that simple task.",
-    "episode": "NML S01E03",
-    "guest": "Fred Stoller",
-    "url": "",
-    "time": "1h14m26s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 58,
-    "joke": "How many comedians does it take to screw in a lightbulb?\n\nTwo. One to do it, and the other to go \"How long's he been up there?\"",
-    "episode": "NML S01E03",
-    "guest": "Fred Stoller",
-    "url": "",
-    "time": "1h14m43s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 59,
-    "joke": "My brother-in-law is so stupid, he came up with a bucket list.\n\nKnow what the first thing on his bucket list was? Committing suicide.",
-    "episode": "NML S01E03",
-    "guest": "Fred Stoller",
-    "url": "",
-    "time": "1h14m55s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 60,
-    "joke": "Have you heard about the four NFL players that are coming out of the closet? It's about time I think. I think it's high time. Because isn't it strange that nobody's come out of closet in the entire sport of football? Where there's 2000+ players? So there's a great deal of speculation on who those four openly gay players will be. Nobody knows.\n\nMy guess is it's those four that are always sucking each others cocks.",
-    "episode": "NML S01E03",
-    "guest": "Fred Stoller",
-    "url": "",
-    "time": "1h15m41s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 61,
-    "joke": "Because of droughts all over Europe, scientists are predicting a global shortage of olive oil.\n\nSoon the world will know how Popeye felt after the death of his wife.",
-    "episode": "NML S01E03",
-    "guest": "Fred Stoller",
-    "url": "",
-    "time": "1h18m36s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 62,
-    "joke": "It takes forever to get a pilot's license, but it only takes a couple of minutes to steal a pilot's jacket and hat.",
-    "episode": "NML S01E03",
-    "guest": "Fred Stoller",
-    "url": "",
-    "time": "1h19m11s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 63,
-    "joke": "Barbara Walters is planning to announce her retirement, what's next for Babs?\n\nDeath.",
-    "episode": "NML S01E03",
-    "guest": "Fred Stoller",
-    "url": "",
-    "time": "1h20m31s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 64,
-    "joke": "I think there's nothing cooler than being a lone wolf. Except at wolf-picnics when you don't have a partner for the wolf-wheelbarrow races.",
-    "episode": "NML S01E05",
-    "guest": "Billy Bob Thornton",
-    "url": "JevTVHJFWPQ",
-    "time": "1h4m57s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 65,
-    "joke": "The Octomom has reportedly been evicted from her California home. The mother of 14 children packed up and left her property in Palmdale after being asked to leave for not paying her rent for the month of April. The single parent whose real name is Nadya Suleman exited leaving a huge mess and the stench of urine inside the pad. Wait, it says here the urine has been traced back to Adam Eget.",
-    "episode": "NML S01E05",
-    "guest": "Billy Bob Thornton",
-    "url": "JevTVHJFWPQ",
-    "time": "1h5m9s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 66,
-    "joke": "Call me crazy, but I take orders from Martians who send secret messages beamed out from the antenna at the top of the Empire State Building.",
-    "episode": "NML S01E05",
-    "guest": "Billy Bob Thornton",
-    "url": "JevTVHJFWPQ",
-    "time": "1h5m37s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 67,
-    "joke": "A Georgia high school is planning to merge their formerly all black and all white proms into a single event. The theme of this June's dance? 'An Evening of Unbridled Race War'",
-    "episode": "NML S01E05",
-    "guest": "Billy Bob Thornton",
-    "url": "JevTVHJFWPQ",
-    "time": "1h5m54s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 68,
-    "joke": "A Florida man was arrested for stealing a truck filled with $76,000 worth of Campbell's soup.\n\nI, for one, hope this guy goes away for 'Mmm, mmm, good!'",
-    "episode": "NML S01E05",
-    "guest": "Billy Bob Thornton",
-    "url": "JevTVHJFWPQ",
-    "time": "1h6m11s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 69,
-    "joke": "My girlfriend and I have a deal where we have one celebrity that we can sleep with and it's not considered cheating. Mine is that woman who plays Madea.",
-    "episode": "NML S01E05",
-    "guest": "Billy Bob Thornton",
-    "url": "JevTVHJFWPQ",
-    "time": "1h6m26s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 70,
-    "joke": "In Kansas, a gay-rights activist named Aaron Jackson paid $83,000 to buy a house across from the homophobic Westboro Baptist Church and had it painted rainbow colours. Mr. Jackson plans to recoup his investment by... well, actually there's no plan. Have fun living in a hideous house in Kansas across from some vicious bigots!",
-    "episode": "NML S01E05",
-    "guest": "Billy Bob Thornton",
-    "url": "JevTVHJFWPQ",
-    "time": "1h7m0s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 71,
-    "joke": "Its Earth Day!\n\nThe one day of the year where you can jerk off outside and nothing bad can happen!\n\n(I don't know what Earth Day is)",
-    "episode": "NML S01E05",
-    "guest": "Billy Bob Thornton",
-    "url": "JevTVHJFWPQ",
-    "time": "1h7m26s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 72,
-    "joke": "A new study shows that most men can identify a gay man by his face alone.\n\nIt's the face that's buried in another man's asshole.",
-    "episode": "NML S01E05",
-    "guest": "Billy Bob Thornton",
-    "url": "JevTVHJFWPQ",
-    "time": "1h7m56s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 73,
-    "joke": "Apparently someone in Germany stole 5 metric tons of Nutella. Police haven't arrested anyone yet but they are questioning GÃ¼nther Hasbargen, the 700 pound man that smells like chocolate and hazelnuts who guards the Nutella storage facility.",
-    "episode": "NML S01E06",
-    "guest": "Larry King",
-    "url": "ZpKgXcDNuo4",
-    "time": "39m19s",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 74,
-    "joke": "I love the movie '42'. It's Chadwick Boseman like you've never seen him befo",
-    "episode": "",
-    "guest": "",
-    "url": "",
-    "time": "",
-    "source": "Norm Macdonald Live"
-  },
-  {
-    "id": 75,
     "joke": "(Content truncated due to size limit. Use page ranges or line ranges to read remaining content)",
     "episode": "",
     "guest": "",
     "url": "",
     "time": "",
-    "source": "Norm Macdonald Live"
+    "source": "Norm Macdonald Live",
+    "id": 0
+  },
+  {
+    "joke": "9/11.",
+    "episode": "",
+    "guest": "",
+    "url": "",
+    "time": "",
+    "source": "Norm Macdonald Live",
+    "id": 1
+  },
+  {
+    "joke": "I love the movie '42'. It's Chadwick Boseman like you've never seen him befo",
+    "episode": "",
+    "guest": "",
+    "url": "",
+    "time": "",
+    "source": "Norm Macdonald Live",
+    "id": 2
+  },
+  {
+    "joke": "A Florida man was arrested for stealing a truck filled with $76,000 worth of Campbell's soup. I, for one, hope this guy goes away for 'Mmm, mmm, good!'",
+    "episode": "NML S01E05",
+    "guest": "Billy Bob Thornton",
+    "url": "JevTVHJFWPQ",
+    "time": "1h6m11s",
+    "source": "Norm Macdonald Live",
+    "id": 3
+  },
+  {
+    "joke": "A Florida man was arrested for stealing a truck filled with $76,000 worth of Campbell's soup.</p> <p>I, for one, hope this guy goes away for <i>'Mmm, mmm, good!'</i>",
+    "episode": "NML S01E05",
+    "guest": "Billy Bob Thornton",
+    "url": "JevTVHJFWPQ",
+    "time": "1h6m11s",
+    "source": "FullNormJokes.csv",
+    "id": 4
+  },
+  {
+    "joke": "A Georgia high school is planning to merge their formerly all black and all white proms into a single event. The theme of this June's dance? 'An Evening of Unbridled Race War'",
+    "episode": "NML S01E05",
+    "guest": "Billy Bob Thornton",
+    "url": "JevTVHJFWPQ",
+    "time": "1h5m54s",
+    "source": "Norm Macdonald Live",
+    "id": 5
+  },
+  {
+    "joke": "A new study shows that most men can identify a gay man by his face alone. It's the face that's buried in another man's asshole.",
+    "episode": "NML S01E05",
+    "guest": "Billy Bob Thornton",
+    "url": "JevTVHJFWPQ",
+    "time": "1h7m56s",
+    "source": "Norm Macdonald Live",
+    "id": 6
+  },
+  {
+    "joke": "A new study shows that most men can identify a gay man by his face alone.</p> <p>It's the face that's buried in another man's asshole.",
+    "episode": "NML S01E05",
+    "guest": "Billy Bob Thornton",
+    "url": "JevTVHJFWPQ",
+    "time": "1h7m56s",
+    "source": "FullNormJokes.csv",
+    "id": 7
+  },
+  {
+    "joke": "Call me crazy, but I take orders from Martians who send secret messages beamed out from the antenna at the top of the Empire State Building.",
+    "episode": "NML S01E05",
+    "guest": "Billy Bob Thornton",
+    "url": "JevTVHJFWPQ",
+    "time": "1h5m37s",
+    "source": "Norm Macdonald Live",
+    "id": 8
+  },
+  {
+    "joke": "I think there's nothing cooler than being a lone wolf. Except at wolf-picnics when you don't have a partner for the wolf-wheelbarrow races.",
+    "episode": "NML S01E05",
+    "guest": "Billy Bob Thornton",
+    "url": "JevTVHJFWPQ",
+    "time": "1h4m57s",
+    "source": "Norm Macdonald Live",
+    "id": 9
+  },
+  {
+    "joke": "In Kansas, a gay-rights activist named Aaron Jackson paid $83,000 to buy a house across from the homophobic Westboro Baptist Church and had it painted rainbow colours. Mr. Jackson plans to recoup his investment by... well, actually there's no plan. Have fun living in a hideous house in Kansas across from some vicious bigots!",
+    "episode": "NML S01E05",
+    "guest": "Billy Bob Thornton",
+    "url": "JevTVHJFWPQ",
+    "time": "1h7m0s",
+    "source": "Norm Macdonald Live",
+    "id": 10
+  },
+  {
+    "joke": "Its Earth Day! The one day of the year where you can jerk off outside and nothing bad can happen! (I don't know what Earth Day is)",
+    "episode": "NML S01E05",
+    "guest": "Billy Bob Thornton",
+    "url": "JevTVHJFWPQ",
+    "time": "1h7m26s",
+    "source": "Norm Macdonald Live",
+    "id": 11
+  },
+  {
+    "joke": "Its Earth Day!</p> <p>The one day of the year where you can jerk off outside and nothing bad can happen!</p> <p>(I don't know what Earth Day is)",
+    "episode": "NML S01E05",
+    "guest": "Billy Bob Thornton",
+    "url": "JevTVHJFWPQ",
+    "time": "1h7m26s",
+    "source": "FullNormJokes.csv",
+    "id": 12
+  },
+  {
+    "joke": "My girlfriend and I have a deal where we have one celebrity that we can sleep with and it's not considered cheating. Mine is that woman who plays Madea.",
+    "episode": "NML S01E05",
+    "guest": "Billy Bob Thornton",
+    "url": "JevTVHJFWPQ",
+    "time": "1h6m26s",
+    "source": "Norm Macdonald Live",
+    "id": 13
+  },
+  {
+    "joke": "The Octomom has reportedly been evicted from her California home. The mother of 14 children packed up and left her property in Palmdale after being asked to leave for not paying her rent for the month of April. The single parent whose real name is Nadya Suleman exited leaving a huge mess and the stench of urine inside the pad. Wait, it says here the urine has been traced back to Adam Eget.",
+    "episode": "NML S01E05",
+    "guest": "Billy Bob Thornton",
+    "url": "JevTVHJFWPQ",
+    "time": "1h5m9s",
+    "source": "Norm Macdonald Live",
+    "id": 14
+  },
+  {
+    "joke": "Albert Fish was born May 19th in New York City in 1870. He was known as 'The Gray Man' and 'The Werewolf of Wisteria'. He was a serial killer who slayed children and ate them. When police asked a woman to describe him she said he was \"gray in both appearance and demeanour\". The child rapist and cannibal Fish boasted that he had children in every state. He only chose victims who were either mentally handicapped or African American. Fish tortured, mutilated and murdered the youngsters with a meat cleaver, a butcher's knife and a small handsaw, solidifying his reputation as the most vicious child slayer in criminal history. Though barely literate, Fish wrote taunting letters to the parents of his victims gruesomely detailing how he slayed, butchered, cooked and then with great enjoyment dined on their offspring. He would inevitably declare that a child's roasted rump was the most toothsome dish in all gastronomy. Additionally, Fish was a masochist and would insert wool doused with lighter fluid into his own anus and set it alight for his own enjoyment. Fish was finally arrested and he immediately began confessing to killing 700 children. He was dizzyingly happy, smiling as he described the grisly details of the tortures and the murders appearing to the detectives 'as the devil himself'... I mean this guy was a real jerk!",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h6m46s",
+    "source": "Norm Macdonald Live",
+    "id": 15
+  },
+  {
+    "joke": "Albert Fish was born May 19th in New York City in 1870. He was known as 'The Gray Man' and 'The Werewolf of Wisteria'. He was a serial killer who slayed children and ate them. When police asked a woman to describe him she said he was \"gray in both appearance and demeanour\". The child rapist and cannibal Fish boasted that he had children in every state. He only chose victims who were either mentally handicapped or African American. Fish tortured, mutilated and murdered the youngsters with a meat cleaver, a butcher's knife and a small handsaw, solidifying his reputation as the most vicious child slayer in criminal history. Though barely literate, Fish wrote taunting letters to the parents of his victims gruesomely detailing how he slayed, butchered, cooked and then with great enjoyment dined on their offspring. He would inevitably declare that a child's roasted rump was the most toothsome dish in all gastronomy. Additionally, Fish was a masochist and would insert wool doused with lighter fluid into his own anus and set it alight for his own enjoyment. Fish was finally arrested and he immediately began confessing to killing 700 children. He was dizzyingly happy, smiling as he described the grisly details of the tortures and the murders appearing to the detectives 'as the devil himself'... <i>I mean this guy was a real jerk!</i>",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h6m46s",
+    "source": "FullNormJokes.csv",
+    "id": 16
+  },
+  {
+    "joke": "Barbara Walters is planning to announce her retirement, what's next for Babs? Death.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h20m31s",
+    "source": "Norm Macdonald Live",
+    "id": 17
+  },
+  {
+    "joke": "Barbara Walters is planning to announce her retirement, what's next for Babs?</p> <p>Death.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h20m31s",
+    "source": "FullNormJokes.csv",
+    "id": 18
+  },
+  {
+    "joke": "Because of droughts all over Europe, scientists are predicting a global shortage of olive oil. Soon the world will know how Popeye felt after the death of his wife.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h18m36s",
+    "source": "Norm Macdonald Live",
+    "id": 19
+  },
+  {
+    "joke": "Because of droughts all over Europe, scientists are predicting a global shortage of olive oil.</p> <p>Soon the world will know how Popeye felt after the death of his wife.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h18m36s",
+    "source": "FullNormJokes.csv",
+    "id": 20
+  },
+  {
+    "joke": "Dance like no one is watching. Sing like no one is listening. Love like you've never been hurt. And fuck like a goddamn retard.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h14m09s",
+    "source": "Norm Macdonald Live",
+    "id": 21
+  },
+  {
+    "joke": "Dance like no one is watching.</p> <p>Sing like no one is listening.</p> <p>Love like you've never been hurt.</p> <p>And fuck like a goddamn retard.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h14m09s",
+    "source": "FullNormJokes.csv",
+    "id": 22
+  },
+  {
+    "joke": "Former pornstar Jenna Jameson was arrested this weekend after allegedly assaulting someone. This may be the most damaging thing to happen to her image since her 16 year career in pornography.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h12m17s",
+    "source": "Norm Macdonald Live",
+    "id": 23
+  },
+  {
+    "joke": "Have you heard about the four NFL players that are coming out of the closet? It's about time I think. I think it's high time. Because isn't it strange that nobody's come out of closet in the entire sport of football? Where there's 2000+ players? So there's a great deal of speculation on who those four openly gay players will be. Nobody knows. My guess is it's those four that are always sucking each others cocks.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h15m41s",
+    "source": "Norm Macdonald Live",
+    "id": 24
+  },
+  {
+    "joke": "Have you heard about the four NFL players that are coming out of the closet? It's about time I think. I think it's high time. Because isn't it strange that nobody's come out of closet in the entire sport of football? Where there's 2000+ players? So there's a great deal of speculation on who those four openly gay players will be. Nobody knows.</p> <p>My guess is it's those four that are always sucking each others cocks.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h15m41s",
+    "source": "FullNormJokes.csv",
+    "id": 25
+  },
+  {
+    "joke": "How many Polish guys does it take to screw in a lightbulb. The question can not be answered because Polish people are so fucking stupid that no matter how many of them are available none of them would ever be able to complete that simple task.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h14m26s",
+    "source": "Norm Macdonald Live",
+    "id": 26
+  },
+  {
+    "joke": "How many Polish guys does it take to screw in a lightbulb.</p> <p>The question can not be answered because Polish people are so fucking stupid that no matter how many of them are available none of them would ever be able to complete that simple task.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h14m26s",
+    "source": "FullNormJokes.csv",
+    "id": 27
+  },
+  {
+    "joke": "How many comedians does it take to screw in a lightbulb? Two. One to do it, and the other to go \"How long's he been up there?",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h14m43s",
+    "source": "Norm Macdonald Live",
+    "id": 28
+  },
+  {
+    "joke": "How many comedians does it take to screw in a lightbulb?</p> <p>Two. One to do it, and the other to go \"How long's he been up there?",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h14m43s",
+    "source": "FullNormJokes.csv",
+    "id": 29
+  },
+  {
+    "joke": "I'm so fat that when I get my shoes shined I have to take the bootblack's word for it!",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h13m30s",
+    "source": "Norm Macdonald Live",
+    "id": 30
+  },
+  {
+    "joke": "It takes forever to get a pilot's license, but it only takes a couple of minutes to steal a pilot's jacket and hat.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h19m11s",
+    "source": "Norm Macdonald Live",
+    "id": 31
+  },
+  {
+    "joke": "My brother-in-law is so stupid, he came up with a bucket list. Know what the first thing on his bucket list was? Committing suicide.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h14m55s",
+    "source": "Norm Macdonald Live",
+    "id": 32
+  },
+  {
+    "joke": "My brother-in-law is so stupid, he came up with a bucket list.</p> <p>Know what the first thing on his bucket list was? Committing suicide.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h14m55s",
+    "source": "FullNormJokes.csv",
+    "id": 33
+  },
+  {
+    "joke": "My doctor told me I should start juicing. The problem is I don't think he meant <u>ham</u> juice.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h13m08s",
+    "source": "Norm Macdonald Live",
+    "id": 34
+  },
+  {
+    "joke": "Porn actor Ron Jeremy is back at work after having open-heart surgery. The name of his next feature is called 'I'm Going to Have to Sit Down for Most of This'",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h13m46s",
+    "source": "Norm Macdonald Live",
+    "id": 35
+  },
+  {
+    "joke": "The obituaries are concerning me because people are dying in alphabetical order.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h6m32s",
+    "source": "Norm Macdonald Live",
+    "id": 36
+  },
+  {
+    "joke": "Veterinarians in Colorado have reported that marijuana use is on the rise among dogs. They say you will know if your dog is too high if it starts making a really tall sandwich.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h12m53s",
+    "source": "Norm Macdonald Live",
+    "id": 37
+  },
+  {
+    "joke": "Why did the moron throw the clock out the window? Because it reminded him of Richard Clock - the man convicted of knife-raping his wife.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h12m32s",
+    "source": "Norm Macdonald Live",
+    "id": 38
+  },
+  {
+    "joke": "Why did the moron throw the clock out the window?</p> <p>Because it reminded him of Richard Clock - the man convicted of knife-raping his wife.",
+    "episode": "NML S01E03",
+    "guest": "Fred Stoller",
+    "url": "",
+    "time": "1h12m32s",
+    "source": "FullNormJokes.csv",
+    "id": 39
+  },
+  {
+    "joke": "A good name for a dog is syndrome. Then when he tries to attack someone you",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 40
+  },
+  {
+    "joke": "A new tabloid rumor 205 pound Kim Kardashian might be getting paid to gain",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 41
+  },
+  {
+    "joke": "Catherine Zeta Jones has been diagnosed with bipolar disorder. Half the time",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 42
+  },
+  {
+    "joke": "Cats and paraplegics have a lot in common. For starters, neither appreciates",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 43
+  },
+  {
+    "joke": "Crews in Ohio dismantled a tavern wall in search of Jimmy Hoffa's body, and",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 44
+  },
+  {
+    "joke": "Despite all the advances in veterinary medicine and racing technology the",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 45
+  },
+  {
+    "joke": "Fast and Furious 6 opens next week. The cast is getting a little older, it’s less fast",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 46
+  },
+  {
+    "joke": "Horses must love that they're the go-to animals when saying a guy has a huge",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 47
+  },
+  {
+    "joke": "I like hotels, they make your bed, make your dinner, send housekeepers",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 48
+  },
+  {
+    "joke": "I once missed a day of Cosmetology school and later I had to make up",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 49
+  },
+  {
+    "joke": "If tampons are called sanitary napkins, how unsanitary must regular napkins be?",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 50
+  },
+  {
+    "joke": "In England a woman was arrested for throwing a birthday party for her 16 year",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 51
+  },
+  {
+    "joke": "In my opinion if we are going to fight the war on terror, a good place to start",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 52
+  },
+  {
+    "joke": "I’ve never gotten a decent explanation as to how Popeye the Sailor Man lost his",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 53
+  },
+  {
+    "joke": "Jah Rule’s taxes are just like his music. No one can remember the last time he",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 54
+  },
+  {
+    "joke": "Movie star and award winning director Ben Affleck has vowed to live one day on",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 55
+  },
+  {
+    "joke": "Recent studies show fish can communicate with each other using s",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 56
+  },
+  {
+    "joke": "Remember the good old days back when MILF stood for Mentally Ill Lady I'd like",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 57
+  },
+  {
+    "joke": "Scientists have found a submerged mass of granite off the coast of south",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 58
+  },
+  {
+    "joke": "The Dalai Lama said that killing in the name of religion is unthinkable.",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 59
+  },
+  {
+    "joke": "The parents of Honeybooboo are getting married this week. I don’t know",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 60
+  },
+  {
+    "joke": "They say there's no people like show people, but now scientists have found that",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 61
+  },
+  {
+    "joke": "Tim Tebow's time in New York wasn't a total loss, he had a monument built to him",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 62
+  },
+  {
+    "joke": "Tomorrow is national secretary's day, I plan on getting my secretary the same",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 63
+  },
+  {
+    "joke": "Yesterday was bring your daughter to work day, which was awkward for",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 64
+  },
+  {
+    "joke": "ZZ Top sang that every girl's crazy bout a sharp dressed man. But you know",
+    "episode": "Norm Macdonald Live",
+    "guest": "Kevin Nealon",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 65
+  },
+  {
+    "joke": "Apparently someone in Germany stole 5 metric tons of Nutella. Police haven't arrested anyone yet but they are questioning GÃ¼nther Hasbargen, the 700 pound man that smells like chocolate and hazelnuts who guards the Nutella storage facility.",
+    "episode": "NML S01E06",
+    "guest": "Larry King",
+    "url": "ZpKgXcDNuo4",
+    "time": "39m19s",
+    "source": "Norm Macdonald Live",
+    "id": 66
+  },
+  {
+    "joke": "'Deep Throat' porn legend Harry Reems died. How are they going to close that casket?!",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "56m11s",
+    "source": "Norm Macdonald Live",
+    "id": 67
+  },
+  {
+    "joke": "'Deep Throat' porn legend Harry Reems died.</p> <p>How are they going to close that casket?!",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "56m11s",
+    "source": "FullNormJokes.csv",
+    "id": 68
+  },
+  {
+    "joke": "Alfred the Great may well be the greatest monarch in the history of England. The worst? Richard the Goat Fucker!",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "57m42s",
+    "source": "Norm Macdonald Live",
+    "id": 69
+  },
+  {
+    "joke": "Alfred the Great may well be the greatest monarch in the history of England.</p> <p>The worst?</p> <p>Richard the Goat Fucker!",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "57m42s",
+    "source": "FullNormJokes.csv",
+    "id": 70
+  },
+  {
+    "joke": "Call me an old softie, but I'd prefer if you call me a distinguished gentleman with a flagging erection.",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "52m13s",
+    "source": "Norm Macdonald Live",
+    "id": 71
+  },
+  {
+    "joke": "Hank Williams Jr. called President Obama a Muslim who \"hates the US\" In response, President Obama said, \"Why would I hate the US? You guys made me President and I wasn't even born here!",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "49m49s",
+    "source": "Norm Macdonald Live",
+    "id": 72
+  },
+  {
+    "joke": "Hank Williams Jr. called President Obama a Muslim who \"hates the US\"</p> <p>In response, President Obama said, \"Why would I hate the US? You guys made me President and I wasn't even born here!",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "49m49s",
+    "source": "FullNormJokes.csv",
+    "id": 73
+  },
+  {
+    "joke": "I can prove God exists! If I could just find that damn receipt from our brunch in heaven...",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "51m12s",
+    "source": "Norm Macdonald Live",
+    "id": 74
+  },
+  {
+    "joke": "I remember back when the 'Harlem Shake' was just a black fella holding me upside down off of a fire escape trying to collect his money!",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "52m33s",
+    "source": "Norm Macdonald Live",
+    "id": 75
+  },
+  {
+    "joke": "Remember the old days when 'tweeting' meant stabbing a hooker?",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "50m12s",
+    "source": "Norm Macdonald Live",
+    "id": 76
+  },
+  {
+    "joke": "Some gold-plated chains would make a nice retirement gift for a very, very good slave.",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "50m34s",
+    "source": "Norm Macdonald Live",
+    "id": 77
+  },
+  {
+    "joke": "Sure junkyard dogs are mean, but the meanest dogs are generally found guarding concentration camps. Note: Early versions of Jim Croce's 1973 smash hit 'Big Bad Leeroy Brown' included the line \"meaner than a concentration camp dog\" but Croce decided it was unpleasant to the ear. And it was also offensive to Jews, gypsies and homosexuals. Little did it matter, Croce would be dead within the year.",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "53m0s",
+    "source": "Norm Macdonald Live",
+    "id": 78
+  },
+  {
+    "joke": "Sure junkyard dogs are mean, but the meanest dogs are generally found guarding concentration camps.</p> <p>Note: Early versions of Jim Croce's 1973 smash hit 'Big Bad Leeroy Brown' included the line \"meaner than a concentration camp dog\" but Croce decided it was unpleasant to the ear.</p> <p>And it was also offensive to Jews, gypsies and homosexuals. Little did it matter, Croce would be dead within the year.",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "53m0s",
+    "source": "FullNormJokes.csv",
+    "id": 79
+  },
+  {
+    "joke": "This Lindsay Lohan can't swim a stroke but she sure knows every dive in town.",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "51m55s",
+    "source": "Norm Macdonald Live",
+    "id": 80
+  },
+  {
+    "joke": "We all know that the Swiss are officially neutral. Unofficially, however, they're filthy sons of bitches.",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "49m44s",
+    "source": "Norm Macdonald Live",
+    "id": 81
+  },
+  {
+    "joke": "We could nip 'March Madness' in the bud if we watch for the warning signs of 'Brooding Anti-social February Fever'",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "51m27s",
+    "source": "Norm Macdonald Live",
+    "id": 82
+  },
+  {
+    "joke": "Why is there an app for everything, except how to rape a baby?",
+    "episode": "NML S01E01",
+    "guest": "Super Dave Osborne",
+    "url": "E5eIJ5Ev_u4",
+    "time": "50m23s",
+    "source": "Norm Macdonald Live",
+    "id": 83
+  },
+  {
+    "joke": "Alfred the great may well be the greatest monarch in the history of England - the",
+    "episode": "Norm Macdonald Live",
+    "guest": "Super Dave Osborne",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 84
+  },
+  {
+    "joke": "Call me an old softie, but I’d prefer if you call me a distinguished gentleman with",
+    "episode": "Norm Macdonald Live",
+    "guest": "Super Dave Osborne",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 85
+  },
+  {
+    "joke": "Deep throat porn legend Harry Reeves died, how are they going to close that",
+    "episode": "Norm Macdonald Live",
+    "guest": "Super Dave Osborne",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 86
+  },
+  {
+    "joke": "I can prove God exists, if I could just find that damn receipt from our brunch in",
+    "episode": "Norm Macdonald Live",
+    "guest": "Super Dave Osborne",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 87
+  },
+  {
+    "joke": "I remember back when the Harlem Shake was just a black fella holding me",
+    "episode": "Norm Macdonald Live",
+    "guest": "Super Dave Osborne",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 88
+  },
+  {
+    "joke": "Some gold plated chains would make a nice retirement gift for a very very good",
+    "episode": "Norm Macdonald Live",
+    "guest": "Super Dave Osborne",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 89
+  },
+  {
+    "joke": "Sure junkyard dogs are mean, but the meanest dogs are generally found",
+    "episode": "Norm Macdonald Live",
+    "guest": "Super Dave Osborne",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 90
+  },
+  {
+    "joke": "We all know that the Swiss are officially neutral, unofficially however, they’re filthy",
+    "episode": "Norm Macdonald Live",
+    "guest": "Super Dave Osborne",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 91
+  },
+  {
+    "joke": "We could nip March madness in the bud if we watch for the warning signs of",
+    "episode": "Norm Macdonald Live",
+    "guest": "Super Dave Osborne",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 92
+  },
+  {
+    "joke": "Well this Lindsay Lohan can’t swim a stroke but she sure knows every dive in",
+    "episode": "Norm Macdonald Live",
+    "guest": "Super Dave Osborne",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 93
+  },
+  {
+    "joke": "A Miami Florida pimp is in custody after forcing a 13 year old prostitute to have his name tattooed on her eyelids when she threatened to run away from him. Roman Thomas III faces charges of human trafficking, false imprisonment, lewd and lascivious exhibition, and delivery of a controlled substance to a child. Y'know, I know the scriptures say \"judge not lest ye be judged\" but I'm just going to come right out and say it. This 'Roman Thomas III guy'... this guy's a real jerk!",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "48m33s",
+    "source": "Norm Macdonald Live",
+    "id": 94
+  },
+  {
+    "joke": "A Miami Florida pimp is in custody after forcing a 13 year old prostitute to have his name tattooed on her eyelids when she threatened to run away from him. Roman Thomas III faces charges of human trafficking, false imprisonment, lewd and lascivious exhibition, and delivery of a controlled substance to a child. Y'know, I know the scriptures say \"judge not lest ye be judged\" but I'm just going to come right out and say it. This 'Roman Thomas III guy'... <i>this guy's a real jerk!</i>",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "48m33s",
+    "source": "FullNormJokes.csv",
+    "id": 95
+  },
+  {
+    "joke": "A worldwide scientific study confirms a long held suspicion; no one anywhere likes drum circles.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "52m58s",
+    "source": "Norm Macdonald Live",
+    "id": 96
+  },
+  {
+    "joke": "Celebrating April 1st birthdays, Russian pianist Sergei Rachmaninoff, who was born on this day in 1872, rapper Method Man is 41, Debbie Reynolds turns 80 today, Rachel Maddow is 39, and former German Chancellor Helmut Schmidt would have been 95 today. April Fools! Former German Chancellor Helmut Schmidt is alive and well!",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "47m11s",
+    "source": "Norm Macdonald Live",
+    "id": 97
+  },
+  {
+    "joke": "Celebrating April 1st birthdays, Russian pianist Sergei Rachmaninoff, who was born on this day in 1872, rapper Method Man is 41, Debbie Reynolds turns 80 today, Rachel Maddow is 39, and former German Chancellor Helmut Schmidt would have been 95 today.</p> <p>April Fools! Former German Chancellor Helmut Schmidt is alive and well!",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "47m11s",
+    "source": "FullNormJokes.csv",
+    "id": 98
+  },
+  {
+    "joke": "Chipotle has cancelled its planned sponsorship of the Utah Boy Scout event due to the BSA's ban on gay leaders and scouts. Ironic how an all male anti-gay organization would want to put hot thick loads of beef and sour cream in their mouth.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "55m0s",
+    "source": "Norm Macdonald Live",
+    "id": 99
+  },
+  {
+    "joke": "Earlier this week Aaron Jackson of Topeka, Kansas painted his house the colors of the gay pride rainbow flag in direct protest of the Westboro Baptist Church. When that didn't seem to work, Jackson fucked three of his best buds on his front lawn.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "54m15s",
+    "source": "Norm Macdonald Live",
+    "id": 100
+  },
+  {
+    "joke": "Former Tennessee Titans cheerleader Elizabeth Leigh Garner, 42 is accused of pulling a 12 year old boy pants off and offering him oral sex. The boy refused her advances, not because he was 12 but because he was a diehard Colts fan.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "55m24s",
+    "source": "Norm Macdonald Live",
+    "id": 101
+  },
+  {
+    "joke": "Growing up, I never would have believed that one day I'd need a computer just to masturbate.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "43m52s",
+    "source": "Norm Macdonald Live",
+    "id": 102
+  },
+  {
+    "joke": "Hey, news media, leave Kim Kardashian alone, will you? She's pregnant! Of course she's going to gain weight, and if anyone knows about rapid weight gain it's me. I went to see the doctor about it and he told me to open my mouth and say OINK!",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "50m24s",
+    "source": "Norm Macdonald Live",
+    "id": 103
+  },
+  {
+    "joke": "I am not a big fan of videogames where you <i>cannot</i> kill a prostitute.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "45m56s",
+    "source": "FullNormJokes.csv",
+    "id": 104
+  },
+  {
+    "joke": "I am not a big fan of videogames where you cannot kill a prostitute.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "45m56s",
+    "source": "Norm Macdonald Live",
+    "id": 105
+  },
+  {
+    "joke": "I don't know if this counts as an NCAA Cinderella story, but one of the marquette players said he had help making his uniform from a bunch of singing mice and birds.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "42m39s",
+    "source": "Norm Macdonald Live",
+    "id": 106
+  },
+  {
+    "joke": "I feel the same way about slaves as I do about shirts with flame patterns on them. I don't want to be friends with anyone who owns either of them.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "51m48s",
+    "source": "Norm Macdonald Live",
+    "id": 107
+  },
+  {
+    "joke": "I love Lou Gehrig, but I'm not going to stand up in front of a million people and brag that I'm the luckiest man in the world because some doctors named a disease after me. Confidence is one thing, but arrogance is the worst disease of them all.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "47m54s",
+    "source": "Norm Macdonald Live",
+    "id": 108
+  },
+  {
+    "joke": "I love Lou Gehrig, but I'm not going to stand up in front of a million people and brag that I'm the luckiest man in the world because some doctors named a disease after me.</p> <p>Confidence is one thing, but arrogance is the worst disease of them all.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "47m54s",
+    "source": "FullNormJokes.csv",
+    "id": 109
+  },
+  {
+    "joke": "I read a story about a 17 year old kid who stole a plane, crashed it, and survived. Why don't we make the whole plane out of that kid?",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "43m06s",
+    "source": "Norm Macdonald Live",
+    "id": 110
+  },
+  {
+    "joke": "I read a story about a 17 year old kid who stole a plane, crashed it, and survived.</p> <p>Why don't we make the whole plane out of that kid?",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "43m06s",
+    "source": "FullNormJokes.csv",
+    "id": 111
+  },
+  {
+    "joke": "I think enough time has passed since 1947 where I can safely admit it. I wish I was the guy that finally wiped the annoying smirk off the Black Dahlia's face.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "50m53s",
+    "source": "Norm Macdonald Live",
+    "id": 112
+  },
+  {
+    "joke": "I think enough time has passed since 1947 where I can safely admit it.</p> <p>I wish <i>I</i> was the guy that finally wiped the annoying smirk off the Black Dahlia's face.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "50m53s",
+    "source": "FullNormJokes.csv",
+    "id": 113
+  },
+  {
+    "joke": "I used to think revenge was a dish best served cold, but then I realized it meant 'getting back at somebody'.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "49m20s",
+    "source": "Norm Macdonald Live",
+    "id": 114
+  },
+  {
+    "joke": "In the coffee shop line today I hear the guy behind me say \"I like to start by biting the ears off\" and I had to pray \"Please God, let him be talking about a chocolate Easter bunny!",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "53m42s",
+    "source": "Norm Macdonald Live",
+    "id": 115
+  },
+  {
+    "joke": "Jon Hamm has a big dick. I could have told you that, but I don't suck and tell!",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "44m36s",
+    "source": "Norm Macdonald Live",
+    "id": 116
+  },
+  {
+    "joke": "Justin Bieber's monkey has been quarantined, which reminds us how far we've come since headlines about Pearl Harbor and D-Day.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "53m24s",
+    "source": "Norm Macdonald Live",
+    "id": 117
+  },
+  {
+    "joke": "Mickey Mantle knew two things, drinking, and playing drunk baseball.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "52m08s",
+    "source": "Norm Macdonald Live",
+    "id": 118
+  },
+  {
+    "joke": "Music is the universal language, but one day soon it will be replaced by Chinese.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "51m41s",
+    "source": "Norm Macdonald Live",
+    "id": 119
+  },
+  {
+    "joke": "Octomom is facing jail time for committing welfare fraud. Who didn't see that one coming. I mean seriously, a single mother of eight!",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "45m40s",
+    "source": "Norm Macdonald Live",
+    "id": 120
+  },
+  {
+    "joke": "One day in the hopefully not-too-distant future, North Korean dictator Kim Jong Un is going to hear a loud popping sound. The sound of his head coming out of his own ass!",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "48m15s",
+    "source": "Norm Macdonald Live",
+    "id": 121
+  },
+  {
+    "joke": "President Obama continues to shamelessly wage class warfare. Today he announced a steep new tax on shiny top hats.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "42m05s",
+    "source": "Norm Macdonald Live",
+    "id": 122
+  },
+  {
+    "joke": "President Obama continues to shamelessly wage class warfare.</p> <p>Today he announced a steep new tax on shiny top hats.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "42m05s",
+    "source": "FullNormJokes.csv",
+    "id": 123
+  },
+  {
+    "joke": "Some folks say what this country needs is a good five cent cigar. I'm guessing they're opposing Obamacare.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "42m23s",
+    "source": "Norm Macdonald Live",
+    "id": 124
+  },
+  {
+    "joke": "Swedish Bond girl Britt Ekland told Piers Morgan this week that she was seduced by Warren Beatty after the legendary lothario took her to an X-rated movie for their first date. This is what I have to say about that: \"Hey Warren, stop stealing my moves!",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "44m53s",
+    "source": "Norm Macdonald Live",
+    "id": 125
+  },
+  {
+    "joke": "Swedish Bond girl Britt Ekland told Piers Morgan this week that she was seduced by Warren Beatty after the legendary lothario took her to an X-rated movie for their first date.</p> <p>This is what I have to say about that: \"Hey Warren, stop stealing my moves!",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "44m53s",
+    "source": "FullNormJokes.csv",
+    "id": 126
+  },
+  {
+    "joke": "The guy who did the voice of Charlie Brown was arrested for stalking his girlfriend this week. He also said the next time Lucy grabs away the football, he's going to \"cut that bitch\".",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "41m46s",
+    "source": "Norm Macdonald Live",
+    "id": 127
+  },
+  {
+    "joke": "The guy who did the voice of Charlie Brown was arrested for stalking his girlfriend this week.</p> <p>He also said the next time Lucy grabs away the football, he's going to \"cut that bitch\".",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "41m46s",
+    "source": "FullNormJokes.csv",
+    "id": 128
+  },
+  {
+    "joke": "The thing I miss most about the 70's is rolling a number and giving my old lady some head.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "46m54s",
+    "source": "Norm Macdonald Live",
+    "id": 129
+  },
+  {
+    "joke": "They say the world's a smaller place than it used to be, but I think that's an optical illusion, based on me becoming a big fat guy.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "43m39s",
+    "source": "Norm Macdonald Live",
+    "id": 130
+  },
+  {
+    "joke": "This Easter Sunday, Snoop Dogg gets to say \"Christ is Rizzisen",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "41m15s",
+    "source": "Norm Macdonald Live",
+    "id": 131
+  },
+  {
+    "joke": "This administration is cutting back drastically on military spending but doesn't think defense capabilities will be compromised? How so? I'll tell you how so! Groupons! Remember Groupons?",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "52m38s",
+    "source": "Norm Macdonald Live",
+    "id": 132
+  },
+  {
+    "joke": "This administration is cutting back drastically on military spending but doesn't think defense capabilities will be compromised? How so? <i>I'll tell you how so!</i> Groupons!</p> <p>Remember Groupons?",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "52m38s",
+    "source": "FullNormJokes.csv",
+    "id": 133
+  },
+  {
+    "joke": "Thomas Edison invented the lightbulb, but I invented the lightbulb up my ass.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "45m21s",
+    "source": "Norm Macdonald Live",
+    "id": 134
+  },
+  {
+    "joke": "Warning to the Easter bunny: Don't put all your eggs in one basket, fella!",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "43m26s",
+    "source": "Norm Macdonald Live",
+    "id": 135
+  },
+  {
+    "joke": "We wear new clothes on Easter to represent Christ's triumphant appearance to the stunned Apostles in a sharp 2-button blazer by Hugo Boss.",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "41m30s",
+    "source": "Norm Macdonald Live",
+    "id": 136
+  },
+  {
+    "joke": "Why doesn't Applebee's call their appetizers appletizers? And why doesn't that waitress I met at TGI Fridays ever call me back?",
+    "episode": "NML S01E02",
+    "guest": "Tom Green",
+    "url": "N6g5fncB-LI",
+    "time": "52m24s",
+    "source": "Norm Macdonald Live",
+    "id": 137
+  },
+  {
+    "joke": "A Georgia high school is planning to merge their formerly all black and all white",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 138
+  },
+  {
+    "joke": "A Miami Florida pimp is in custody after forcing a 13 year old prostitute to have",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 139
+  },
+  {
+    "joke": "A florida man was arrested for stealing $76,000 worth of campbell's soup. I for",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 140
+  },
+  {
+    "joke": "A new study shows that most men can identify a gay man by his face alone. It’s",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 141
+  },
+  {
+    "joke": "A world wide scientific study confirms a long held suspicion; no one anywhere",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 142
+  },
+  {
+    "joke": "Amanda Bynes is a lush blonde who’s quickly turning into a blonde lush.",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 143
+  },
+  {
+    "joke": "Apparently someone in germany stole 5 metric tons of nutella. Police haven’t",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 144
+  },
+  {
+    "joke": "Because of droughts all over Europe, scientists are predicting a global shortage",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 145
+  },
+  {
+    "joke": "Call me crazy, but I take orders from martians who send secret message beamed",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 146
+  },
+  {
+    "joke": "Celebrating April 1st birthdays, Russian pianist Sergei Romanov, who was born",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 147
+  },
+  {
+    "joke": "Chipotle has canceled its planned sponsorship of the Utah Boy Scout event due",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 148
+  },
+  {
+    "joke": "College Freshman Scott Dameron set a new world record by using his head to",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 149
+  },
+  {
+    "joke": "Dance like nobody's watching. Sing like nobody's listening. Love like you’ve",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 150
+  },
+  {
+    "joke": "Earlier this week Aaron Jackson of Topeka Kansas painted his house the colors",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 151
+  },
+  {
+    "joke": "Former Tennessee Titans cheerleader Elizabeth Leigh Garner is accused of",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 152
+  },
+  {
+    "joke": "Former pornstar Jenna Jameson was arrested this weekend after allegedly",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 153
+  },
+  {
+    "joke": "Growing up, I never would have believed that one day I’d need a computer just to",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 154
+  },
+  {
+    "joke": "Have you heard about the 4 NFL players that are coming out of the closet? It's",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 155
+  },
+  {
+    "joke": "Have you heard about this thing where people make up porn star names? They",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 156
+  },
+  {
+    "joke": "Hey news media, leave Kim Kardashian alone, will you? She's pregnant of",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 157
+  },
+  {
+    "joke": "How many comedians does it take to screw in a lightbulb. One to do it, and the",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 158
+  },
+  {
+    "joke": "How many polish guys does it take to screw in a lightbulb. The question can not",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 159
+  },
+  {
+    "joke": "I am not a big fan of video games where you can not kill a prostitute.",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 160
+  },
+  {
+    "joke": "I don't know if this counts as an NCAA cinderella story, but one of the marquette",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 161
+  },
+  {
+    "joke": "I feel the same way about slaves as I do about shirts with flame patterns on",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 162
+  },
+  {
+    "joke": "I love Lou Gehrig, but I’m not going to stand up in front of a million people and",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 163
+  },
+  {
+    "joke": "I loved Liberace, but with all due respect man, if you kicked that guy in the ass,",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 164
+  },
+  {
+    "joke": "I read a story about 17 year old kid who stole a plane, crashed it, and survived.",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 165
+  },
+  {
+    "joke": "I think enough time has passed since 1947 where I can safely admit it. I wish I",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 166
+  },
+  {
+    "joke": "I think there's nothing cooler than being a lone wolf. Except at wolf picnics when",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 167
+  },
+  {
+    "joke": "I used to think revenge was a dish best served cold, but then I realized it meant,",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 168
+  },
+  {
+    "joke": "If you were a Russian prostitute on a date with cereal killer Andrei Chikatilo AKA",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 169
+  },
+  {
+    "joke": "In kansas a Gay rights activist named Aaron Jackson payed $83,000 to buy a",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 170
+  },
+  {
+    "joke": "It takes forever to get a pilot's license, but it only takes a couple of minutes to",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 171
+  },
+  {
+    "joke": "Its earth day! The one day of the year where you can jerk off outside and nothing",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 172
+  },
+  {
+    "joke": "I’m so fat when I get my shoes shined I have to take the boot blacks word for it.",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 173
+  },
+  {
+    "joke": "Justin bieber's monkey has been quarantined, which reminds us how far we’ve",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 174
+  },
+  {
+    "joke": "My Brother in Law is so stupid he came up with a bucket list. Know what the first",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 175
+  },
+  {
+    "joke": "My doctor told me I should start juicing you know? The problem is I don’t think he",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 176
+  },
+  {
+    "joke": "My girlfriend and I have a deal where we have 1 celebrity that we can sleep with",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 177
+  },
+  {
+    "joke": "Octomom is facing jail time for committing welfare fraud. Who didn't see that one",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 178
+  },
+  {
+    "joke": "One day in the hopefully not too distant future, North Korean dictator Kim Jong",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 179
+  },
+  {
+    "joke": "Porn actor Ron Jeremy is back at work after having open heart surgery. The",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 180
+  },
+  {
+    "joke": "President Obama continues to shamelessly wage class warfare. Today he",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 181
+  },
+  {
+    "joke": "Some folks say what this country needs is a good five cent cigar. I’m guessing",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 182
+  },
+  {
+    "joke": "Swedish Bond girl Britt Ekland told Piers Morgan this week that she was seduced",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 183
+  },
+  {
+    "joke": "The Al Qaeda online magazine “Inspire” has a recipe for a homemade bomb.",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 184
+  },
+  {
+    "joke": "The Octomom has reportedly been evicted from her california home. The mother",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 185
+  },
+  {
+    "joke": "The guy who did the voice of Charlie Brown was arrested for stalking his",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 186
+  },
+  {
+    "joke": "The thing I miss most about the 70s is rolling a number and giving my old lady",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 187
+  },
+  {
+    "joke": "There's no wrong way to eat a reese's. Says the guy who didn’t shove a bunch of",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 188
+  },
+  {
+    "joke": "They say the world's a smaller place than it used to be, but I think that’s an",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 189
+  },
+  {
+    "joke": "This Easter Sunday, Snoop Dogg gets to say “Christ is rizzezen",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 190
+  },
+  {
+    "joke": "This administration is cutting back drastically on military spending but doesn’t",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 191
+  },
+  {
+    "joke": "Veterinarians in Colorado have reported that marijuana use is on the rise among",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 192
+  },
+  {
+    "joke": "We wear new clothes on Easter to represent Christ's triumphant appearance to",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 193
+  },
+  {
+    "joke": "Why did the moron throw the clock out the window? Because it reminded him of",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 194
+  },
+  {
+    "joke": "Why doesn't applebee's call their appetizers appletizers? And why doesn’t that",
+    "episode": "Norm Macdonald Live",
+    "guest": "Tom Green",
+    "url": "",
+    "time": "",
+    "source": "NormMacdonald-Live-Jokes-Transcribed.txt",
+    "id": 195
   }
 ]
