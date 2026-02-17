@@ -79,6 +79,24 @@
                         </svg>
                     </button>
                 </div>
+                <div class="filter-box">
+                    <select id="sort-select" class="filter-select" aria-label="Sort appearances">
+                        <option value="date-desc">Newest First</option>
+                        <option value="date-asc">Oldest First</option>
+                        <option value="title-asc">Title A-Z</option>
+                        <option value="title-desc">Title Z-A</option>
+                    </select>
+                    <button id="random-appearance-btn" class="btn btn-secondary" aria-label="Show random appearance" style="white-space: nowrap;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 3 21 3 21 8"></polyline>
+                            <line x1="4" y1="20" x2="21" y2="3"></line>
+                            <polyline points="21 16 21 21 16 21"></polyline>
+                            <line x1="15" y1="15" x2="21" y2="21"></line>
+                            <line x1="4" y1="4" x2="9" y2="9"></line>
+                        </svg>
+                        Surprise Me
+                    </button>
+                </div>
             </section>
 
             <section class="appearances-section">
@@ -90,8 +108,8 @@
                     <p>Fetching the archive</p>
                 </div>
                 <div id="empty-state" class="empty-state" style="display: none;">
-                    <h3>No appearances found</h3>
-                    <p>Try different search terms</p>
+                    <h3>I didn't even know we had that</h3>
+                    <p>Try a different search, or hit "Surprise Me" for something random</p>
                 </div>
             </section>
 

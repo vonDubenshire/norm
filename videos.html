@@ -86,7 +86,7 @@
                 </div>
             </section>
 
-            <!-- Search -->
+            <!-- Search & Controls -->
             <section class="controls">
                 <div class="search-box">
                     <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -105,6 +105,25 @@
                             <line x1="18" y1="6" x2="6" y2="18"></line>
                             <line x1="6" y1="6" x2="18" y2="18"></line>
                         </svg>
+                    </button>
+                </div>
+                <div class="filter-box">
+                    <select id="sort-select" class="filter-select" aria-label="Sort videos">
+                        <option value="title-asc">Title A-Z</option>
+                        <option value="title-desc">Title Z-A</option>
+                        <option value="views-desc">Most Viewed</option>
+                        <option value="duration-desc">Longest</option>
+                        <option value="duration-asc">Shortest</option>
+                    </select>
+                    <button id="random-video-btn" class="btn btn-secondary" aria-label="Show random video" style="white-space: nowrap;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 3 21 3 21 8"></polyline>
+                            <line x1="4" y1="20" x2="21" y2="3"></line>
+                            <polyline points="21 16 21 21 16 21"></polyline>
+                            <line x1="15" y1="15" x2="21" y2="21"></line>
+                            <line x1="4" y1="4" x2="9" y2="9"></line>
+                        </svg>
+                        Surprise Me
                     </button>
                 </div>
             </section>
@@ -127,12 +146,13 @@
                 <!-- Empty State -->
                 <div id="empty-state" class="empty-state" style="display: none;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
-                        <line x1="12" y1="9" x2="12" y2="13"></line>
-                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                        <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                        <line x1="15" y1="9" x2="15.01" y2="9"></line>
                     </svg>
-                    <h3>No videos found</h3>
-                    <p>Try different search terms</p>
+                    <h3>I didn't even know we had that</h3>
+                    <p>Try a different search, or hit "Surprise Me" for something random</p>
                 </div>
             </section>
 
