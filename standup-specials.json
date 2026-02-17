@@ -1,16 +1,5 @@
 [
   {
-    "id": 0,
-    "title": "Metadata record",
-    "year": null,
-    "venue": "",
-    "description": "Compiled from competitor standup links, appearance entries, and YouTube standup-related videos.",
-    "duration": "",
-    "youtube_url": "",
-    "thumbnail": "",
-    "type": "appearance"
-  },
-  {
     "id": 1,
     "title": "Live at Yuk Yuk's Toronto",
     "year": 1989,
@@ -1017,9 +1006,9 @@
     "year": null,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=66LwB9UJlKo",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1028,9 +1017,9 @@
     "year": 2005,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=p-BYjhKHfdc",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1039,9 +1028,9 @@
     "year": null,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=ez8UpNdRU5I",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1050,9 +1039,9 @@
     "year": null,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=7unyDYKgap0",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1061,9 +1050,9 @@
     "year": null,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=16hH8v3Xcu4",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1072,9 +1061,9 @@
     "year": null,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=h06RtnMLt8M",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1083,9 +1072,9 @@
     "year": null,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=vlvXNhqt9Z0",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1094,9 +1083,9 @@
     "year": null,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=MEpciYLJN8o",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1105,9 +1094,9 @@
     "year": null,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=lbpKO8mXn_s",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1116,9 +1105,9 @@
     "year": 2004,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=TaIwZOQ6tss",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1127,9 +1116,9 @@
     "year": 1991,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=edfEDkuwD08",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1138,9 +1127,9 @@
     "year": 1997,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=3U7AZIdalzM",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1149,9 +1138,9 @@
     "year": null,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=BfWJNBLWUsM",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1160,20 +1149,20 @@
     "year": null,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=HylhIDZcTGo",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
     "id": 106,
-    "title": "Norm MacDonald tells a dog joke 🐶 #normmacdonald #standupcomedy #funnyshorts #rip",
+    "title": "Norm MacDonald tells a dog joke \ud83d\udc36 #normmacdonald #standupcomedy #funnyshorts #rip",
     "year": null,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=B9_fsCTpTes",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1182,9 +1171,9 @@
     "year": null,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=F4imbjb_bII",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1193,9 +1182,9 @@
     "year": 2014,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=YXjdhNUpjwU",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1204,9 +1193,9 @@
     "year": 2017,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=PnchLaKyHck",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1215,9 +1204,9 @@
     "year": 2017,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=pQ9zqcT3yaM",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1226,9 +1215,9 @@
     "year": null,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=9O7JzCf_O5k",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1237,9 +1226,9 @@
     "year": 2019,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=JBEntxbZItc",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1248,9 +1237,9 @@
     "year": 1980,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=bKyWJxZUMFQ",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1259,9 +1248,9 @@
     "year": 1991,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=-BgmfFXhXvk",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1270,9 +1259,9 @@
     "year": 2020,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=q1udVI57SDo",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1281,9 +1270,9 @@
     "year": 1989,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=Q1G9ZV9o7gk",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1292,9 +1281,9 @@
     "year": null,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=4XtbLMnuY6Q",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1303,9 +1292,9 @@
     "year": 2012,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=BpVUdDUCEqE",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   },
   {
@@ -1314,9 +1303,9 @@
     "year": null,
     "venue": "",
     "description": "Video url:",
-    "duration": "N/A",
+    "duration": "",
     "youtube_url": "https://www.youtube.com/watch?v=JHX47IhVP9E",
-    "thumbnail": "N/A",
+    "thumbnail": "",
     "type": "appearance"
   }
 ]
