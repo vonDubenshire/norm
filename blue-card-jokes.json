@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "setup": "Metadata record",
+    "punchline": "",
+    "episode": "",
+    "guest": "",
+    "youtube_url": "",
+    "source": "Built from competitor_data/blue_card_jokes.json links, consolidated_youtube_data.json blue-card matches, and old/site-src archive index references."
+  },
+  {
+    "id": 1,
+    "setup": "Blue card jokes segment referenced",
+    "punchline": "",
+    "episode": "NML Episode 1",
+    "guest": "Bob Einstein ",
+    "youtube_url": "",
+    "source": "competitor_data/blue_card_jokes.json"
+  },
+  {
+    "id": 2,
+    "setup": "Blue card jokes segment referenced",
+    "punchline": "",
+    "episode": "NML Episode 2",
+    "guest": "Tom Green",
+    "youtube_url": "",
+    "source": "competitor_data/blue_card_jokes.json"
+  },
+  {
+    "id": 3,
+    "setup": "Blue card jokes segment referenced",
+    "punchline": "",
+    "episode": "NML Episode 3",
+    "guest": "Fred Stoller",
+    "youtube_url": "",
+    "source": "competitor_data/blue_card_jokes.json"
+  },
+  {
+    "id": 4,
+    "setup": "Blue card jokes segment referenced",
+    "punchline": "",
+    "episode": "NML Episode 5",
+    "guest": "Billy Bob Thornton",
+    "youtube_url": "",
+    "source": "competitor_data/blue_card_jokes.json"
+  },
+  {
+    "id": 5,
+    "setup": "Blue card jokes segment referenced",
+    "punchline": "",
+    "episode": "NML Episode 14",
+    "guest": "Adam Sandler",
+    "youtube_url": "",
+    "source": "competitor_data/blue_card_jokes.json"
+  },
+  {
+    "id": 6,
+    "setup": "Blue card jokes segment referenced",
+    "punchline": "",
+    "episode": "NML Episode 27",
+    "guest": "Bill Hader",
+    "youtube_url": "",
+    "source": "competitor_data/blue_card_jokes.json"
+  },
+  {
+    "id": 7,
+    "setup": "The Ultimate and Comprehensive Norm MacDonald Podcast Blue Card Jokes Collection",
+    "punchline": "",
+    "episode": "",
+    "guest": "",
+    "youtube_url": "https://www.youtube.com/watch?v=qc35MvkI9Pg",
+    "source": "consolidated_youtube_data.json"
+  }
+]
