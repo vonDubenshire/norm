@@ -1,4 +1,16 @@
 // ===================================
+// Utilities
+// ===================================
+
+function debounce(fn, delay = 250) {
+    let timer;
+    return (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => fn(...args), delay);
+    };
+}
+
+// ===================================
 // State Management
 // ===================================
 
@@ -102,11 +114,13 @@ function renderVideos() {
     const endIndex = startIndex + state.videosPerPage;
     const videosToShow = state.filteredVideos.slice(startIndex, endIndex);
 
-    // Render videos
+    // Render videos using DocumentFragment for fewer reflows
+    const fragment = document.createDocumentFragment();
     videosToShow.forEach(video => {
         const videoCard = createVideoCard(video);
-        container.appendChild(videoCard);
+        fragment.appendChild(videoCard);
     });
+    container.appendChild(fragment);
 
     renderPagination();
 
@@ -124,12 +138,18 @@ function createVideoCard(video) {
     const thumbnail = document.createElement('div');
     thumbnail.className = 'video-thumbnail';
 
-    // Use YouTube thumbnail or placeholder
+    // Use an img element with lazy loading instead of background-image
     const thumbnailUrl = video.thumbnail !== 'N/A' && video.thumbnail
         ? video.thumbnail
         : `https://img.youtube.com/vi/${video.url}/mqdefault.jpg`;
 
-    thumbnail.style.backgroundImage = `url('${thumbnailUrl}')`;
+    const thumbImg = document.createElement('img');
+    thumbImg.src = thumbnailUrl;
+    thumbImg.alt = video.title;
+    thumbImg.loading = 'lazy';
+    thumbImg.decoding = 'async';
+    thumbImg.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block;';
+    thumbnail.appendChild(thumbImg);
 
     // Play overlay
     const playOverlay = document.createElement('div');
@@ -261,10 +281,12 @@ function initEventListeners() {
     const searchInput = document.getElementById('search-input');
     const clearBtn = document.getElementById('clear-search');
 
+    const debouncedFilter = debounce(() => applyFilters(), 250);
+
     searchInput.addEventListener('input', (e) => {
         state.searchTerm = e.target.value;
         clearBtn.style.display = state.searchTerm ? 'block' : 'none';
-        applyFilters();
+        debouncedFilter();
     });
 
     clearBtn.addEventListener('click', () => {

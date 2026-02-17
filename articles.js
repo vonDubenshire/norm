@@ -1,4 +1,16 @@
 // ===================================
+// Utilities
+// ===================================
+
+function debounce(fn, delay = 250) {
+    let timer;
+    return (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => fn(...args), delay);
+    };
+}
+
+// ===================================
 // Articles Page - State & Logic
 // ===================================
 
@@ -269,10 +281,12 @@ function initEventListeners() {
     const categoryFilter = document.getElementById('category-filter');
 
     if (searchInput) {
+        const debouncedFilter = debounce(() => applyFilters(), 250);
+
         searchInput.addEventListener('input', (e) => {
             state.searchTerm = e.target.value;
             clearBtn.style.display = state.searchTerm ? 'block' : 'none';
-            applyFilters();
+            debouncedFilter();
         });
     }
 
