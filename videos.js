@@ -1,4 +1,46 @@
 // ===================================
+// Utilities
+// ===================================
+
+function debounce(fn, delay = 250) {
+    let timer;
+    return (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => fn(...args), delay);
+    };
+}
+
+// URL state persistence
+function saveStateToURL() {
+    const params = new URLSearchParams();
+    if (state.searchTerm) params.set('q', state.searchTerm);
+    if (state.sortBy !== 'title-asc') params.set('sort', state.sortBy);
+    if (state.currentPage > 1) params.set('page', state.currentPage);
+    const qs = params.toString();
+    const url = window.location.pathname + (qs ? '?' + qs : '');
+    history.replaceState(null, '', url);
+}
+
+function loadStateFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    if (params.has('q')) {
+        state.searchTerm = params.get('q');
+        const searchInput = document.getElementById('search-input');
+        if (searchInput) searchInput.value = state.searchTerm;
+        const clearBtn = document.getElementById('clear-search');
+        if (clearBtn) clearBtn.style.display = state.searchTerm ? 'block' : 'none';
+    }
+    if (params.has('sort')) {
+        state.sortBy = params.get('sort');
+        const sortSelect = document.getElementById('sort-select');
+        if (sortSelect) sortSelect.value = state.sortBy;
+    }
+    if (params.has('page')) {
+        state.currentPage = parseInt(params.get('page'), 10) || 1;
+    }
+}
+
+// ===================================
 // State Management
 // ===================================
 
@@ -7,7 +49,8 @@ const state = {
     filteredVideos: [],
     currentPage: 1,
     videosPerPage: 12,
-    searchTerm: ''
+    searchTerm: '',
+    sortBy: 'title-asc'
 };
 
 // ===================================
@@ -33,7 +76,7 @@ async function loadVideos() {
             thumbnail: video['Thumbnail url'] || ''
         })).filter(video => video.url); // Only keep videos with valid URLs
 
-        state.filteredVideos = [...state.videos];
+        state.filteredVideos = sortVideos([...state.videos]);
 
         document.getElementById('loading-state').style.display = 'none';
         updateTotalCount();
@@ -62,18 +105,62 @@ function updateFilteredCount() {
 // Search and Filter Logic
 // ===================================
 
+function parseDuration(dur) {
+    if (!dur || dur === 'N/A') return 0;
+    const parts = String(dur).split(':').map(Number);
+    if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+    if (parts.length === 2) return parts[0] * 60 + parts[1];
+    return parts[0] || 0;
+}
+
+function parseViews(views) {
+    if (!views || views === 'N/A') return 0;
+    const str = String(views).replace(/[^0-9]/g, '');
+    return parseInt(str, 10) || 0;
+}
+
+function sortVideos(videos) {
+    const sorted = [...videos];
+    switch (state.sortBy) {
+        case 'title-asc':
+            sorted.sort((a, b) => a.title.localeCompare(b.title));
+            break;
+        case 'title-desc':
+            sorted.sort((a, b) => b.title.localeCompare(a.title));
+            break;
+        case 'views-desc':
+            sorted.sort((a, b) => parseViews(b.views) - parseViews(a.views));
+            break;
+        case 'duration-desc':
+            sorted.sort((a, b) => parseDuration(b.duration) - parseDuration(a.duration));
+            break;
+        case 'duration-asc':
+            sorted.sort((a, b) => parseDuration(a.duration) - parseDuration(b.duration));
+            break;
+    }
+    return sorted;
+}
+
 function applyFilters() {
-    state.filteredVideos = state.videos.filter(video => {
+    let filtered = state.videos.filter(video => {
         const matchesSearch = video.title.toLowerCase().includes(state.searchTerm.toLowerCase()) ||
                             video.description.toLowerCase().includes(state.searchTerm.toLowerCase());
 
         return matchesSearch;
     });
 
+    state.filteredVideos = sortVideos(filtered);
     state.currentPage = 1;
     updateFilteredCount();
     renderVideos();
     renderPagination();
+    saveStateToURL();
+}
+
+function showRandomVideo() {
+    if (state.filteredVideos.length === 0) return;
+    const video = state.filteredVideos[Math.floor(Math.random() * state.filteredVideos.length)];
+    window.open('https://www.youtube.com/watch?v=' + video.url, '_blank');
 }
 
 // ===================================
@@ -102,11 +189,13 @@ function renderVideos() {
     const endIndex = startIndex + state.videosPerPage;
     const videosToShow = state.filteredVideos.slice(startIndex, endIndex);
 
-    // Render videos
+    // Render videos using DocumentFragment for fewer reflows
+    const fragment = document.createDocumentFragment();
     videosToShow.forEach(video => {
         const videoCard = createVideoCard(video);
-        container.appendChild(videoCard);
+        fragment.appendChild(videoCard);
     });
+    container.appendChild(fragment);
 
     renderPagination();
 
@@ -124,12 +213,18 @@ function createVideoCard(video) {
     const thumbnail = document.createElement('div');
     thumbnail.className = 'video-thumbnail';
 
-    // Use YouTube thumbnail or placeholder
+    // Use an img element with lazy loading instead of background-image
     const thumbnailUrl = video.thumbnail !== 'N/A' && video.thumbnail
         ? video.thumbnail
         : `https://img.youtube.com/vi/${video.url}/mqdefault.jpg`;
 
-    thumbnail.style.backgroundImage = `url('${thumbnailUrl}')`;
+    const thumbImg = document.createElement('img');
+    thumbImg.src = thumbnailUrl;
+    thumbImg.alt = video.title;
+    thumbImg.loading = 'lazy';
+    thumbImg.decoding = 'async';
+    thumbImg.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block;';
+    thumbnail.appendChild(thumbImg);
 
     // Play overlay
     const playOverlay = document.createElement('div');
@@ -195,6 +290,7 @@ function renderPagination() {
     prevBtn.onclick = () => {
         state.currentPage--;
         renderVideos();
+        saveStateToURL();
     };
     pagination.appendChild(prevBtn);
 
@@ -215,6 +311,7 @@ function renderPagination() {
         pageBtn.onclick = () => {
             state.currentPage = i;
             renderVideos();
+            saveStateToURL();
         };
         pagination.appendChild(pageBtn);
     }
@@ -227,6 +324,7 @@ function renderPagination() {
     nextBtn.onclick = () => {
         state.currentPage++;
         renderVideos();
+        saveStateToURL();
     };
     pagination.appendChild(nextBtn);
 }
@@ -261,10 +359,12 @@ function initEventListeners() {
     const searchInput = document.getElementById('search-input');
     const clearBtn = document.getElementById('clear-search');
 
+    const debouncedFilter = debounce(() => applyFilters(), 250);
+
     searchInput.addEventListener('input', (e) => {
         state.searchTerm = e.target.value;
         clearBtn.style.display = state.searchTerm ? 'block' : 'none';
-        applyFilters();
+        debouncedFilter();
     });
 
     clearBtn.addEventListener('click', () => {
@@ -273,6 +373,21 @@ function initEventListeners() {
         clearBtn.style.display = 'none';
         applyFilters();
     });
+
+    // Sort
+    const sortSelect = document.getElementById('sort-select');
+    if (sortSelect) {
+        sortSelect.addEventListener('change', (e) => {
+            state.sortBy = e.target.value;
+            applyFilters();
+        });
+    }
+
+    // Random video
+    const randomBtn = document.getElementById('random-video-btn');
+    if (randomBtn) {
+        randomBtn.addEventListener('click', showRandomVideo);
+    }
 }
 
 // ===================================
@@ -283,6 +398,7 @@ async function init() {
     initTheme();
     initNav();
     initFooterQuote();
+    loadStateFromURL();
     initEventListeners();
     await loadVideos();
 }
