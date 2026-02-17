@@ -14,6 +14,7 @@ function debounce(fn, delay = 250) {
 function saveStateToURL() {
     const params = new URLSearchParams();
     if (state.searchTerm) params.set('q', state.searchTerm);
+    if (state.category !== 'all') params.set('cat', state.category);
     if (state.sortBy !== 'title-asc') params.set('sort', state.sortBy);
     if (state.currentPage > 1) params.set('page', state.currentPage);
     const qs = params.toString();
@@ -29,6 +30,13 @@ function loadStateFromURL() {
         if (searchInput) searchInput.value = state.searchTerm;
         const clearBtn = document.getElementById('clear-search');
         if (clearBtn) clearBtn.style.display = state.searchTerm ? 'block' : 'none';
+    }
+    if (params.has('cat')) {
+        state.category = params.get('cat');
+        // Update active chip
+        document.querySelectorAll('#category-chips .chip').forEach(chip => {
+            chip.classList.toggle('active', chip.dataset.category === state.category);
+        });
     }
     if (params.has('sort')) {
         state.sortBy = params.get('sort');
@@ -50,7 +58,8 @@ const state = {
     currentPage: 1,
     videosPerPage: 12,
     searchTerm: '',
-    sortBy: 'title-asc'
+    sortBy: 'title-asc',
+    category: 'all'
 };
 
 // ===================================
@@ -73,9 +82,11 @@ async function loadVideos() {
             channel: video['Channel name'] || 'N/A',
             duration: video['Duration'] || 'N/A',
             views: video['Views'] || 'N/A',
-            thumbnail: video['Thumbnail url'] || ''
+            thumbnail: video['Thumbnail url'] || '',
+            category: video['category'] || 'Other'
         })).filter(video => video.url); // Only keep videos with valid URLs
 
+        updateCategoryCounts();
         state.filteredVideos = sortVideos([...state.videos]);
 
         document.getElementById('loading-state').style.display = 'none';
@@ -99,6 +110,26 @@ function updateTotalCount() {
 
 function updateFilteredCount() {
     document.getElementById('filtered-count').textContent = state.filteredVideos.length;
+}
+
+function updateCategoryCounts() {
+    const counts = { all: state.videos.length };
+    state.videos.forEach(v => {
+        counts[v.category] = (counts[v.category] || 0) + 1;
+    });
+    const map = {
+        'all': 'count-all',
+        'Late Night Appearance': 'count-late-night',
+        'Standup': 'count-standup',
+        'NML': 'count-nml',
+        'Weekend Update': 'count-weekend-update',
+        'Roast': 'count-roast',
+        'Other': 'count-other'
+    };
+    for (const [cat, id] of Object.entries(map)) {
+        const el = document.getElementById(id);
+        if (el) el.textContent = counts[cat] || 0;
+    }
 }
 
 // ===================================
@@ -145,8 +176,9 @@ function applyFilters() {
     let filtered = state.videos.filter(video => {
         const matchesSearch = video.title.toLowerCase().includes(state.searchTerm.toLowerCase()) ||
                             video.description.toLowerCase().includes(state.searchTerm.toLowerCase());
+        const matchesCategory = state.category === 'all' || video.category === state.category;
 
-        return matchesSearch;
+        return matchesSearch && matchesCategory;
     });
 
     state.filteredVideos = sortVideos(filtered);
@@ -155,6 +187,12 @@ function applyFilters() {
     renderVideos();
     renderPagination();
     saveStateToURL();
+
+    // Show NML crosslink when NML category is active
+    const nmlBanner = document.getElementById('nml-crosslink');
+    if (nmlBanner) {
+        nmlBanner.style.display = state.category === 'NML' ? 'block' : 'none';
+    }
 }
 
 function showRandomVideo() {
@@ -372,6 +410,16 @@ function initEventListeners() {
         state.searchTerm = '';
         clearBtn.style.display = 'none';
         applyFilters();
+    });
+
+    // Category chips
+    document.querySelectorAll('#category-chips .chip').forEach(chip => {
+        chip.addEventListener('click', () => {
+            document.querySelectorAll('#category-chips .chip').forEach(c => c.classList.remove('active'));
+            chip.classList.add('active');
+            state.category = chip.dataset.category;
+            applyFilters();
+        });
     });
 
     // Sort
