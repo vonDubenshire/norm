@@ -197,8 +197,9 @@ function createJokeCard(joke) {
     actions.className = 'joke-actions';
 
     if (joke.url) {
+        const timeParam = joke.time ? '&t=' + joke.time.replace(/m/g, 'm').replace(/s$/, '') : '';
         const watchBtn = createActionButton('Watch', 'video', () => {
-            window.open(`https://youtube.com/watch?v=${joke.url}`, '_blank');
+            window.open(`https://youtube.com/watch?v=${joke.url}${timeParam}`, '_blank');
         });
         actions.appendChild(watchBtn);
     }

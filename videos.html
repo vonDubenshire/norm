@@ -68,6 +68,7 @@
                     <a href="./" class="nav-link">Home</a>
                     <a href="./jokes.html" class="nav-link">Jokes</a>
                     <a href="./videos.html" class="nav-link active" aria-current="page">Videos</a>
+                    <a href="./nml-episodes.html" class="nav-link">NML</a>
                     <a href="./transcripts.html" class="nav-link">Transcripts</a>
                     <a href="./quotes.html" class="nav-link">Quotes</a>
                     <a href="./appearances.html" class="nav-link">Appearances</a>
@@ -118,6 +119,15 @@
                         </svg>
                     </button>
                 </div>
+                <div class="category-chips" id="category-chips" role="group" aria-label="Filter by category">
+                    <button class="chip active" data-category="all">All <span class="chip-count" id="count-all"></span></button>
+                    <button class="chip" data-category="Late Night Appearance">Late Night <span class="chip-count" id="count-late-night"></span></button>
+                    <button class="chip" data-category="Standup">Standup <span class="chip-count" id="count-standup"></span></button>
+                    <button class="chip" data-category="NML">NML <span class="chip-count" id="count-nml"></span></button>
+                    <button class="chip" data-category="Weekend Update">Weekend Update <span class="chip-count" id="count-weekend-update"></span></button>
+                    <button class="chip" data-category="Roast">Roast <span class="chip-count" id="count-roast"></span></button>
+                    <button class="chip" data-category="Other">Other <span class="chip-count" id="count-other"></span></button>
+                </div>
                 <div class="filter-box">
                     <select id="sort-select" class="filter-select" aria-label="Sort videos">
                         <option value="title-asc">Title A-Z</option>
@@ -138,6 +148,11 @@
                     </button>
                 </div>
             </section>
+
+            <!-- Cross-link banner (shown for NML category) -->
+            <div id="nml-crosslink" class="crosslink-banner" style="display: none;">
+                Looking for the full episode guide? <a href="./nml-episodes.html">Browse all 39 NML episodes with guests &rarr;</a>
+            </div>
 
             <!-- Videos Grid -->
             <section class="videos-section">

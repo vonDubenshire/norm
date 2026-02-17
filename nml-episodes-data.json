@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "season": 1,
+    "episode": 1,
+    "guest": "Bob Einstein (Super Dave Osborne)",
+    "slug": "s1-e1-bob-einstein",
+    "youtube_url": "https://www.youtube.com/watch?v=cKdbntTZXdY",
+    "thumbnail": "N/A",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s1-e1-bob-einstein-"
+  },
+  {
+    "id": 2,
+    "season": 1,
+    "episode": 2,
+    "guest": "Tom Green",
+    "slug": "s1-e2-tom-green",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s1-e2-tom-green"
+  },
+  {
+    "id": 3,
+    "season": 1,
+    "episode": 3,
+    "guest": "Fred Stoller",
+    "slug": "s1-e3-fred-stoller",
+    "youtube_url": "https://www.youtube.com/watch?v=4Xs0kfZhRtc",
+    "thumbnail": "N/A",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s1-e3-fred-stoller"
+  },
+  {
+    "id": 4,
+    "season": 1,
+    "episode": 4,
+    "guest": "Russell Brand",
+    "slug": "s1-e4-russell-brand",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s1-e4-russell-brand"
+  },
+  {
+    "id": 5,
+    "season": 1,
+    "episode": 5,
+    "guest": "Billy Bob Thornton",
+    "slug": "s1-e5-billy-bob-thornton",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s1-e5-billy-bob-thornton"
+  },
+  {
+    "id": 6,
+    "season": 1,
+    "episode": 6,
+    "guest": "Larry King",
+    "slug": "s1-e6-larry-king",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s1-e6-larry-king"
+  },
+  {
+    "id": 7,
+    "season": 1,
+    "episode": 7,
+    "guest": "Kevin Nealon",
+    "slug": "s1-e7-kevin-nealon",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s1-e7-kevin-nealon"
+  },
+  {
+    "id": 8,
+    "season": 1,
+    "episode": 8,
+    "guest": "Simon Helberg",
+    "slug": "s1-e8-simon-helberg",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s1-e8-simon-helberg"
+  },
+  {
+    "id": 9,
+    "season": 1,
+    "episode": 9,
+    "guest": "Nick Swardson",
+    "slug": "s1-e9-nick-swardson",
+    "youtube_url": "https://www.youtube.com/watch?v=sh8NnkOChAs",
+    "thumbnail": "N/A",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s1-e9-nick-swardson"
+  },
+  {
+    "id": 10,
+    "season": 1,
+    "episode": 10,
+    "guest": "Andy Dick",
+    "slug": "s1-e10-andy-dick",
+    "youtube_url": "https://www.youtube.com/watch?v=GELS-K3cafw",
+    "thumbnail": "N/A",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s1-e10-andy-dick"
+  },
+  {
+    "id": 11,
+    "season": 1,
+    "episode": 11,
+    "guest": "Gilbert Gottfried (Part 1)",
+    "slug": "s1-e11-gilbert-gottfried",
+    "youtube_url": "https://www.youtube.com/watch?v=pobeDPrWUrA",
+    "thumbnail": "N/A",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s1-e11-gilbert-gottfried-"
+  },
+  {
+    "id": 12,
+    "season": 1,
+    "episode": 12,
+    "guest": "Gilbert Gottfried (Part 2)",
+    "slug": "s1-e12-gilbert-gottfried",
+    "youtube_url": "https://www.youtube.com/watch?v=pobeDPrWUrA",
+    "thumbnail": "N/A",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s1-e12-gilbert-gottfried-"
+  },
+  {
+    "id": 13,
+    "season": 2,
+    "episode": 1,
+    "guest": "Ray Romano",
+    "slug": "s2-e1-ray-romano",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s2-e1-ray-romano"
+  },
+  {
+    "id": 14,
+    "season": 2,
+    "episode": 2,
+    "guest": "Adam Sandler",
+    "slug": "s2-e2-adam-sandler",
+    "youtube_url": "https://www.youtube.com/watch?v=e9ffqx4VVPQ",
+    "thumbnail": "N/A",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s2-e2-adam-sandler"
+  },
+  {
+    "id": 15,
+    "season": 2,
+    "episode": 3,
+    "guest": "David Spade",
+    "slug": "s2-e3-david-spade",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s2-e3-david-spade"
+  },
+  {
+    "id": 16,
+    "season": 2,
+    "episode": 4,
+    "guest": "Carl Reiner",
+    "slug": "s2-e4-carl-reiner",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s2-e4-carl-reiner"
+  },
+  {
+    "id": 17,
+    "season": 2,
+    "episode": 5,
+    "guest": "Fred Willard",
+    "slug": "s2-e5-fred-willard",
+    "youtube_url": "https://www.youtube.com/watch?v=4Xs0kfZhRtc",
+    "thumbnail": "N/A",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s2-e5-fred-willard"
+  },
+  {
+    "id": 18,
+    "season": 2,
+    "episode": 6,
+    "guest": "Todd Glass (Part 1)",
+    "slug": "s2-e6-todd-glass",
+    "youtube_url": "https://www.youtube.com/watch?v=BfWJNBLWUsM",
+    "thumbnail": "N/A",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s2-e6-todd-glass-"
+  },
+  {
+    "id": 19,
+    "season": 2,
+    "episode": 7,
+    "guest": "Todd Glass (Part 2)",
+    "slug": "s2-e7-todd-glass",
+    "youtube_url": "https://www.youtube.com/watch?v=BfWJNBLWUsM",
+    "thumbnail": "N/A",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s2-e7-todd-glass-"
+  },
+  {
+    "id": 20,
+    "season": 2,
+    "episode": 8,
+    "guest": "Bob Saget",
+    "slug": "s2-e8-bob-saget",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s2-e8-bob-saget"
+  },
+  {
+    "id": 21,
+    "season": 2,
+    "episode": 9,
+    "guest": "David Koechner",
+    "slug": "s2-e9-david-koechner",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s2-e9-david-koechner"
+  },
+  {
+    "id": 22,
+    "season": 2,
+    "episode": 10,
+    "guest": "Roseanne Barr",
+    "slug": "s2-e10-roseanne-barr",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s2-e10-roseanne-barr"
+  },
+  {
+    "id": 23,
+    "season": 2,
+    "episode": 11,
+    "guest": "Marc Maron",
+    "slug": "s2-e11-marc-maron",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s2-e11-marc-maron"
+  },
+  {
+    "id": 24,
+    "season": 2,
+    "episode": 12,
+    "guest": "Martin Mull",
+    "slug": "s2-e12-martin-mull",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s2-e12-martin-mull"
+  },
+  {
+    "id": 25,
+    "season": 2,
+    "episode": 13,
+    "guest": "Jack Carter",
+    "slug": "s2-e13-jack-carter",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s2-e13-jack-carter"
+  },
+  {
+    "id": 26,
+    "season": 3,
+    "episode": 1,
+    "guest": "Stephen Merchant",
+    "slug": "s3-e1-stephen-merchant",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s3-e1-stephen-merchant"
+  },
+  {
+    "id": 27,
+    "season": 3,
+    "episode": 2,
+    "guest": "Bill Hader",
+    "slug": "s3-e2-bill-hader",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s3-e2-bill-hader"
+  },
+  {
+    "id": 28,
+    "season": 3,
+    "episode": 3,
+    "guest": "David Letterman",
+    "slug": "s3-e3-david-letterman",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s3-e3-david-letterman"
+  },
+  {
+    "id": 29,
+    "season": 3,
+    "episode": 4,
+    "guest": "Mike Tyson",
+    "slug": "s3-e4-mike-tyson",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s3-e4-mike-tyson"
+  },
+  {
+    "id": 30,
+    "season": 3,
+    "episode": 5,
+    "guest": "Bobby Lee",
+    "slug": "s3-e5-bobby-lee",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s3-e5-bobby-lee"
+  },
+  {
+    "id": 31,
+    "season": 3,
+    "episode": 6,
+    "guest": "Sarah Silverman (Part 1)",
+    "slug": "s3-e6-sarah-silverman",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s3-e6-sarah-silverman-"
+  },
+  {
+    "id": 32,
+    "season": 3,
+    "episode": 7,
+    "guest": "Sarah Silverman (Part 2)",
+    "slug": "s3-e7-sarah-silverman",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s3-e7-sarah-silverman-"
+  },
+  {
+    "id": 33,
+    "season": 3,
+    "episode": 8,
+    "guest": "Dana Carvey",
+    "slug": "s3-e8-dana-carvey",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s3-e8-dana-carvey"
+  },
+  {
+    "id": 34,
+    "season": 3,
+    "episode": 9,
+    "guest": "Jerry Seinfeld",
+    "slug": "s3-e9-jerry-seinfeld",
+    "youtube_url": "https://www.youtube.com/watch?v=gvzEoKv4v0s",
+    "thumbnail": "N/A",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s3-e9-jerry-seinfeld"
+  },
+  {
+    "id": 35,
+    "season": 3,
+    "episode": 10,
+    "guest": "Caitlyn Jenner",
+    "slug": "s3-e10-caitlyn-jenner",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s3-e10-caitlyn-jenner"
+  },
+  {
+    "id": 36,
+    "season": 3,
+    "episode": 11,
+    "guest": "Rich Little",
+    "slug": "s3-e11-rich-little",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s3-e11-rich-little"
+  },
+  {
+    "id": 37,
+    "season": 3,
+    "episode": 12,
+    "guest": "Margaret Cho",
+    "slug": "s3-e12-margaret-cho",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s3-e12-margaret-cho"
+  },
+  {
+    "id": 38,
+    "season": 3,
+    "episode": 13,
+    "guest": "Tim Allen",
+    "slug": "s3-e13-tim-allen",
+    "youtube_url": "",
+    "thumbnail": "",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s3-e13-tim-allen"
+  },
+  {
+    "id": 39,
+    "season": 3,
+    "episode": 14,
+    "guest": "Jim Carrey",
+    "slug": "s3-e14-jim-carrey",
+    "youtube_url": "https://www.youtube.com/watch?v=sX6zvC5pTHk",
+    "thumbnail": "N/A",
+    "archive_url": "https://normmacdonaldarchive.com/nml/s3-e14-jim-carrey"
+  }
+]
