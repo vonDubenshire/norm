@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Videos - The Norm Macdonald Archive</title>
-    <meta name="description" content="Watch 939 videos of Norm Macdonald including SNL clips, stand-up performances, podcast episodes, and interviews.">
+    <title>Articles - The Norm Macdonald Archive</title>
+    <meta name="description" content="Articles, essays, and writings related to Norm Macdonald and comedy.">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Video Archive - The Norm Macdonald Archive">
-    <meta property="og:description" content="Watch 939 Norm Macdonald videos — SNL, stand-up, podcast episodes, talk show appearances, and more.">
-    <meta property="og:url" content="https://normmacdonald.lol/videos.html">
+    <meta property="og:title" content="Articles - The Norm Macdonald Archive">
+    <meta property="og:description" content="Articles, essays, and writings related to Norm Macdonald and comedy.">
+    <meta property="og:url" content="https://normmacdonald.lol/articles.html">
     <meta name="twitter:card" content="summary">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link rel="stylesheet" href="./styles.css">
@@ -56,11 +56,11 @@
                 <nav class="nav" aria-label="Main navigation">
                     <a href="./" class="nav-link">Home</a>
                     <a href="./jokes.html" class="nav-link">Jokes</a>
-                    <a href="./videos.html" class="nav-link active" aria-current="page">Videos</a>
+                    <a href="./videos.html" class="nav-link">Videos</a>
                     <a href="./transcripts.html" class="nav-link">Transcripts</a>
                     <a href="./quotes.html" class="nav-link">Quotes</a>
                     <a href="./appearances.html" class="nav-link">Appearances</a>
-                    <a href="./articles.html" class="nav-link">Articles</a>
+                    <a href="./articles.html" class="nav-link active" aria-current="page">Articles</a>
                     <a href="./about.html" class="nav-link">About</a>
                 </nav>
             </div>
@@ -73,72 +73,79 @@
 
             <!-- Page Title -->
             <section class="page-header">
-                <h1 class="page-title">Video Archive</h1>
-                <p class="page-subtitle">Every clip worth watching, and then some</p>
+                <h1 class="page-title">Articles</h1>
+                <p class="page-subtitle">Profiles, interviews, tributes, and collected writings about Norm Macdonald</p>
                 <div class="stats">
                     <span class="stat-item">
-                        <strong id="total-videos">939</strong> Videos
+                        <strong id="total-articles">0</strong> Articles
                     </span>
-                    <span class="stat-divider">★</span>
-                    <span class="stat-item">
-                        <strong id="filtered-count">939</strong> Showing
+                    <span class="stat-divider">&middot;</span>
+                    <span class="stat-item" id="filtered-count-wrapper" style="display: none;">
+                        <strong id="filtered-count">0</strong> Shown
                     </span>
                 </div>
             </section>
 
-            <!-- Search -->
-            <section class="controls">
+            <!-- Search & Filter Controls -->
+            <section class="controls" id="controls-section" style="display: none;">
                 <div class="search-box">
-                    <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="11" cy="11" r="8"></circle>
-                        <path d="m21 21-4.35-4.35"></path>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                     </svg>
-                    <input
-                        type="text"
-                        id="search-input"
-                        class="search-input"
-                        placeholder="Search videos..."
-                        autocomplete="off"
-                    >
-                    <button id="clear-search" class="clear-btn" style="display: none;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <input type="text" id="search-input" class="search-input" placeholder="Search articles by title, source, or topic..." aria-label="Search articles">
+                    <button id="clear-search" class="clear-btn" style="display: none;" aria-label="Clear search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <line x1="18" y1="6" x2="6" y2="18"></line>
                             <line x1="6" y1="6" x2="18" y2="18"></line>
                         </svg>
                     </button>
                 </div>
+                <div class="filter-box">
+                    <label class="filter-label" for="category-filter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+                        </svg>
+                        Category
+                    </label>
+                    <select id="category-filter" class="filter-select" aria-label="Filter by category">
+                        <option value="">All Categories</option>
+                        <option value="tribute">Tributes</option>
+                        <option value="feature">Features</option>
+                        <option value="interview">Interviews</option>
+                        <option value="profile">Profiles</option>
+                        <option value="review">Reviews</option>
+                        <option value="essay">Essays</option>
+                        <option value="guide">Guides</option>
+                    </select>
+                </div>
             </section>
 
-            <!-- Videos Grid -->
-            <section class="videos-section">
-                <div id="videos-container" class="videos-grid">
-                    <!-- Videos will be inserted here by JavaScript -->
+            <!-- Articles Grid -->
+            <section class="articles-section">
+                <div id="articles-container" class="jokes-grid">
+                    <!-- Articles will be inserted here by JavaScript -->
                 </div>
 
                 <!-- Loading State -->
                 <div id="loading-state" class="empty-state">
                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
                     </svg>
-                    <h3>Loading videos...</h3>
-                    <p>Fetching the archive</p>
+                    <h3>Loading articles...</h3>
+                    <p>Fetching the collection</p>
                 </div>
 
                 <!-- Empty State -->
                 <div id="empty-state" class="empty-state" style="display: none;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
-                        <line x1="12" y1="9" x2="12" y2="13"></line>
-                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
                     </svg>
-                    <h3>No videos found</h3>
-                    <p>Try different search terms</p>
+                    <h3>No articles yet</h3>
+                    <p>More coming soon</p>
                 </div>
-            </section>
-
-            <!-- Pagination -->
-            <section class="pagination" id="pagination">
-                <!-- Pagination will be inserted here by JavaScript -->
             </section>
 
         </div>
@@ -156,6 +163,6 @@
     </footer>
 
     <script src="./theme.js"></script>
-    <script src="./videos.js"></script>
+    <script src="./articles.js"></script>
 </body>
 </html>
