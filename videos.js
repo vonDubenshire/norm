@@ -193,6 +193,12 @@ function applyFilters() {
     if (nmlBanner) {
         nmlBanner.style.display = state.category === 'NML' ? 'block' : 'none';
     }
+
+    // Show Standup crosslink when Standup category is active
+    const standupBanner = document.getElementById('standup-crosslink');
+    if (standupBanner) {
+        standupBanner.style.display = state.category === 'Standup' ? 'block' : 'none';
+    }
 }
 
 function showRandomVideo() {

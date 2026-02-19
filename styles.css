@@ -2564,3 +2564,34 @@ select:focus:not(:focus-visible) {
         font-size: 1.125rem;
     }
 }
+
+/* ===================================
+   Standup Page — Thumbnail Badges
+   =================================== */
+
+.standup-year-badge {
+    position: absolute;
+    bottom: var(--spacing-xs);
+    right: var(--spacing-xs);
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: var(--radius-sm);
+    font-variant-numeric: tabular-nums;
+}
+
+.standup-type-badge {
+    position: absolute;
+    top: var(--spacing-xs);
+    left: var(--spacing-xs);
+    background: var(--accent);
+    color: #fff;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    padding: 0.2rem 0.5rem;
+    border-radius: var(--radius-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}

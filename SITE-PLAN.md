@@ -3,7 +3,7 @@
 ## Current State (as of Feb 2026)
 
 ### What's Live
-- **11 HTML pages**, 9 JS files, 9 JSON data files, 2,500+ lines of CSS
+- **12 HTML pages**, 10 JS files, 9 JSON data files, 2,600+ lines of CSS
 - Homepage with YouTube thumbnail hero, featured joke rotation, must-watch clips, browse grid
 - Videos page: 939 videos with 6 category filter chips, sort, search, pagination, Surprise Me, URL state
 - NML Episodes page: 39 episodes across 3 seasons with YouTube and archive links
@@ -16,7 +16,6 @@
 - Cross-linking between pages (jokes→videos via timestamps, NML banners, browse grid)
 
 ### What's Not Live Yet
-- `standup-specials.json` (119 entries) — data exists, no page
 - `bucket-list.json` (12 items) — data exists, no page (owner wants "Start Here" approach instead)
 - `blue-card-jokes.json` (1 entry) — essentially a stub
 - 685 jokes in CSV not yet merged with the 74 live ones
@@ -34,10 +33,8 @@
 ### P1: "Start Here" Page — DONE
 `start-here.html` is live with three-path onboarding (newcomer/deep cuts/archive). Path selector with blue/purple/pink color-coded cards, Moth Joke + Letterman lite-youtube embeds, 5 curated "Essential Norm" pick cards, archive links grid, smooth-scroll navigation. Nav updated across all 11 pages.
 
-### P2: Standup Specials Page (`standup.html`)
-- 119 entries already in `standup-specials.json` with YouTube URLs
-- Grid layout with year filter, thumbnail cards
-- Cross-link with Videos page (Standup category filter)
+### P2: Standup Specials Page — DONE
+`standup.html` is live with 119 performances (1989–2022). Video thumbnail grid, type filter (Full Sets / Clips & Appearances), year sort, search, Surprise Me. Cross-link banner on Videos page when Standup category is active. Nav updated across all 12 pages.
 
 ### P3: Video Metadata Re-enrichment (Codex Task)
 The first attempt failed (911/939 still missing Views/Channel). Need a more targeted Codex task:
