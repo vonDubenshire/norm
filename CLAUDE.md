@@ -12,10 +12,11 @@ A fan-made tribute website celebrating Norm Macdonald's comedy legacy. Static si
 - **Competitor data**: `competitor_data/` has scraped archive content from normmacdonaldarchive.com
 - **Deployment**: GitHub Pages via `.github/workflows/static.yml` — deploys on push to `main`
 
-## Key Pages (10 pages)
+## Key Pages (11 pages)
 | File | Purpose | JS | Data |
 |------|---------|-----|------|
 | `index.html` (26K) | Homepage with hero image, featured joke, must-watch clips, browse grid, site stats | inline `<script>` | `jokes-data.json` |
+| `start-here.html` | Three-path onboarding: newcomer intro + deep cuts + archive links, curated picks, lite-youtube embeds | inline `<script>` | — |
 | `jokes.html` (14K) | Searchable/filterable joke collection with Watch buttons (timestamp deep-links) | `script.js` | `jokes-data.json` |
 | `videos.html` (12K) | 939-video archive with category filters, sort, search, pagination, Surprise Me | `videos.js` | `consolidated_youtube_data.json` |
 | `nml-episodes.html` (6.3K) | NML episode guide: 39 episodes, 3 seasons, season filter chips, YouTube + archive links | `nml-episodes.js` | `nml-episodes-data.json` |
@@ -27,7 +28,7 @@ A fan-made tribute website celebrating Norm Macdonald's comedy legacy. Static si
 | `mitt-romney-jokes.html` (7.8K) | Carousel of Mitt Romney jokes | `mitt-jokes.js` | inline data |
 
 ## Navigation Order
-Home > Jokes > Videos > NML > Transcripts > Quotes > Appearances > Articles > About
+Home > Start Here > Jokes > Videos > NML > Transcripts > Quotes > Appearances > Articles > About
 
 ## Data Sources
 | File | Count | Key Fields |
@@ -84,6 +85,8 @@ Home > Jokes > Videos > NML > Transcripts > Quotes > Appearances > Articles > Ab
 - Cross-link banner: `.crosslink-banner` with left accent border
 - NML episode cards: `.nml-card` / `.nml-episode-grid`
 - Small button variant: `.btn-sm`
+- Start Here path cards: `.path-card` / `.path-card--blue/purple/pink` with color-coded borders and gradient tints
+- Curated pick cards: `.pick-grid` / `.pick-card` with thumbnails and play overlays
 
 ## Folder Structure
 - `_archive/` — Previous React-based site, design mockups, old standalone apps. Reference only.
@@ -110,17 +113,26 @@ Home > Jokes > Videos > NML > Transcripts > Quotes > Appearances > Articles > Ab
 
 ## Session Handoff Notes
 
-### What Was Done This Session
-1. **CSS visual polish**: Gradient border reveals on joke cards, shimmer animations on titles, hover effects on video thumbnails/link cards/hero photo, `fadeOut` keyframe
-2. **Performance**: Debounced search (250ms) on 4 pages, `DocumentFragment` rendering in videos.js, lazy-loaded `<img>` thumbnails replacing `background-image`
-3. **Sort & Random**: Sort dropdowns and "Surprise Me" buttons on Videos and Appearances pages with URL state persistence
-4. **Codex PR review & fixes**: Merged Codex's PR #28 (standup-specials, bucket-list, blue-card-jokes, video categories, SEO). Fixed: removed broken SearchAction, invalid VideoObject embedUrl, hardcoded numberOfItems, favicon-as-og:image. Cleaned data: normalized N/A values, removed metadata placeholders, stripped empty placeholder entries
-5. **NML Episodes page**: New page with 39 episodes across 3 seasons, season filter chips, 12 episodes with YouTube links, all with archive links
-6. **Video category filters**: 6 category chips (Late Night, Standup, NML, Weekend Update, Roast, Other) with counts and URL state
-7. **Hero & about images**: Using YouTube thumbnail CDN URLs (Weekend Update compilation for hero, tribute video for about)
-8. **Joke timestamps**: Watch buttons now deep-link to exact moment with `&t=` parameter
-9. **Cross-linking**: NML callout banner on Videos page, NML link on About page, NML card in homepage Browse grid, NML added to nav on all 9 pages
-10. **Competitive analysis**: Thorough review of normmacdonaldarchive.com and other fan archive UX patterns
+### What Was Done (Previous Sessions)
+1. CSS visual polish: Gradient border reveals, shimmer animations, hover effects, `fadeOut` keyframe
+2. Performance: Debounced search (250ms), `DocumentFragment` rendering, lazy-loaded thumbnails
+3. Sort & Random: Sort dropdowns and "Surprise Me" buttons on Videos and Appearances pages
+4. Codex PR review & fixes: Merged PR #28 (standup-specials, bucket-list, blue-card-jokes, video categories, SEO)
+5. NML Episodes page: 39 episodes, 3 seasons, season filter chips, YouTube + archive links
+6. Video category filters: 6 chips with counts and URL state
+7. Hero & about images: YouTube CDN thumbnail URLs
+8. Joke timestamps: Watch buttons deep-link with `&t=` parameter
+9. Cross-linking: NML banners, nav updates across all pages
+10. Competitive analysis: normmacdonaldarchive.com UX review
+
+### What Was Done (Current Session)
+11. **Start Here page**: Three-path onboarding page (`start-here.html`) with:
+    - Path selector: 3 color-coded cards (blue/purple/pink) with smooth-scroll navigation
+    - "Never Heard of Him": Editorial intro, Moth Joke lite-youtube embed, cancer/draw quote, CTAs to About + Videos
+    - "I've Seen a Few Clips": 5 curated "Essential Norm" pick cards (Professor of Logic, Most Convoluted Joke, WHCD, NML Bob Einstein, NML Jerry Seinfeld) with YouTube thumbnails, Letterman lite-youtube embed, CTAs to Videos + NML
+    - "I'm Already a Fan": Archive stats intro, full 7-card links grid (same as homepage Browse), CTA to Appearances
+    - New CSS: `.path-selector`, `.path-card` (3 color variants), `.pick-grid`, `.pick-card`, `.start-section`, `.start-actions` + responsive breakpoints
+    - Nav updated across all 11 pages: "Start Here" added between Home and Jokes
 
 ### Known Issues / Data Gaps
 - `blue-card-jokes.json` is essentially a stub (1 entry) — needs real joke data
