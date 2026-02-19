@@ -12,13 +12,14 @@ A fan-made tribute website celebrating Norm Macdonald's comedy legacy. Static si
 - **Competitor data**: `competitor_data/` has scraped archive content from normmacdonaldarchive.com
 - **Deployment**: GitHub Pages via `.github/workflows/static.yml` — deploys on push to `main`
 
-## Key Pages (11 pages)
+## Key Pages (12 pages)
 | File | Purpose | JS | Data |
 |------|---------|-----|------|
 | `index.html` (26K) | Homepage with hero image, featured joke, must-watch clips, browse grid, site stats | inline `<script>` | `jokes-data.json` |
 | `start-here.html` | Three-path onboarding: newcomer intro + deep cuts + archive links, curated picks, lite-youtube embeds | inline `<script>` | — |
 | `jokes.html` (14K) | Searchable/filterable joke collection with Watch buttons (timestamp deep-links) | `script.js` | `jokes-data.json` |
 | `videos.html` (12K) | 939-video archive with category filters, sort, search, pagination, Surprise Me | `videos.js` | `consolidated_youtube_data.json` |
+| `standup.html` | 119 standup performances with type filter (Full Sets/Clips), year sort, search, Surprise Me | `standup.js` | `standup-specials.json` |
 | `nml-episodes.html` (6.3K) | NML episode guide: 39 episodes, 3 seasons, season filter chips, YouTube + archive links | `nml-episodes.js` | `nml-episodes-data.json` |
 | `transcripts.html` (6.1K) | Expandable transcript viewer | `transcripts.js` | `transcripts.json` |
 | `quotes.html` (8.7K) | Categorized Norm quotes with spotlight feature | `quotes.js` | `quotes-data.json` |
@@ -28,7 +29,7 @@ A fan-made tribute website celebrating Norm Macdonald's comedy legacy. Static si
 | `mitt-romney-jokes.html` (7.8K) | Carousel of Mitt Romney jokes | `mitt-jokes.js` | inline data |
 
 ## Navigation Order
-Home > Start Here > Jokes > Videos > NML > Transcripts > Quotes > Appearances > Articles > About
+Home > Start Here > Jokes > Videos > Standup > NML > Transcripts > Quotes > Appearances > Articles > About
 
 ## Data Sources
 | File | Count | Key Fields |
@@ -133,6 +134,14 @@ Home > Start Here > Jokes > Videos > NML > Transcripts > Quotes > Appearances > 
     - "I'm Already a Fan": Archive stats intro, full 7-card links grid (same as homepage Browse), CTA to Appearances
     - New CSS: `.path-selector`, `.path-card` (3 color variants), `.pick-grid`, `.pick-card`, `.start-section`, `.start-actions` + responsive breakpoints
     - Nav updated across all 11 pages: "Start Here" added between Home and Jokes
+12. **Standup page**: New page (`standup.html` + `standup.js`) with:
+    - 119 performances from `standup-specials.json` (1989–2022)
+    - Video thumbnail grid with YouTube CDN images, year badges, "Full Set" type badges
+    - Type filter chips: All (119) / Full Sets (19) / Clips & Appearances (100)
+    - Sort by year or title, debounced search, Surprise Me button
+    - URL state persistence, pagination, DocumentFragment rendering
+    - Cross-link banner on Videos page when Standup category is active
+    - Nav updated across all 12 pages: "Standup" added between Videos and NML
 
 ### Known Issues / Data Gaps
 - `blue-card-jokes.json` is essentially a stub (1 entry) — needs real joke data

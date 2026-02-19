@@ -35,7 +35,7 @@
   {
     "id": 4,
     "title": "The Mysterious Appeal of Norm Macdonald",
-    "url": "https://www.newyorker.com/culture/postscript/the-mysterious-appeal-of-norm-macdonald",
+    "url": "https://www.newyorker.com/culture/postscript/norm-macdonald-was-the-real-thing",
     "source": "The New Yorker",
     "category": "profile",
     "date": "2021-09-15",
@@ -437,6 +437,17 @@
     "date": "2021-09-17",
     "excerpt": "The legendary SNL head writer recalls collaborating with Norm on Weekend Update and why he was the smartest comedian in the room.",
     "tags": ["Jim Downey", "SNL", "Weekend Update", "writing", "behind the scenes"],
+    "external": true
+  },
+  {
+    "id": 41,
+    "title": "Real Talk with Norm Macdonald",
+    "url": "https://www.newyorker.com/magazine/2018/09/10/real-talk-with-norm-macdonald",
+    "source": "The New Yorker",
+    "category": "profile",
+    "date": "2018-09-10",
+    "excerpt": "A New Yorker magazine profile of Norm Macdonald from the September 2018 print issue, around the launch of his Netflix talk show.",
+    "tags": ["profile", "interview", "Norm Macdonald Has a Show", "Netflix"],
     "external": true
   }
 ]
