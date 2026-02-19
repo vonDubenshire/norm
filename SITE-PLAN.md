@@ -3,7 +3,7 @@
 ## Current State (as of Feb 2026)
 
 ### What's Live
-- **10 HTML pages**, 9 JS files, 9 JSON data files, 2,275 lines of CSS
+- **11 HTML pages**, 9 JS files, 9 JSON data files, 2,500+ lines of CSS
 - Homepage with YouTube thumbnail hero, featured joke rotation, must-watch clips, browse grid
 - Videos page: 939 videos with 6 category filter chips, sort, search, pagination, Surprise Me, URL state
 - NML Episodes page: 39 episodes across 3 seasons with YouTube and archive links
@@ -31,17 +31,8 @@
 
 ## Next Up: Priority Features
 
-### P1: "Start Here" Page (`start-here.html`) — NEW
-**Owner's vision**: A curated onboarding page for newcomers who stumble onto the site and don't know where to begin. NOT a "bucket list" (that copies the competitor). Instead: 3 distinct entry points.
-
-**Concept — Three paths:**
-1. **"Never heard of him?"** — A 2-minute intro: who Norm was, one iconic clip (Moth Joke or Letterman), one legendary joke, link to About page
-2. **"I've seen a few clips"** — The deep cuts: NML episode recommendations, Weekend Update highlights, lesser-known standup, link to Videos page with curated category
-3. **"I'm already a fan"** — The archive rabbit hole: full joke database, 695 appearances timeline, transcripts to read, articles, link to Appearances page
-
-Each section gets a curated video embed, a featured joke/quote, and a "go deeper" link. Uses the existing data — bucket-list.json items (Moth Joke, Kitchener Leslie, Professor of Logic, etc.) are the perfect "Essential Norm" picks for sections 1 and 2.
-
-**Files needed**: `start-here.html`, `start-here.js` (or inline), possibly `start-here-data.json` for curated picks (or just hardcode since it's editorial)
+### P1: "Start Here" Page — DONE
+`start-here.html` is live with three-path onboarding (newcomer/deep cuts/archive). Path selector with blue/purple/pink color-coded cards, Moth Joke + Letterman lite-youtube embeds, 5 curated "Essential Norm" pick cards, archive links grid, smooth-scroll navigation. Nav updated across all 11 pages.
 
 ### P2: Standup Specials Page (`standup.html`)
 - 119 entries already in `standup-specials.json` with YouTube URLs
