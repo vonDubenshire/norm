@@ -456,6 +456,20 @@ async function init() {
     initFooterQuote();
     initEventListeners();
     await loadJokes();
+    loadStateFromURL();
+}
+
+function loadStateFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    if (params.has('q')) {
+        const q = params.get('q');
+        state.searchTerm = q;
+        const searchInput = document.getElementById('search-input');
+        if (searchInput) searchInput.value = q;
+        const clearBtn = document.getElementById('clear-search');
+        if (clearBtn) clearBtn.style.display = q ? 'block' : 'none';
+        applyFilters();
+    }
 }
 
 // Start the app when DOM is ready

@@ -84,8 +84,10 @@ const NormShare = {
         if (navigator.share) {
             const shareData = { title: opts.title, text: opts.text };
             if (opts.url) shareData.url = opts.url;
-            navigator.share(shareData).catch(() => {
-                this._copyFallback(opts.text, opts.url);
+            navigator.share(shareData).catch((err) => {
+                if (err.name !== 'AbortError') {
+                    this._copyFallback(opts.text, opts.url);
+                }
             });
         } else {
             this._copyFallback(opts.text, opts.url);
@@ -95,17 +97,23 @@ const NormShare = {
     _copyFallback(text, url) {
         const full = url ? text + '\n\n' + url : text;
         if (navigator.clipboard) {
-            navigator.clipboard.writeText(full).then(() => this.toast('Copied to clipboard!'));
+            navigator.clipboard.writeText(full)
+                .then(() => this.toast('Copied to clipboard!'))
+                .catch(() => this._textareaCopy(full));
         } else {
-            const ta = document.createElement('textarea');
-            ta.value = full;
-            ta.style.cssText = 'position:fixed;opacity:0';
-            document.body.appendChild(ta);
-            ta.select();
-            document.execCommand('copy');
-            document.body.removeChild(ta);
-            this.toast('Copied to clipboard!');
+            this._textareaCopy(full);
         }
+    },
+
+    _textareaCopy(text) {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.cssText = 'position:fixed;opacity:0';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        this.toast('Copied to clipboard!');
     },
 
     toast(message) {

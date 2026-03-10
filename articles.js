@@ -130,13 +130,8 @@ function renderArticles() {
 }
 
 function createArticleCard(article) {
-    const card = document.createElement('a');
+    const card = document.createElement('div');
     card.className = 'joke-card article-card';
-    card.href = article.url;
-    card.target = '_blank';
-    card.rel = 'noopener noreferrer';
-    card.style.textDecoration = 'none';
-    card.style.color = 'inherit';
     card.style.cursor = 'pointer';
 
     // Title
@@ -204,9 +199,11 @@ function createArticleCard(article) {
     card.appendChild(meta);
     card.appendChild(actions);
 
-    // Prevent share button click from navigating
+    // Click card to open article, but not when clicking share
     card.addEventListener('click', (e) => {
-        if (e.target.closest('.share-btn')) e.preventDefault();
+        if (!e.target.closest('.share-btn')) {
+            window.open(article.url, '_blank', 'noopener,noreferrer');
+        }
     });
 
     return card;
