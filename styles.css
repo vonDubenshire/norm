@@ -204,21 +204,18 @@ select:focus:not(:focus-visible) {
 
 /* Theme Toggle */
 .theme-toggle {
-    position: fixed;
-    top: var(--spacing-lg);
-    right: var(--spacing-lg);
-    z-index: 10000;
     background: var(--bg-secondary);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-full);
-    width: 2.75rem;
-    height: 2.75rem;
+    width: 2.5rem;
+    height: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     transition: all var(--transition-base);
     box-shadow: var(--shadow-sm);
+    flex-shrink: 0;
 }
 
 .theme-toggle:hover {
@@ -258,6 +255,13 @@ select:focus:not(:focus-visible) {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: var(--spacing-md);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    order: 3;
 }
 
 .logo {
@@ -301,6 +305,7 @@ select:focus:not(:focus-visible) {
     display: flex;
     gap: var(--spacing-lg);
     align-items: center;
+    order: 2;
 }
 
 .nav-link {
