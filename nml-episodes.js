@@ -144,6 +144,18 @@ function createEpisodeCard(ep) {
         actions.appendChild(archiveBtn);
     }
 
+    // Share button
+    const shareBtn = NormShare.createButton(() => {
+        const shareUrl = ep.youtube_url || (NormShare.SITE_URL + '/nml-episodes.html');
+        NormShare.share({
+            title: 'NML S' + ep.season + 'E' + ep.episode + ': ' + ep.guest,
+            text: 'Norm Macdonald Live S' + ep.season + ' E' + ep.episode + ' with ' + ep.guest,
+            url: shareUrl
+        });
+    });
+    shareBtn.className = 'btn btn-sm share-btn';
+    actions.appendChild(shareBtn);
+
     info.appendChild(actions);
     card.appendChild(info);
 

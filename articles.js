@@ -130,13 +130,8 @@ function renderArticles() {
 }
 
 function createArticleCard(article) {
-    const card = document.createElement('a');
+    const card = document.createElement('div');
     card.className = 'joke-card article-card';
-    card.href = article.url;
-    card.target = '_blank';
-    card.rel = 'noopener noreferrer';
-    card.style.textDecoration = 'none';
-    card.style.color = 'inherit';
     card.style.cursor = 'pointer';
 
     // Title
@@ -187,9 +182,29 @@ function createArticleCard(article) {
     extBadge.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg> <span>Read</span>';
     meta.appendChild(extBadge);
 
+    // Share button in actions row
+    const actions = document.createElement('div');
+    actions.className = 'joke-actions';
+    const shareBtn = NormShare.createButton(() => {
+        NormShare.share({
+            title: article.title,
+            text: article.title + (article.source ? ' (' + article.source + ')' : '') + ' - Norm Macdonald',
+            url: article.url
+        });
+    });
+    actions.appendChild(shareBtn);
+
     card.appendChild(title);
     card.appendChild(excerpt);
     card.appendChild(meta);
+    card.appendChild(actions);
+
+    // Click card to open article, but not when clicking share
+    card.addEventListener('click', (e) => {
+        if (!e.target.closest('.share-btn')) {
+            window.open(article.url, '_blank', 'noopener,noreferrer');
+        }
+    });
 
     return card;
 }

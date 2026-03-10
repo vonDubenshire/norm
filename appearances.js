@@ -195,12 +195,27 @@ function createCard(item) {
         meta.appendChild(durBadge);
     }
 
+    // Share button
+    const actions = document.createElement('div');
+    actions.className = 'joke-actions';
+    const shareBtn = NormShare.createButton(() => {
+        const shareUrl = item.media_url || (NormShare.SITE_URL + '/appearances.html');
+        NormShare.share({
+            title: item.title,
+            text: item.title + (item.date ? ' (' + item.date + ')' : '') + ' - Norm Macdonald',
+            url: shareUrl
+        });
+    });
+    actions.appendChild(shareBtn);
+
     card.appendChild(title);
     card.appendChild(desc);
     card.appendChild(meta);
+    card.appendChild(actions);
 
     if (item.media_url) {
-        card.addEventListener('click', () => {
+        card.addEventListener('click', (e) => {
+            if (e.target.closest('.share-btn')) return;
             window.open(item.media_url, '_blank');
         });
     }

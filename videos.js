@@ -298,8 +298,20 @@ function createVideoCard(video) {
     info.appendChild(title);
     info.appendChild(meta);
 
+    // Share button
+    const shareBtn = NormShare.createButton(() => {
+        NormShare.share({
+            title: video.title,
+            text: video.title + ' - Norm Macdonald',
+            url: 'https://www.youtube.com/watch?v=' + video.url
+        });
+    });
+    shareBtn.className = 'share-btn-overlay';
+    info.appendChild(shareBtn);
+
     // Click handler to open video
-    card.addEventListener('click', () => {
+    card.addEventListener('click', (e) => {
+        if (e.target.closest('.share-btn-overlay')) return;
         window.open(`https://www.youtube.com/watch?v=${video.url}`, '_blank');
     });
 

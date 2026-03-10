@@ -289,9 +289,23 @@ function createCard(item) {
 
     info.appendChild(meta);
 
+    // Share button
+    if (item.youtube_url) {
+        var shareBtn = NormShare.createButton(function() {
+            NormShare.share({
+                title: item.title,
+                text: item.title + (item.year ? ' (' + item.year + ')' : '') + ' - Norm Macdonald Standup',
+                url: item.youtube_url
+            });
+        });
+        shareBtn.className = 'share-btn-overlay';
+        info.appendChild(shareBtn);
+    }
+
     // Click to open
     if (item.youtube_url) {
-        card.addEventListener('click', function() {
+        card.addEventListener('click', function(e) {
+            if (e.target.closest('.share-btn-overlay')) return;
             window.open(item.youtube_url, '_blank');
         });
     }

@@ -164,51 +164,16 @@ function applyFilter() {
 }
 
 // ===================================
-// Share
+// Share (uses NormShare from theme.js)
 // ===================================
 
 function shareQuote(quote) {
     const shareText = '"' + quote.quote + '"\n\n\u2014 Norm Macdonald';
-
-    if (navigator.share) {
-        navigator.share({ title: 'Norm Macdonald Quote', text: shareText }).catch(() => {
-            copyToClipboard(shareText);
-        });
-    } else {
-        copyToClipboard(shareText);
-    }
-}
-
-function copyToClipboard(text) {
-    if (navigator.clipboard) {
-        navigator.clipboard.writeText(text).then(() => showToast('Copied to clipboard!'));
-    } else {
-        const textarea = document.createElement('textarea');
-        textarea.value = text;
-        textarea.style.position = 'fixed';
-        textarea.style.opacity = '0';
-        document.body.appendChild(textarea);
-        textarea.select();
-        document.execCommand('copy');
-        document.body.removeChild(textarea);
-        showToast('Copied to clipboard!');
-    }
-}
-
-function showToast(message) {
-    const existing = document.querySelector('.toast');
-    if (existing) existing.remove();
-
-    const toast = document.createElement('div');
-    toast.className = 'toast';
-    toast.textContent = message;
-    toast.style.cssText = 'position:fixed;bottom:2rem;left:50%;transform:translateX(-50%);background:var(--accent);color:white;padding:0.75rem 1.5rem;border-radius:var(--radius-full);box-shadow:var(--shadow-lg);z-index:3000;animation:slideUp 0.3s ease;font-weight:500;';
-
-    document.body.appendChild(toast);
-    setTimeout(() => {
-        toast.style.animation = 'fadeOut 0.3s ease';
-        setTimeout(() => toast.remove(), 300);
-    }, 2000);
+    NormShare.share({
+        title: 'Norm Macdonald Quote',
+        text: shareText,
+        url: NormShare.SITE_URL + '/quotes.html'
+    });
 }
 
 // ===================================
