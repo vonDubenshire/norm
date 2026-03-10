@@ -692,6 +692,34 @@ select:focus:not(:focus-visible) {
     height: 1rem;
 }
 
+/* Share button overlay for video/standup cards */
+.share-btn-overlay {
+    padding: 0.35rem 0.75rem;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    color: var(--text-2);
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: all var(--transition-fast);
+    margin-top: var(--spacing-xs);
+}
+
+.share-btn-overlay:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: white;
+}
+
+.share-btn-overlay svg {
+    width: 0.875rem;
+    height: 0.875rem;
+}
+
 /* Empty State */
 .empty-state {
     text-align: center;

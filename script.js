@@ -350,73 +350,17 @@ function closeRandomJoke() {
 }
 
 // ===================================
-// Share Functionality
+// Share Functionality (uses NormShare from theme.js)
 // ===================================
 
 function shareJoke(joke) {
     const shareText = `"${joke.joke}"\n\n- Norm Macdonald`;
+    const searchParam = joke.episode ? encodeURIComponent(joke.episode) : '';
+    const url = searchParam
+        ? NormShare.SITE_URL + '/jokes.html?q=' + searchParam
+        : NormShare.SITE_URL + '/jokes.html';
 
-    if (navigator.share) {
-        navigator.share({
-            title: 'Norm Macdonald Joke',
-            text: shareText
-        }).catch(() => {
-            copyToClipboard(shareText);
-        });
-    } else {
-        copyToClipboard(shareText);
-    }
-}
-
-function copyToClipboard(text) {
-    if (navigator.clipboard) {
-        navigator.clipboard.writeText(text).then(() => {
-            showToast('Copied to clipboard!');
-        });
-    } else {
-        // Fallback
-        const textarea = document.createElement('textarea');
-        textarea.value = text;
-        textarea.style.position = 'fixed';
-        textarea.style.opacity = '0';
-        document.body.appendChild(textarea);
-        textarea.select();
-        document.execCommand('copy');
-        document.body.removeChild(textarea);
-        showToast('Copied to clipboard!');
-    }
-}
-
-function showToast(message) {
-    const existingToast = document.querySelector('.toast');
-    if (existingToast) {
-        existingToast.remove();
-    }
-
-    const toast = document.createElement('div');
-    toast.className = 'toast';
-    toast.textContent = message;
-    toast.style.cssText = `
-        position: fixed;
-        bottom: 2rem;
-        left: 50%;
-        transform: translateX(-50%);
-        background: var(--accent);
-        color: white;
-        padding: 0.75rem 1.5rem;
-        border-radius: var(--radius-full);
-        box-shadow: var(--shadow-lg);
-        z-index: 3000;
-        animation: slideUp 0.3s ease;
-        font-weight: 500;
-    `;
-
-    document.body.appendChild(toast);
-
-    setTimeout(() => {
-        toast.style.animation = 'fadeOut 0.3s ease';
-        setTimeout(() => toast.remove(), 300);
-    }, 2000);
+    NormShare.share({ title: 'Norm Macdonald Joke', text: shareText, url: url });
 }
 
 // ===================================

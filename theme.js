@@ -63,6 +63,83 @@ function initTheme() {
     });
 }
 
+// ===================================
+// NormShare — Centralized share utility
+// Used by all pages with shareable content
+// ===================================
+
+const NormShare = {
+    SITE_URL: 'https://normmacdonald.lol',
+
+    SHARE_ICON: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>',
+
+    /**
+     * Share content using Web Share API (mobile) or clipboard (desktop)
+     * @param {Object} opts
+     * @param {string} opts.title - Share dialog title
+     * @param {string} opts.text  - Text body to share
+     * @param {string} [opts.url] - URL to include
+     */
+    share(opts) {
+        if (navigator.share) {
+            const shareData = { title: opts.title, text: opts.text };
+            if (opts.url) shareData.url = opts.url;
+            navigator.share(shareData).catch(() => {
+                this._copyFallback(opts.text, opts.url);
+            });
+        } else {
+            this._copyFallback(opts.text, opts.url);
+        }
+    },
+
+    _copyFallback(text, url) {
+        const full = url ? text + '\n\n' + url : text;
+        if (navigator.clipboard) {
+            navigator.clipboard.writeText(full).then(() => this.toast('Copied to clipboard!'));
+        } else {
+            const ta = document.createElement('textarea');
+            ta.value = full;
+            ta.style.cssText = 'position:fixed;opacity:0';
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand('copy');
+            document.body.removeChild(ta);
+            this.toast('Copied to clipboard!');
+        }
+    },
+
+    toast(message) {
+        const existing = document.querySelector('.toast');
+        if (existing) existing.remove();
+
+        const toast = document.createElement('div');
+        toast.className = 'toast';
+        toast.textContent = message;
+        toast.style.cssText = 'position:fixed;bottom:2rem;left:50%;transform:translateX(-50%);background:var(--accent);color:white;padding:0.75rem 1.5rem;border-radius:var(--radius-full);box-shadow:var(--shadow-lg);z-index:3000;animation:slideUp 0.3s ease;font-weight:500;';
+        document.body.appendChild(toast);
+        setTimeout(() => {
+            toast.style.animation = 'fadeOut 0.3s ease';
+            setTimeout(() => toast.remove(), 300);
+        }, 2000);
+    },
+
+    /**
+     * Create a share button element
+     * @param {Function} onClick - Click handler
+     * @returns {HTMLButtonElement}
+     */
+    createButton(onClick) {
+        const btn = document.createElement('button');
+        btn.className = 'action-btn share-btn';
+        btn.innerHTML = this.SHARE_ICON + ' <span>Share</span>';
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            onClick();
+        });
+        return btn;
+    }
+};
+
 const normQuotes = [
     '"I\'m not norm." — Norm Macdonald',
     '"The more you delve into science, the more it appears to rely on faith." — Norm Macdonald',
