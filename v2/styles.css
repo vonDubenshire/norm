@@ -2192,3 +2192,80 @@ body > .theme-toggle:hover {
     font-weight: 600;
     margin-bottom: var(--space-xs);
 }
+
+/* ===================================
+   28. UTILITY CLASSES
+   =================================== */
+
+.hidden { display: none !important; }
+.btn-nowrap { white-space: nowrap; }
+.clickable { cursor: pointer; }
+
+/* ===================================
+   29. MITT ROMNEY CAROUSEL
+   =================================== */
+
+.mitt-carousel-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: var(--space-3xl);
+}
+
+.mitt-carousel-card {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: left;
+    padding: var(--space-2xl);
+}
+
+.joke-counter {
+    text-align: center;
+    margin-bottom: var(--space-lg);
+    color: var(--text-2);
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+.joke-text-wrapper {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+}
+
+.mitt-joke-text {
+    font-size: 1.25rem;
+    width: 100%;
+    margin: 0;
+    min-height: 0;
+}
+
+.carousel-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--space-2xl);
+    gap: var(--space-md);
+}
+
+.carousel-nav .btn { flex: 1; }
+
+.back-link-section {
+    text-align: center;
+    margin-bottom: var(--space-4xl);
+}
+
+/* Special link in jokes page header */
+.mitt-link-wrapper { margin-top: var(--space-lg); }
+
+.btn-sm {
+    font-size: 0.9em;
+    padding: 0.5rem 1rem;
+}
+
+/* SVG icon spacing in buttons */
+.icon-left { margin-right: 0.5rem; }
+.icon-right { margin-left: 0.5rem; }

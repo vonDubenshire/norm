@@ -76,7 +76,7 @@
                         <circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path>
                     </svg>
                     <input type="text" id="search-input" class="search-input" placeholder="Search appearances..." autocomplete="off">
-                    <button id="clear-search" class="clear-btn" style="display: none;">
+                    <button id="clear-search" class="clear-btn hidden" aria-label="Clear search">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line>
                         </svg>
@@ -89,7 +89,7 @@
                         <option value="title-asc">Title A-Z</option>
                         <option value="title-desc">Title Z-A</option>
                     </select>
-                    <button id="random-appearance-btn" class="btn btn-secondary" aria-label="Show random appearance" style="white-space: nowrap;">
+                    <button id="random-appearance-btn" class="btn btn-secondary btn-nowrap" aria-label="Show random appearance">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <polyline points="16 3 21 3 21 8"></polyline>
                             <line x1="4" y1="20" x2="21" y2="3"></line>
@@ -110,7 +110,7 @@
                     <h3>Loading appearances...</h3>
                     <p>Fetching the archive</p>
                 </div>
-                <div id="empty-state" class="empty-state" style="display: none;">
+                <div id="empty-state" class="empty-state hidden">
                     <h3>I didn't even know we had that</h3>
                     <p>Try a different search, or hit "Surprise Me" for something random</p>
                 </div>

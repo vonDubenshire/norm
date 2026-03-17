@@ -115,7 +115,7 @@
                         placeholder="Search videos..."
                         autocomplete="off"
                     >
-                    <button id="clear-search" class="clear-btn" style="display: none;">
+                    <button id="clear-search" class="clear-btn hidden" aria-label="Clear search">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <line x1="18" y1="6" x2="6" y2="18"></line>
                             <line x1="6" y1="6" x2="18" y2="18"></line>
@@ -139,7 +139,7 @@
                         <option value="duration-desc">Longest</option>
                         <option value="duration-asc">Shortest</option>
                     </select>
-                    <button id="random-video-btn" class="btn btn-secondary" aria-label="Show random video" style="white-space: nowrap;">
+                    <button id="random-video-btn" class="btn btn-secondary btn-nowrap" aria-label="Show random video">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <polyline points="16 3 21 3 21 8"></polyline>
                             <line x1="4" y1="20" x2="21" y2="3"></line>
@@ -153,12 +153,12 @@
             </section>
 
             <!-- Cross-link banner (shown for NML category) -->
-            <div id="nml-crosslink" class="crosslink-banner" style="display: none;">
+            <div id="nml-crosslink" class="crosslink-banner hidden">
                 Looking for the full episode guide? <a href="./nml-episodes.html">Browse all 39 NML episodes with guests &rarr;</a>
             </div>
 
             <!-- Cross-link banner (shown for Standup category) -->
-            <div id="standup-crosslink" class="crosslink-banner" style="display: none;">
+            <div id="standup-crosslink" class="crosslink-banner hidden">
                 Want the full standup archive? <a href="./standup.html">Browse 119 standup performances from 1989 to 2022 &rarr;</a>
             </div>
 
@@ -178,7 +178,7 @@
                 </div>
 
                 <!-- Empty State -->
-                <div id="empty-state" class="empty-state" style="display: none;">
+                <div id="empty-state" class="empty-state hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="12" cy="12" r="10"></circle>
                         <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
