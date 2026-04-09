@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats - The Norm Macdonald Archive</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-to-main">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="./" class="logo">
+                    <span class="logo-text">The Norm Macdonald Archive</span>
+                </a>
+                <div class="header-actions">
+                <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+                    <svg class="hamburger-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme between dark and light mode">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                </div>
+                <nav class="nav" aria-label="Main navigation">
+                    <a href="./" class="nav-link">Home</a>
+                    <a href="./start-here.html" class="nav-link">Start Here</a>
+                    <a href="./jokes.html" class="nav-link">Jokes</a>
+                    <a href="./videos.html" class="nav-link">Videos</a>
+                    <a href="./standup.html" class="nav-link">Standup</a>
+                    <a href="./nml-episodes.html" class="nav-link">NML</a>
+                    <a href="./transcripts.html" class="nav-link">Transcripts</a>
+                    <a href="./quotes.html" class="nav-link">Quotes</a>
+                    <a href="./appearances.html" class="nav-link">Appearances</a>
+                    <a href="./articles.html" class="nav-link">Articles</a>
+                    <a href="./about.html" class="nav-link">About</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Access denied message (shown by default, hidden by JS if key is valid) -->
+    <main class="main" id="main-content">
+        <div class="container">
+            <div id="stats-denied" class="stats-denied">
+                <h1 class="page-title">Access Denied</h1>
+                <p class="page-subtitle">This page requires a valid key.</p>
+            </div>
+
+            <div id="stats-content" style="display: none;">
+                <section class="page-header">
+                    <h1 class="page-title">Site Stats</h1>
+                    <p class="page-subtitle">Admin dashboard — not linked from the site</p>
+                </section>
+
+                <!-- Content Stats -->
+                <section class="stats-section">
+                    <h2 class="section-title">Content Overview</h2>
+                    <div class="stats-grid" id="content-stats">
+                        <div class="stat-card">
+                            <span class="stat-card-value" id="stat-videos">—</span>
+                            <span class="stat-card-label">Videos</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-card-value" id="stat-appearances">—</span>
+                            <span class="stat-card-label">Appearances</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-card-value" id="stat-standup">—</span>
+                            <span class="stat-card-label">Standup</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-card-value" id="stat-jokes">—</span>
+                            <span class="stat-card-label">Jokes</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-card-value" id="stat-nml">—</span>
+                            <span class="stat-card-label">NML Episodes</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-card-value" id="stat-quotes">—</span>
+                            <span class="stat-card-label">Quotes</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-card-value" id="stat-articles">—</span>
+                            <span class="stat-card-label">Articles</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-card-value" id="stat-transcripts">—</span>
+                            <span class="stat-card-label">Transcripts</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Video Category Breakdown -->
+                <section class="stats-section">
+                    <h2 class="section-title">Video Categories</h2>
+                    <div id="category-breakdown" class="stats-breakdown"></div>
+                </section>
+
+                <!-- Data Quality -->
+                <section class="stats-section">
+                    <h2 class="section-title">Data Quality</h2>
+                    <div id="data-quality" class="stats-breakdown"></div>
+                </section>
+
+                <!-- Traffic Analytics -->
+                <section class="stats-section">
+                    <h2 class="section-title">Traffic Analytics</h2>
+                    <div id="traffic-section"></div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                &copy; 2026 The Norm Macdonald Archive.
+                A fan-made tribute site. All content belongs to its respective owners.
+            </p>
+            <p class="footer-tagline" id="footer-norm-quote">"I'm not Norm Macdonald" - Norm Macdonald</p>
+        </div>
+    </footer>
+
+    <script src="./theme.js"></script>
+    <script>
+    // ===================================
+    // Stats Page — Admin Dashboard
+    // Access: stats.html?key=YOUR_SECRET
+    // ===================================
+
+    // Change this to your own secret key
+    const STATS_KEY = 'norm-macstats-2024';
+
+    function checkAccess() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get('key') === STATS_KEY;
+    }
+
+    async function fetchJSON(url) {
+        try {
+            const res = await fetch(url);
+            if (!res.ok) return null;
+            return await res.json();
+        } catch { return null; }
+    }
+
+    async function loadContentStats() {
+        const [videos, appearances, standup, jokes, nml, quotes, articles, transcripts] = await Promise.all([
+            fetchJSON('./consolidated_youtube_data.json'),
+            fetchJSON('./competitor_data/appearances.json'),
+            fetchJSON('./standup-specials.json'),
+            fetchJSON('./jokes-data.json'),
+            fetchJSON('./nml-episodes-data.json'),
+            fetchJSON('./quotes-data.json'),
+            fetchJSON('./articles-data.json'),
+            fetchJSON('./transcripts.json'),
+        ]);
+
+        function setText(id, val) {
+            const el = document.getElementById(id);
+            if (el) el.textContent = val != null ? val.toLocaleString() : '—';
+        }
+
+        const videoArr = Array.isArray(videos) ? videos : [];
+        const appArr = Array.isArray(appearances) ? appearances : [];
+        const standupArr = Array.isArray(standup) ? standup : [];
+        const jokeArr = Array.isArray(jokes) ? jokes : [];
+        const nmlArr = Array.isArray(nml) ? nml : [];
+        const quoteArr = Array.isArray(quotes) ? quotes : [];
+        const articleArr = Array.isArray(articles) ? articles : [];
+        const transcriptArr = Array.isArray(transcripts) ? transcripts : [];
+
+        setText('stat-videos', videoArr.length);
+        setText('stat-appearances', appArr.length);
+        setText('stat-standup', standupArr.length);
+        setText('stat-jokes', jokeArr.length);
+        setText('stat-nml', nmlArr.length);
+        setText('stat-quotes', quoteArr.length);
+        setText('stat-articles', articleArr.length);
+        setText('stat-transcripts', transcriptArr.length);
+
+        // Video category breakdown
+        const cats = {};
+        videoArr.forEach(v => {
+            const cat = v.category || 'Uncategorized';
+            cats[cat] = (cats[cat] || 0) + 1;
+        });
+        const catEl = document.getElementById('category-breakdown');
+        if (catEl) {
+            const sorted = Object.entries(cats).sort((a, b) => b[1] - a[1]);
+            catEl.innerHTML = '';
+            sorted.forEach(([cat, count]) => {
+                const row = document.createElement('div');
+                row.className = 'breakdown-row';
+                const label = document.createElement('span');
+                label.className = 'breakdown-label';
+                label.textContent = cat;
+                const bar = document.createElement('div');
+                bar.className = 'breakdown-bar';
+                const fill = document.createElement('div');
+                fill.className = 'breakdown-fill';
+                fill.style.width = Math.round((count / videoArr.length) * 100) + '%';
+                const val = document.createElement('span');
+                val.className = 'breakdown-value';
+                val.textContent = count;
+                bar.appendChild(fill);
+                row.appendChild(label);
+                row.appendChild(bar);
+                row.appendChild(val);
+                catEl.appendChild(row);
+            });
+        }
+
+        // Data quality checks
+        const qualityEl = document.getElementById('data-quality');
+        if (qualityEl) {
+            const checks = [];
+            const videosWithViews = videoArr.filter(v => v.Views && v.Views !== '0' && v.Views !== '').length;
+            checks.push({
+                label: 'Videos with view counts',
+                value: videosWithViews + ' / ' + videoArr.length,
+                pct: videoArr.length ? Math.round((videosWithViews / videoArr.length) * 100) : 0
+            });
+            const jokesWithVideo = jokeArr.filter(j => j.url).length;
+            checks.push({
+                label: 'Jokes linked to videos',
+                value: jokesWithVideo + ' / ' + jokeArr.length,
+                pct: jokeArr.length ? Math.round((jokesWithVideo / jokeArr.length) * 100) : 0
+            });
+            const appsWithMedia = appArr.filter(a => a.media_url).length;
+            checks.push({
+                label: 'Appearances with media',
+                value: appsWithMedia + ' / ' + appArr.length,
+                pct: appArr.length ? Math.round((appsWithMedia / appArr.length) * 100) : 0
+            });
+            const nmlWithYT = nmlArr.filter(e => e.youtube_url).length;
+            checks.push({
+                label: 'NML episodes with YouTube',
+                value: nmlWithYT + ' / ' + nmlArr.length,
+                pct: nmlArr.length ? Math.round((nmlWithYT / nmlArr.length) * 100) : 0
+            });
+
+            qualityEl.innerHTML = '';
+            checks.forEach(check => {
+                const row = document.createElement('div');
+                row.className = 'breakdown-row';
+                const label = document.createElement('span');
+                label.className = 'breakdown-label';
+                label.textContent = check.label;
+                const bar = document.createElement('div');
+                bar.className = 'breakdown-bar';
+                const fill = document.createElement('div');
+                fill.className = 'breakdown-fill';
+                fill.style.width = check.pct + '%';
+                if (check.pct < 50) fill.classList.add('fill-warning');
+                const val = document.createElement('span');
+                val.className = 'breakdown-value';
+                val.textContent = check.value;
+                bar.appendChild(fill);
+                row.appendChild(label);
+                row.appendChild(bar);
+                row.appendChild(val);
+                qualityEl.appendChild(row);
+            });
+        }
+
+        // Traffic section
+        const trafficEl = document.getElementById('traffic-section');
+        if (trafficEl) {
+            if (typeof GOATCOUNTER_SITE === 'string' && GOATCOUNTER_SITE) {
+                const dashUrl = 'https://' + GOATCOUNTER_SITE + '.goatcounter.com';
+                const link = document.createElement('a');
+                link.href = dashUrl;
+                link.target = '_blank';
+                link.rel = 'noopener';
+                link.className = 'btn';
+                link.textContent = 'Open GoatCounter Dashboard';
+                trafficEl.appendChild(link);
+
+                const note = document.createElement('p');
+                note.className = 'stats-note';
+                note.textContent = 'GoatCounter is active. Traffic is being recorded for all pages.';
+                trafficEl.appendChild(note);
+            } else {
+                const setup = document.createElement('div');
+                setup.className = 'stats-setup';
+                setup.innerHTML = '<h3>GoatCounter not configured</h3>'
+                    + '<p>To enable traffic tracking:</p>'
+                    + '<ol>'
+                    + '<li>Sign up free at <a href="https://www.goatcounter.com" target="_blank" rel="noopener">goatcounter.com</a> (non-commercial)</li>'
+                    + '<li>Open <code>theme.js</code> and set your site code:<br><code>const GOATCOUNTER_SITE = \'your-site-code\';</code></li>'
+                    + '<li>Deploy. Traffic starts recording immediately.</li>'
+                    + '</ol>'
+                    + '<p>GoatCounter is privacy-friendly (no cookies), free for non-commercial sites, and gives you a full dashboard with page views, referrers, browsers, and more.</p>';
+                trafficEl.appendChild(setup);
+            }
+
+            // Always link to GitHub traffic insights
+            const ghLink = document.createElement('a');
+            ghLink.href = 'https://github.com/vonDubenshire/norm/graphs/traffic';
+            ghLink.target = '_blank';
+            ghLink.rel = 'noopener';
+            ghLink.className = 'btn btn-secondary';
+            ghLink.textContent = 'GitHub Repo Traffic (last 14 days)';
+            ghLink.style.marginTop = 'var(--spacing-md)';
+            ghLink.style.display = 'inline-block';
+            trafficEl.appendChild(ghLink);
+        }
+    }
+
+    function init() {
+        initTheme();
+        initNav();
+        initFooterQuote();
+
+        if (!checkAccess()) {
+            document.getElementById('stats-denied').style.display = '';
+            document.getElementById('stats-content').style.display = 'none';
+            return;
+        }
+
+        document.getElementById('stats-denied').style.display = 'none';
+        document.getElementById('stats-content').style.display = '';
+        loadContentStats();
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+    </script>
+</body>
+</html>

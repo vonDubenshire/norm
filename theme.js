@@ -3,6 +3,11 @@
 // Used across all pages
 // ===================================
 
+// GoatCounter analytics — set your site code to enable tracking
+// Sign up free at https://www.goatcounter.com (non-commercial)
+// Example: const GOATCOUNTER_SITE = 'normarchive';
+const GOATCOUNTER_SITE = ''; // Leave empty to disable
+
 function initNav() {
     const navToggle = document.getElementById('nav-toggle');
     const nav = document.querySelector('.nav');
@@ -195,4 +200,21 @@ function initScrollToTop() {
     });
 }
 
-document.addEventListener('DOMContentLoaded', initScrollToTop);
+// ===================================
+// GoatCounter analytics loader
+// Only loads if GOATCOUNTER_SITE is set
+// ===================================
+
+function initGoatCounter() {
+    if (!GOATCOUNTER_SITE) return;
+    const script = document.createElement('script');
+    script.async = true;
+    script.dataset.goatcounter = 'https://' + GOATCOUNTER_SITE + '.goatcounter.com/count';
+    script.src = '//gc.zgo.at/count.js';
+    document.head.appendChild(script);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    initScrollToTop();
+    initGoatCounter();
+});
