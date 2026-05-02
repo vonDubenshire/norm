@@ -6,7 +6,7 @@
 // GoatCounter analytics — set your site code to enable tracking
 // Sign up free at https://www.goatcounter.com (non-commercial)
 // Example: const GOATCOUNTER_SITE = 'normarchive';
-const GOATCOUNTER_SITE = ''; // Leave empty to disable
+const GOATCOUNTER_SITE = 'normmacdonald';
 
 function initNav() {
     const navToggle = document.getElementById('nav-toggle');
