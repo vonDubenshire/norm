@@ -65,15 +65,9 @@
         </div>
     </header>
 
-    <!-- Access denied message (shown by default, hidden by JS if key is valid) -->
     <main class="main" id="main-content">
         <div class="container">
-            <div id="stats-denied" class="stats-denied">
-                <h1 class="page-title">Access Denied</h1>
-                <p class="page-subtitle">This page requires a valid key.</p>
-            </div>
-
-            <div id="stats-content" style="display: none;">
+            <div id="stats-content">
                 <section class="page-header">
                     <h1 class="page-title">Site Stats</h1>
                     <p class="page-subtitle">Admin dashboard — not linked from the site</p>
@@ -153,23 +147,18 @@
     <script>
     // ===================================
     // Stats Page — Admin Dashboard
-    // Access: stats.html?key=YOUR_SECRET
+    // Not linked from the site; access via direct URL only
     // ===================================
-
-    // Change this to your own secret key
-    const STATS_KEY = 'norm-macstats-2024';
-
-    function checkAccess() {
-        const params = new URLSearchParams(window.location.search);
-        return params.get('key') === STATS_KEY;
-    }
 
     async function fetchJSON(url) {
         try {
             const res = await fetch(url);
             if (!res.ok) return null;
             return await res.json();
-        } catch { return null; }
+        } catch (err) {
+            console.error('Error fetching JSON:', url, err);
+            return null;
+        }
     }
 
     async function loadContentStats() {
@@ -340,15 +329,6 @@
         initTheme();
         initNav();
         initFooterQuote();
-
-        if (!checkAccess()) {
-            document.getElementById('stats-denied').style.display = '';
-            document.getElementById('stats-content').style.display = 'none';
-            return;
-        }
-
-        document.getElementById('stats-denied').style.display = 'none';
-        document.getElementById('stats-content').style.display = '';
         loadContentStats();
     }
 

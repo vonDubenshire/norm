@@ -210,7 +210,7 @@ function initGoatCounter() {
     const script = document.createElement('script');
     script.async = true;
     script.dataset.goatcounter = 'https://' + GOATCOUNTER_SITE + '.goatcounter.com/count';
-    script.src = '//gc.zgo.at/count.js';
+    script.src = 'https://gc.zgo.at/count.js';
     document.head.appendChild(script);
 }
 

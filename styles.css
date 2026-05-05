@@ -2837,23 +2837,6 @@ select:focus:not(:focus-visible) {
     font-size: 0.8125rem;
 }
 
-.btn-secondary {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border-color);
-    color: var(--text-1);
-    padding: 0.75rem 1.5rem;
-    border-radius: var(--radius-md);
-    font-weight: 500;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all var(--transition-fast);
-}
-
-.btn-secondary:hover {
-    background: var(--bg-hover);
-    border-color: var(--accent);
-}
-
 @media (max-width: 768px) {
     .breakdown-row {
         grid-template-columns: 120px 1fr 50px;
