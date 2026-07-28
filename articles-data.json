@@ -460,5 +460,16 @@
     "excerpt": "In a shelved interview to support 'Norm Macdonald Has a Show,' the comedian breaks down his ideas on late-night, Twitter, Trump, and more.",
     "tags": ["interview", "lost interview", "Norm Macdonald Has a Show", "late-night", "Trump", "Twitter"],
     "external": true
+  },
+  {
+    "id": 43,
+    "title": "The Secret of Norm Macdonald's New Success",
+    "url": "https://macleans.ca/culture/arts/the-secret-of-norm-macdonalds-new-success/",
+    "source": "Maclean's",
+    "category": "profile",
+    "date": "2015-02-19",
+    "excerpt": "How Norm reinvented his career through Twitter and his podcast Norm Macdonald Live, building a new, younger fanbase outside traditional media.",
+    "tags": ["profile", "Twitter", "NML", "Canada", "social media", "podcast"],
+    "external": true
   }
 ]
