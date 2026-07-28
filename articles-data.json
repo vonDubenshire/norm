@@ -449,5 +449,16 @@
     "excerpt": "A New Yorker magazine profile of Norm Macdonald from the September 2018 print issue, around the launch of his Netflix talk show.",
     "tags": ["profile", "interview", "Norm Macdonald Has a Show", "Netflix"],
     "external": true
+  },
+  {
+    "id": 42,
+    "title": "Norm Macdonald: A Lost Interview From 2018",
+    "url": "https://www.rollingstone.com/tv-movies/tv-movie-features/norm-macdonald-lost-interview-1226722/",
+    "source": "Rolling Stone",
+    "category": "interview",
+    "date": "2021-09-17",
+    "excerpt": "In a shelved interview to support 'Norm Macdonald Has a Show,' the comedian breaks down his ideas on late-night, Twitter, Trump, and more.",
+    "tags": ["interview", "lost interview", "Norm Macdonald Has a Show", "late-night", "Trump", "Twitter"],
+    "external": true
   }
 ]
