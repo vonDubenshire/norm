@@ -471,5 +471,16 @@
     "excerpt": "How Norm reinvented his career through Twitter and his podcast Norm Macdonald Live, building a new, younger fanbase outside traditional media.",
     "tags": ["profile", "Twitter", "NML", "Canada", "social media", "podcast"],
     "external": true
+  },
+  {
+    "id": 44,
+    "title": "Interview: Norm Macdonald",
+    "url": "https://www.avclub.com/norm-macdonald-1798225024",
+    "source": "The A.V. Club",
+    "category": "interview",
+    "date": "2011-04-12",
+    "excerpt": "Norm discusses his Comedy Central series Sports Show, his stand-up special Me Doing Stand-Up, his departure from SNL, and his refusal to play a character or chase celebrity.",
+    "tags": ["interview", "Sports Show", "Me Doing Stand-Up", "SNL", "standup", "career"],
+    "external": true
   }
 ]
